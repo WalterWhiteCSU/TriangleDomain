@@ -1,0 +1,2 @@
+C:\Qt\Tools\mingw810_64\bin\ar.exe qc libTriangleSection.a 
+C:\Qt\Tools\mingw810_64\bin\ranlib.exe libTriangleSection.a

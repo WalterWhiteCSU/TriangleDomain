@@ -1,0 +1,2 @@
+C:\Qt\Tools\mingw810_64\bin\ar.exe qc libTriangleDomainUtil.a CMakeFiles/TriangleDomainUtil.dir/FileUtil.cpp.obj CMakeFiles/TriangleDomainUtil.dir/FittingUtil.cpp.obj CMakeFiles/TriangleDomainUtil.dir/ReconstructionUtil.cpp.obj CMakeFiles/TriangleDomainUtil.dir/TriangleVFunc.cpp.obj CMakeFiles/TriangleDomainUtil.dir/TriangulationUtil.cpp.obj
+C:\Qt\Tools\mingw810_64\bin\ranlib.exe libTriangleDomainUtil.a

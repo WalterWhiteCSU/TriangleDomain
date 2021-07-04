@@ -1,0 +1,12 @@
+D:/Project/QtProject/triangleDomain/cmake-build-debug/CMakeFiles/triangleDomain.dir
+D:/Project/QtProject/triangleDomain/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Project/QtProject/triangleDomain/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/Project/QtProject/triangleDomain/cmake-build-debug/CMakeFiles/triangleDomain_autogen.dir
+D:/Project/QtProject/triangleDomain/cmake-build-debug/TriangleSection/CMakeFiles/edit_cache.dir
+D:/Project/QtProject/triangleDomain/cmake-build-debug/TriangleSection/CMakeFiles/rebuild_cache.dir
+D:/Project/QtProject/triangleDomain/cmake-build-debug/TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir
+D:/Project/QtProject/triangleDomain/cmake-build-debug/TriangleSection/Entity/CMakeFiles/edit_cache.dir
+D:/Project/QtProject/triangleDomain/cmake-build-debug/TriangleSection/Entity/CMakeFiles/rebuild_cache.dir
+D:/Project/QtProject/triangleDomain/cmake-build-debug/TriangleSection/Util/CMakeFiles/rebuild_cache.dir
+D:/Project/QtProject/triangleDomain/cmake-build-debug/TriangleSection/Util/CMakeFiles/TriangleDomainUtil.dir
+D:/Project/QtProject/triangleDomain/cmake-build-debug/TriangleSection/Util/CMakeFiles/edit_cache.dir

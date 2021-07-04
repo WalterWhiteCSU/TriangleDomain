@@ -1,0 +1,3 @@
+C:\Qt\Tools\CMake_64\bin\cmake.exe -E rm -f CMakeFiles\triangleDomain.dir/objects.a
+C:\Qt\Tools\mingw810_64\bin\ar.exe cr CMakeFiles\triangleDomain.dir/objects.a @CMakeFiles\triangleDomain.dir\objects1.rsp
+C:\Qt\Tools\mingw810_64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\triangleDomain.dir/objects.a -Wl,--no-whole-archive -o triangleDomain.exe -Wl,--out-implib,libtriangleDomain.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\triangleDomain.dir\linklibs.rsp

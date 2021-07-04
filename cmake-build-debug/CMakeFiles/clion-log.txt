@@ -1,0 +1,28 @@
+C:\Qt\Tools\CMake_64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" D:\Project\QtProject\triangleDomain
+-- OpenCV ARCH: x64
+-- OpenCV RUNTIME: mingw
+-- OpenCV STATIC: ON
+-- Found OpenCV 3.1.0 in D:/CPPRepo/opencv3.1/opencv/Qt-build/install/x64/mingw/lib
+-- You might need to add D:/CPPRepo/opencv3.1/opencv/Qt-build/install/x64/mingw/bin to your PATH to be able to run your applications.
+-- Could NOT find Vulkan (missing: Vulkan_LIBRARY Vulkan_INCLUDE_DIR) 
+-- Configuring done
+CMake Warning (dev) in TriangleSection/Entity/CMakeLists.txt:
+  AUTOGEN: No valid Qt version found for target TriangleDomainEntity.
+  AUTOMOC, AUTOUIC and AUTORCC disabled.  Consider adding:
+
+    find_package(Qt<QTVERSION> COMPONENTS Widgets)
+
+  to your CMakeLists.txt file.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) in TriangleSection/Util/CMakeLists.txt:
+  AUTOGEN: No valid Qt version found for target TriangleDomainUtil.  AUTOMOC,
+  AUTOUIC and AUTORCC disabled.  Consider adding:
+
+    find_package(Qt<QTVERSION> COMPONENTS Widgets)
+
+  to your CMakeLists.txt file.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Generating done
+-- Build files have been written to: D:/Project/QtProject/triangleDomain/cmake-build-debug

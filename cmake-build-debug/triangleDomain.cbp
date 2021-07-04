@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="triangleDomain"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\CPPRepo\;CMake Files\..\..\..\CPPRepo\opencv3.1\;CMake Files\..\..\..\CPPRepo\opencv3.1\opencv\;CMake Files\..\..\..\CPPRepo\opencv3.1\opencv\Qt-build\;CMake Files\..\..\..\CPPRepo\opencv3.1\opencv\Qt-build\install\;CMake Files\..\..\..\CPPRepo\opencv3.1\opencv\Qt-build\install\x64\;CMake Files\..\..\..\CPPRepo\opencv3.1\opencv\Qt-build\install\x64\mingw\;CMake Files\..\..\..\CPPRepo\opencv3.1\opencv\Qt-build\install\x64\mingw\lib\;CMake Files\Qt\;CMake Files\Qt\6.1.1\;CMake Files\Qt\6.1.1\mingw81_64\;CMake Files\Qt\6.1.1\mingw81_64\lib\;CMake Files\Qt\6.1.1\mingw81_64\lib\cmake\;CMake Files\Qt\6.1.1\mingw81_64\lib\cmake\Qt6\;CMake Files\Qt\6.1.1\mingw81_64\lib\cmake\Qt6Core\;CMake Files\Qt\6.1.1\mingw81_64\lib\cmake\Qt6CoreTools\;CMake Files\Qt\6.1.1\mingw81_64\lib\cmake\Qt6EntryPoint\;CMake Files\Qt\6.1.1\mingw81_64\lib\cmake\Qt6Gui\;CMake Files\Qt\6.1.1\mingw81_64\lib\cmake\Qt6GuiTools\;CMake Files\Qt\6.1.1\mingw81_64\lib\cmake\Qt6Widgets\;CMake Files\Qt\6.1.1\mingw81_64\lib\cmake\Qt6WidgetsTools\;CMake Files\TriangleSection\;CMake Files\TriangleSection\Entity\;CMake Files\TriangleSection\Util\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/Project/QtProject/triangleDomain/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;D:/Project/QtProject/triangleDomain/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;D:/Project/QtProject/triangleDomain/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;D:/Project/QtProject/triangleDomain/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;D:/Project/QtProject/triangleDomain/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="triangleDomain">
+				<Option output="D:/Project/QtProject/triangleDomain/cmake-build-debug/triangleDomain.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Project/QtProject/triangleDomain/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DWIN32"/>
+					<Add option="-D_ENABLE_EXTENDED_ALIGNED_STORAGE"/>
+					<Add option="-DWIN64"/>
+					<Add option="-D_WIN64"/>
+					<Add option="-D_WIN32_WINNT=0x0601"/>
+					<Add option="-DMINGW_HAS_SECURE_API=1"/>
+					<Add option="-DUNICODE"/>
+					<Add option="-D_UNICODE"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add directory="D:/Project/QtProject/triangleDomain/cmake-build-debug/triangleDomain_autogen/include"/>
+					<Add directory="D:/Project/QtProject/triangleDomain/include/eigen-3.3.9"/>
+					<Add directory="D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include"/>
+					<Add directory="D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv"/>
+					<Add directory="C:/Qt/6.1.1/mingw81_64/include/QtCore"/>
+					<Add directory="C:/Qt/6.1.1/mingw81_64/include"/>
+					<Add directory="C:/Qt/6.1.1/mingw81_64/mkspecs/win32-g++"/>
+					<Add directory="C:/Qt/6.1.1/mingw81_64/include/QtGui"/>
+					<Add directory="C:/Qt/6.1.1/mingw81_64/include/QtWidgets"/>
+					<Add directory="C:/Qt/Tools/mingw810_64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Qt/Tools/mingw810_64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Qt/Tools/mingw810_64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Qt/Tools/mingw810_64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Qt/Tools/mingw810_64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Qt/Tools/mingw810_64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;D:/Project/QtProject/triangleDomain/cmake-build-debug/Makefile&quot;  VERBOSE=1 triangleDomain"/>
+					<CompileFile command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;D:/Project/QtProject/triangleDomain/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;D:/Project/QtProject/triangleDomain/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;D:/Project/QtProject/triangleDomain/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="triangleDomain/fast">
+				<Option output="D:/Project/QtProject/triangleDomain/cmake-build-debug/triangleDomain.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Project/QtProject/triangleDomain/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DWIN32"/>
+					<Add option="-D_ENABLE_EXTENDED_ALIGNED_STORAGE"/>
+					<Add option="-DWIN64"/>
+					<Add option="-D_WIN64"/>
+					<Add option="-D_WIN32_WINNT=0x0601"/>
+					<Add option="-DMINGW_HAS_SECURE_API=1"/>
+					<Add option="-DUNICODE"/>
+					<Add option="-D_UNICODE"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add directory="D:/Project/QtProject/triangleDomain/cmake-build-debug/triangleDomain_autogen/include"/>
+					<Add directory="D:/Project/QtProject/triangleDomain/include/eigen-3.3.9"/>
+					<Add directory="D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include"/>
+					<Add directory="D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv"/>
+					<Add directory="C:/Qt/6.1.1/mingw81_64/include/QtCore"/>
+					<Add directory="C:/Qt/6.1.1/mingw81_64/include"/>
+					<Add directory="C:/Qt/6.1.1/mingw81_64/mkspecs/win32-g++"/>
+					<Add directory="C:/Qt/6.1.1/mingw81_64/include/QtGui"/>
+					<Add directory="C:/Qt/6.1.1/mingw81_64/include/QtWidgets"/>
+					<Add directory="C:/Qt/Tools/mingw810_64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Qt/Tools/mingw810_64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Qt/Tools/mingw810_64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Qt/Tools/mingw810_64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Qt/Tools/mingw810_64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Qt/Tools/mingw810_64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;D:/Project/QtProject/triangleDomain/cmake-build-debug/Makefile&quot;  VERBOSE=1 triangleDomain/fast"/>
+					<CompileFile command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;D:/Project/QtProject/triangleDomain/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;D:/Project/QtProject/triangleDomain/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;D:/Project/QtProject/triangleDomain/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/Project/QtProject/triangleDomain/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;D:/Project/QtProject/triangleDomain/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;D:/Project/QtProject/triangleDomain/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;D:/Project/QtProject/triangleDomain/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;D:/Project/QtProject/triangleDomain/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/Project/QtProject/triangleDomain/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;D:/Project/QtProject/triangleDomain/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;D:/Project/QtProject/triangleDomain/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;D:/Project/QtProject/triangleDomain/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;D:/Project/QtProject/triangleDomain/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="triangleDomain_autogen">
+				<Option working_dir="D:/Project/QtProject/triangleDomain/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;D:/Project/QtProject/triangleDomain/cmake-build-debug/Makefile&quot;  VERBOSE=1 triangleDomain_autogen"/>
+					<CompileFile command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;D:/Project/QtProject/triangleDomain/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;D:/Project/QtProject/triangleDomain/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;D:/Project/QtProject/triangleDomain/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TriangleDomainEntity">
+				<Option output="D:/Project/QtProject/triangleDomain/cmake-build-debug/TriangleSection/Entity/libTriangleDomainEntity.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Project/QtProject/triangleDomain/cmake-build-debug/TriangleSection/Entity"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include"/>
+					<Add directory="D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv"/>
+					<Add directory="D:/Project/QtProject/triangleDomain/include/eigen-3.3.9"/>
+					<Add directory="C:/Qt/Tools/mingw810_64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Qt/Tools/mingw810_64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Qt/Tools/mingw810_64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Qt/Tools/mingw810_64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Qt/Tools/mingw810_64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Qt/Tools/mingw810_64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;D:/Project/QtProject/triangleDomain/cmake-build-debug/TriangleSection/Entity/Makefile&quot;  VERBOSE=1 TriangleDomainEntity"/>
+					<CompileFile command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;D:/Project/QtProject/triangleDomain/cmake-build-debug/TriangleSection/Entity/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;D:/Project/QtProject/triangleDomain/cmake-build-debug/TriangleSection/Entity/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;D:/Project/QtProject/triangleDomain/cmake-build-debug/TriangleSection/Entity/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TriangleDomainEntity/fast">
+				<Option output="D:/Project/QtProject/triangleDomain/cmake-build-debug/TriangleSection/Entity/libTriangleDomainEntity.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Project/QtProject/triangleDomain/cmake-build-debug/TriangleSection/Entity"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include"/>
+					<Add directory="D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv"/>
+					<Add directory="D:/Project/QtProject/triangleDomain/include/eigen-3.3.9"/>
+					<Add directory="C:/Qt/Tools/mingw810_64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Qt/Tools/mingw810_64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Qt/Tools/mingw810_64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Qt/Tools/mingw810_64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Qt/Tools/mingw810_64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Qt/Tools/mingw810_64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;D:/Project/QtProject/triangleDomain/cmake-build-debug/TriangleSection/Entity/Makefile&quot;  VERBOSE=1 TriangleDomainEntity/fast"/>
+					<CompileFile command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;D:/Project/QtProject/triangleDomain/cmake-build-debug/TriangleSection/Entity/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;D:/Project/QtProject/triangleDomain/cmake-build-debug/TriangleSection/Entity/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;D:/Project/QtProject/triangleDomain/cmake-build-debug/TriangleSection/Entity/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TriangleDomainUtil">
+				<Option output="D:/Project/QtProject/triangleDomain/cmake-build-debug/TriangleSection/Util/libTriangleDomainUtil.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Project/QtProject/triangleDomain/cmake-build-debug/TriangleSection/Util"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include"/>
+					<Add directory="D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv"/>
+					<Add directory="D:/Project/QtProject/triangleDomain/include/eigen-3.3.9"/>
+					<Add directory="C:/Qt/Tools/mingw810_64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Qt/Tools/mingw810_64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Qt/Tools/mingw810_64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Qt/Tools/mingw810_64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Qt/Tools/mingw810_64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Qt/Tools/mingw810_64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;D:/Project/QtProject/triangleDomain/cmake-build-debug/TriangleSection/Util/Makefile&quot;  VERBOSE=1 TriangleDomainUtil"/>
+					<CompileFile command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;D:/Project/QtProject/triangleDomain/cmake-build-debug/TriangleSection/Util/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;D:/Project/QtProject/triangleDomain/cmake-build-debug/TriangleSection/Util/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;D:/Project/QtProject/triangleDomain/cmake-build-debug/TriangleSection/Util/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TriangleDomainUtil/fast">
+				<Option output="D:/Project/QtProject/triangleDomain/cmake-build-debug/TriangleSection/Util/libTriangleDomainUtil.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Project/QtProject/triangleDomain/cmake-build-debug/TriangleSection/Util"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include"/>
+					<Add directory="D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv"/>
+					<Add directory="D:/Project/QtProject/triangleDomain/include/eigen-3.3.9"/>
+					<Add directory="C:/Qt/Tools/mingw810_64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Qt/Tools/mingw810_64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Qt/Tools/mingw810_64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Qt/Tools/mingw810_64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Qt/Tools/mingw810_64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Qt/Tools/mingw810_64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;D:/Project/QtProject/triangleDomain/cmake-build-debug/TriangleSection/Util/Makefile&quot;  VERBOSE=1 TriangleDomainUtil/fast"/>
+					<CompileFile command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;D:/Project/QtProject/triangleDomain/cmake-build-debug/TriangleSection/Util/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;D:/Project/QtProject/triangleDomain/cmake-build-debug/TriangleSection/Util/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;D:/Project/QtProject/triangleDomain/cmake-build-debug/TriangleSection/Util/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/Project/QtProject/triangleDomain/InfoManager.h">
+			<Option target="triangleDomain"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/TriangleSection/Entity/AreaCoordinateSamplingData.cpp">
+			<Option target="TriangleDomainEntity"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/TriangleSection/Entity/AreaCoordinateSamplingData.h">
+			<Option target="TriangleDomainEntity"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/TriangleSection/Entity/AreaPoint.cpp">
+			<Option target="TriangleDomainEntity"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/TriangleSection/Entity/AreaPoint.h">
+			<Option target="TriangleDomainEntity"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/TriangleSection/Entity/DescartesCoordinateSamplingData.cpp">
+			<Option target="TriangleDomainEntity"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/TriangleSection/Entity/DescartesCoordinateSamplingData.h">
+			<Option target="TriangleDomainEntity"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/TriangleSection/Entity/Point.cpp">
+			<Option target="TriangleDomainEntity"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/TriangleSection/Entity/Point.h">
+			<Option target="TriangleDomainEntity"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/TriangleSection/Entity/SamplingData.cpp">
+			<Option target="TriangleDomainEntity"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/TriangleSection/Entity/SamplingData.h">
+			<Option target="TriangleDomainEntity"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/TriangleSection/Entity/Triangle.cpp">
+			<Option target="TriangleDomainEntity"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/TriangleSection/Entity/Triangle.h">
+			<Option target="TriangleDomainEntity"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/TriangleSection/Entity/Vector.cpp">
+			<Option target="TriangleDomainEntity"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/TriangleSection/Entity/Vector.h">
+			<Option target="TriangleDomainEntity"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/TriangleSection/Util/FileUtil.cpp">
+			<Option target="TriangleDomainUtil"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/TriangleSection/Util/FileUtil.h">
+			<Option target="TriangleDomainUtil"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/TriangleSection/Util/FittingUtil.cpp">
+			<Option target="TriangleDomainUtil"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/TriangleSection/Util/FittingUtil.h">
+			<Option target="TriangleDomainUtil"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/TriangleSection/Util/ReconstructionUtil.cpp">
+			<Option target="TriangleDomainUtil"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/TriangleSection/Util/ReconstructionUtil.h">
+			<Option target="TriangleDomainUtil"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/TriangleSection/Util/TriangleVFunc.cpp">
+			<Option target="TriangleDomainUtil"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/TriangleSection/Util/TriangleVFunc.h">
+			<Option target="TriangleDomainUtil"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/TriangleSection/Util/TriangulationUtil.cpp">
+			<Option target="TriangleDomainUtil"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/TriangleSection/Util/TriangulationUtil.h">
+			<Option target="TriangleDomainUtil"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/TriangleService.h">
+			<Option target="triangleDomain"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/cmake-build-debug/triangleDomain_autogen/mocs_compilation.cpp">
+			<Option target="triangleDomain"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/dialog.cpp">
+			<Option target="triangleDomain"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/dialog.h">
+			<Option target="triangleDomain"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/dialog.ui">
+			<Option target="triangleDomain"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/main.cpp">
+			<Option target="triangleDomain"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/mainwindow.cpp">
+			<Option target="triangleDomain"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/mainwindow.h">
+			<Option target="triangleDomain"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/mainwindow.ui">
+			<Option target="triangleDomain"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/../../../CPPRepo/opencv3.1/opencv/Qt-build/install/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\CPPRepo\opencv3.1\opencv\Qt-build\install\"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/../../../CPPRepo/opencv3.1/opencv/Qt-build/install/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\CPPRepo\opencv3.1\opencv\Qt-build\install\"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/../../../CPPRepo/opencv3.1/opencv/Qt-build/install/x64/mingw/lib/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\CPPRepo\opencv3.1\opencv\Qt-build\install\x64\mingw\lib\"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/../../../CPPRepo/opencv3.1/opencv/Qt-build/install/x64/mingw/lib/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\CPPRepo\opencv3.1\opencv\Qt-build\install\x64\mingw\lib\"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/../../../CPPRepo/opencv3.1/opencv/Qt-build/install/x64/mingw/lib/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\CPPRepo\opencv3.1\opencv\Qt-build\install\x64\mingw\lib\"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/Qt/6.1.1/mingw81_64/lib/cmake/Qt6/FindWrapAtomic.cmake">
+			<Option virtualFolder="CMake Files\Qt\6.1.1\mingw81_64\lib\cmake\Qt6\"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/Qt/6.1.1/mingw81_64/lib/cmake/Qt6/Qt6Config.cmake">
+			<Option virtualFolder="CMake Files\Qt\6.1.1\mingw81_64\lib\cmake\Qt6\"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/Qt/6.1.1/mingw81_64/lib/cmake/Qt6/Qt6ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\Qt\6.1.1\mingw81_64\lib\cmake\Qt6\"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/Qt/6.1.1/mingw81_64/lib/cmake/Qt6/Qt6Dependencies.cmake">
+			<Option virtualFolder="CMake Files\Qt\6.1.1\mingw81_64\lib\cmake\Qt6\"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/Qt/6.1.1/mingw81_64/lib/cmake/Qt6/Qt6Targets.cmake">
+			<Option virtualFolder="CMake Files\Qt\6.1.1\mingw81_64\lib\cmake\Qt6\"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/Qt/6.1.1/mingw81_64/lib/cmake/Qt6/Qt6VersionlessTargets.cmake">
+			<Option virtualFolder="CMake Files\Qt\6.1.1\mingw81_64\lib\cmake\Qt6\"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/Qt/6.1.1/mingw81_64/lib/cmake/Qt6/QtFeature.cmake">
+			<Option virtualFolder="CMake Files\Qt\6.1.1\mingw81_64\lib\cmake\Qt6\"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/Qt/6.1.1/mingw81_64/lib/cmake/Qt6/QtFeatureCommon.cmake">
+			<Option virtualFolder="CMake Files\Qt\6.1.1\mingw81_64\lib\cmake\Qt6\"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/Qt/6.1.1/mingw81_64/lib/cmake/Qt6Core/Qt6CoreAdditionalTargetInfo.cmake">
+			<Option virtualFolder="CMake Files\Qt\6.1.1\mingw81_64\lib\cmake\Qt6Core\"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/Qt/6.1.1/mingw81_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\Qt\6.1.1\mingw81_64\lib\cmake\Qt6Core\"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/Qt/6.1.1/mingw81_64/lib/cmake/Qt6Core/Qt6CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\Qt\6.1.1\mingw81_64\lib\cmake\Qt6Core\"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/Qt/6.1.1/mingw81_64/lib/cmake/Qt6Core/Qt6CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\Qt\6.1.1\mingw81_64\lib\cmake\Qt6Core\"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/Qt/6.1.1/mingw81_64/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake">
+			<Option virtualFolder="CMake Files\Qt\6.1.1\mingw81_64\lib\cmake\Qt6Core\"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/Qt/6.1.1/mingw81_64/lib/cmake/Qt6Core/Qt6CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\Qt\6.1.1\mingw81_64\lib\cmake\Qt6Core\"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/Qt/6.1.1/mingw81_64/lib/cmake/Qt6Core/Qt6CoreTargets-relwithdebinfo.cmake">
+			<Option virtualFolder="CMake Files\Qt\6.1.1\mingw81_64\lib\cmake\Qt6Core\"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/Qt/6.1.1/mingw81_64/lib/cmake/Qt6Core/Qt6CoreTargets.cmake">
+			<Option virtualFolder="CMake Files\Qt\6.1.1\mingw81_64\lib\cmake\Qt6Core\"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/Qt/6.1.1/mingw81_64/lib/cmake/Qt6Core/Qt6CoreVersionlessTargets.cmake">
+			<Option virtualFolder="CMake Files\Qt\6.1.1\mingw81_64\lib\cmake\Qt6Core\"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/Qt/6.1.1/mingw81_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsAdditionalTargetInfo.cmake">
+			<Option virtualFolder="CMake Files\Qt\6.1.1\mingw81_64\lib\cmake\Qt6CoreTools\"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/Qt/6.1.1/mingw81_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake">
+			<Option virtualFolder="CMake Files\Qt\6.1.1\mingw81_64\lib\cmake\Qt6CoreTools\"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/Qt/6.1.1/mingw81_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\Qt\6.1.1\mingw81_64\lib\cmake\Qt6CoreTools\"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/Qt/6.1.1/mingw81_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake">
+			<Option virtualFolder="CMake Files\Qt\6.1.1\mingw81_64\lib\cmake\Qt6CoreTools\"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/Qt/6.1.1/mingw81_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets-relwithdebinfo.cmake">
+			<Option virtualFolder="CMake Files\Qt\6.1.1\mingw81_64\lib\cmake\Qt6CoreTools\"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/Qt/6.1.1/mingw81_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets.cmake">
+			<Option virtualFolder="CMake Files\Qt\6.1.1\mingw81_64\lib\cmake\Qt6CoreTools\"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/Qt/6.1.1/mingw81_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsVersionlessTargets.cmake">
+			<Option virtualFolder="CMake Files\Qt\6.1.1\mingw81_64\lib\cmake\Qt6CoreTools\"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/Qt/6.1.1/mingw81_64/lib/cmake/Qt6EntryPoint/Qt6EntryPointAdditionalTargetInfo.cmake">
+			<Option virtualFolder="CMake Files\Qt\6.1.1\mingw81_64\lib\cmake\Qt6EntryPoint\"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/Qt/6.1.1/mingw81_64/lib/cmake/Qt6EntryPoint/Qt6EntryPointConfig.cmake">
+			<Option virtualFolder="CMake Files\Qt\6.1.1\mingw81_64\lib\cmake\Qt6EntryPoint\"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/Qt/6.1.1/mingw81_64/lib/cmake/Qt6EntryPoint/Qt6EntryPointConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\Qt\6.1.1\mingw81_64\lib\cmake\Qt6EntryPoint\"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/Qt/6.1.1/mingw81_64/lib/cmake/Qt6EntryPoint/Qt6EntryPointTargets-relwithdebinfo.cmake">
+			<Option virtualFolder="CMake Files\Qt\6.1.1\mingw81_64\lib\cmake\Qt6EntryPoint\"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/Qt/6.1.1/mingw81_64/lib/cmake/Qt6EntryPoint/Qt6EntryPointTargets.cmake">
+			<Option virtualFolder="CMake Files\Qt\6.1.1\mingw81_64\lib\cmake\Qt6EntryPoint\"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/Qt/6.1.1/mingw81_64/lib/cmake/Qt6EntryPoint/Qt6EntryPointVersionlessTargets.cmake">
+			<Option virtualFolder="CMake Files\Qt\6.1.1\mingw81_64\lib\cmake\Qt6EntryPoint\"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/Qt/6.1.1/mingw81_64/lib/cmake/Qt6Gui/Qt6GuiAdditionalTargetInfo.cmake">
+			<Option virtualFolder="CMake Files\Qt\6.1.1\mingw81_64\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/Qt/6.1.1/mingw81_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\Qt\6.1.1\mingw81_64\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/Qt/6.1.1/mingw81_64/lib/cmake/Qt6Gui/Qt6GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\Qt\6.1.1\mingw81_64\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/Qt/6.1.1/mingw81_64/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake">
+			<Option virtualFolder="CMake Files\Qt\6.1.1\mingw81_64\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/Qt/6.1.1/mingw81_64/lib/cmake/Qt6Gui/Qt6GuiTargets-relwithdebinfo.cmake">
+			<Option virtualFolder="CMake Files\Qt\6.1.1\mingw81_64\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/Qt/6.1.1/mingw81_64/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake">
+			<Option virtualFolder="CMake Files\Qt\6.1.1\mingw81_64\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/Qt/6.1.1/mingw81_64/lib/cmake/Qt6Gui/Qt6GuiVersionlessTargets.cmake">
+			<Option virtualFolder="CMake Files\Qt\6.1.1\mingw81_64\lib\cmake\Qt6Gui\"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/Qt/6.1.1/mingw81_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsAdditionalTargetInfo.cmake">
+			<Option virtualFolder="CMake Files\Qt\6.1.1\mingw81_64\lib\cmake\Qt6GuiTools\"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/Qt/6.1.1/mingw81_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfig.cmake">
+			<Option virtualFolder="CMake Files\Qt\6.1.1\mingw81_64\lib\cmake\Qt6GuiTools\"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/Qt/6.1.1/mingw81_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\Qt\6.1.1\mingw81_64\lib\cmake\Qt6GuiTools\"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/Qt/6.1.1/mingw81_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsDependencies.cmake">
+			<Option virtualFolder="CMake Files\Qt\6.1.1\mingw81_64\lib\cmake\Qt6GuiTools\"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/Qt/6.1.1/mingw81_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets-relwithdebinfo.cmake">
+			<Option virtualFolder="CMake Files\Qt\6.1.1\mingw81_64\lib\cmake\Qt6GuiTools\"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/Qt/6.1.1/mingw81_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets.cmake">
+			<Option virtualFolder="CMake Files\Qt\6.1.1\mingw81_64\lib\cmake\Qt6GuiTools\"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/Qt/6.1.1/mingw81_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake">
+			<Option virtualFolder="CMake Files\Qt\6.1.1\mingw81_64\lib\cmake\Qt6GuiTools\"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/Qt/6.1.1/mingw81_64/lib/cmake/Qt6Widgets/Qt6WidgetsAdditionalTargetInfo.cmake">
+			<Option virtualFolder="CMake Files\Qt\6.1.1\mingw81_64\lib\cmake\Qt6Widgets\"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/Qt/6.1.1/mingw81_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\Qt\6.1.1\mingw81_64\lib\cmake\Qt6Widgets\"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/Qt/6.1.1/mingw81_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\Qt\6.1.1\mingw81_64\lib\cmake\Qt6Widgets\"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/Qt/6.1.1/mingw81_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake">
+			<Option virtualFolder="CMake Files\Qt\6.1.1\mingw81_64\lib\cmake\Qt6Widgets\"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/Qt/6.1.1/mingw81_64/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake">
+			<Option virtualFolder="CMake Files\Qt\6.1.1\mingw81_64\lib\cmake\Qt6Widgets\"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/Qt/6.1.1/mingw81_64/lib/cmake/Qt6Widgets/Qt6WidgetsTargets-relwithdebinfo.cmake">
+			<Option virtualFolder="CMake Files\Qt\6.1.1\mingw81_64\lib\cmake\Qt6Widgets\"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/Qt/6.1.1/mingw81_64/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake">
+			<Option virtualFolder="CMake Files\Qt\6.1.1\mingw81_64\lib\cmake\Qt6Widgets\"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/Qt/6.1.1/mingw81_64/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessTargets.cmake">
+			<Option virtualFolder="CMake Files\Qt\6.1.1\mingw81_64\lib\cmake\Qt6Widgets\"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/Qt/6.1.1/mingw81_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsAdditionalTargetInfo.cmake">
+			<Option virtualFolder="CMake Files\Qt\6.1.1\mingw81_64\lib\cmake\Qt6WidgetsTools\"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/Qt/6.1.1/mingw81_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfig.cmake">
+			<Option virtualFolder="CMake Files\Qt\6.1.1\mingw81_64\lib\cmake\Qt6WidgetsTools\"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/Qt/6.1.1/mingw81_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\Qt\6.1.1\mingw81_64\lib\cmake\Qt6WidgetsTools\"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/Qt/6.1.1/mingw81_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsDependencies.cmake">
+			<Option virtualFolder="CMake Files\Qt\6.1.1\mingw81_64\lib\cmake\Qt6WidgetsTools\"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/Qt/6.1.1/mingw81_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-relwithdebinfo.cmake">
+			<Option virtualFolder="CMake Files\Qt\6.1.1\mingw81_64\lib\cmake\Qt6WidgetsTools\"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/Qt/6.1.1/mingw81_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake">
+			<Option virtualFolder="CMake Files\Qt\6.1.1\mingw81_64\lib\cmake\Qt6WidgetsTools\"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/Qt/6.1.1/mingw81_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake">
+			<Option virtualFolder="CMake Files\Qt\6.1.1\mingw81_64\lib\cmake\Qt6WidgetsTools\"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/TriangleSection/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\TriangleSection\"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/TriangleSection/Entity/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\TriangleSection\Entity\"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/TriangleSection/Util/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\TriangleSection\Util\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
