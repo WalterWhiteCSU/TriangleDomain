@@ -10,3 +10,6 @@ D:/Project/QtProject/triangleDomain/cmake-build-debug/TriangleSection/Entity/CMa
 D:/Project/QtProject/triangleDomain/cmake-build-debug/TriangleSection/Util/CMakeFiles/rebuild_cache.dir
 D:/Project/QtProject/triangleDomain/cmake-build-debug/TriangleSection/Util/CMakeFiles/TriangleDomainUtil.dir
 D:/Project/QtProject/triangleDomain/cmake-build-debug/TriangleSection/Util/CMakeFiles/edit_cache.dir
+D:/Project/QtProject/triangleDomain/cmake-build-debug/TriangleVSystem/CMakeFiles/TriangleV.dir
+D:/Project/QtProject/triangleDomain/cmake-build-debug/TriangleVSystem/CMakeFiles/edit_cache.dir
+D:/Project/QtProject/triangleDomain/cmake-build-debug/TriangleVSystem/CMakeFiles/rebuild_cache.dir

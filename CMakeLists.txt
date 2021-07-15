@@ -26,6 +26,7 @@ set(SRC_LIST main.cpp mainwindow.cpp mainwindow.h mainwindow.ui dialog.cpp dialo
 
 # 添加子目录
 add_subdirectory(./TriangleSection)
+add_subdirectory(./TriangleVSystem)
 
 # 可执行文件
 add_executable(${PROJECT_NAME} ${SRC_LIST})
@@ -35,6 +36,7 @@ add_executable(${PROJECT_NAME} ${SRC_LIST})
 target_link_libraries(${PROJECT_NAME} ${Opencv_LIBS})
 # TriangleSection
 target_link_libraries(${PROJECT_NAME} TriangleDomainUtil TriangleDomainEntity)
+target_link_libraries(${PROJECT_NAME} TriangleV)
 
 if (NOT CMAKE_PREFIX_PATH)
     message(WARNING "CMAKE_PREFIX_PATH is not defined, you may need to set it "
@@ -45,9 +47,9 @@ find_package(Qt${QT_VERSION} COMPONENTS ${REQUIRED_LIBS} REQUIRED)
 target_link_libraries(${PROJECT_NAME} ${REQUIRED_LIBS_QUALIFIED})
 if (WIN32)
     set(DEBUG_SUFFIX)
-#    if (CMAKE_BUILD_TYPE MATCHES "Debug")
-#        set(DEBUG_SUFFIX "d")
-#    endif ()
+    #    if (CMAKE_BUILD_TYPE MATCHES "Debug")
+    #        set(DEBUG_SUFFIX "d")
+    #    endif ()
     set(QT_INSTALL_PATH "${CMAKE_PREFIX_PATH}")
     if (NOT EXISTS "${QT_INSTALL_PATH}/bin")
         set(QT_INSTALL_PATH "${QT_INSTALL_PATH}/..")

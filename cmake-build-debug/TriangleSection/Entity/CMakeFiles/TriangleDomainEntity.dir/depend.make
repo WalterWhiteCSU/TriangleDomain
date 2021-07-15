@@ -9,6 +9,10 @@ TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/AreaCoordinateSamplin
 TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/AreaCoordinateSamplingData.cpp.obj: ../TriangleSection/Entity/Triangle.h
 TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/AreaCoordinateSamplingData.cpp.obj: ../TriangleSection/Entity/Vector.h
 
+TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/AreaCoordinateTriangle.cpp.obj: ../TriangleSection/Entity/AreaCoordinateTriangle.cpp
+TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/AreaCoordinateTriangle.cpp.obj: ../TriangleSection/Entity/AreaCoordinateTriangle.h
+TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/AreaCoordinateTriangle.cpp.obj: ../TriangleSection/Entity/AreaPoint.h
+
 TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/AreaPoint.cpp.obj: ../TriangleSection/Entity/AreaPoint.cpp
 TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/AreaPoint.cpp.obj: ../TriangleSection/Entity/AreaPoint.h
 

@@ -149,6 +149,7 @@ triangleDomain.exe: CMakeFiles/triangleDomain.dir/build.make
 triangleDomain.exe: D:/CPPRepo/opencv3.1/opencv/Qt-build/install/x64/mingw/lib/libopencv_highgui310.dll.a
 triangleDomain.exe: TriangleSection/Util/libTriangleDomainUtil.a
 triangleDomain.exe: TriangleSection/Entity/libTriangleDomainEntity.a
+triangleDomain.exe: TriangleVSystem/libTriangleV.a
 triangleDomain.exe: C:/Qt/6.1.1/mingw81_64/lib/libQt6Widgets.a
 triangleDomain.exe: D:/CPPRepo/opencv3.1/opencv/Qt-build/install/x64/mingw/lib/libopencv_imgcodecs310.dll.a
 triangleDomain.exe: D:/CPPRepo/opencv3.1/opencv/Qt-build/install/x64/mingw/lib/libopencv_imgproc310.dll.a

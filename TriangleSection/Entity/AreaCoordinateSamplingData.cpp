@@ -160,11 +160,14 @@ namespace TriangleDomain {
         this->areaPoint = new AreaPoint(u_area, v_area, w_area);
     }
 
-    void AreaCoordinateSamplingData::QuantifyParameter() {
+    void AreaCoordinateSamplingData::QuantifyParameter(int max, int min) {
         std::vector<float> res;
 
         for (auto model:this->fitting_para) {
-            res.push_back(std::round(model / 20) * 20.0f);
+            int quatify = std::round(((model - min) / (max - min)) * 256);
+            float temp = (quatify / 256.0f) * (max - min) + min;
+            res.push_back(temp);
+//            res.push_back(std::round(model / 20) * 20.0f);
         }
 
         this->fitting_para = res;

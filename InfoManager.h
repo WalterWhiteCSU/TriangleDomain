@@ -16,6 +16,8 @@
 #ifndef TRIANGLEDOMAIN_INFOMANAGER_H
 #define TRIANGLEDOMAIN_INFOMANAGER_H
 
+#include "include/SamplingData.h"
+
 namespace TriangleDomain {
 
     class InfoManager {

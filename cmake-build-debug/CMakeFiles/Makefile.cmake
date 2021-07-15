@@ -113,6 +113,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../TriangleSection/CMakeLists.txt"
   "../TriangleSection/Entity/CMakeLists.txt"
   "../TriangleSection/Util/CMakeLists.txt"
+  "../TriangleVSystem/CMakeLists.txt"
   "CMakeFiles/3.19.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.19.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.19.2/CMakeRCCompiler.cmake"
@@ -132,6 +133,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "TriangleSection/CMakeFiles/CMakeDirectoryInformation.cmake"
   "TriangleSection/Entity/CMakeFiles/CMakeDirectoryInformation.cmake"
   "TriangleSection/Util/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "TriangleVSystem/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -140,4 +142,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/triangleDomain_autogen.dir/DependInfo.cmake"
   "TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/DependInfo.cmake"
   "TriangleSection/Util/CMakeFiles/TriangleDomainUtil.dir/DependInfo.cmake"
+  "TriangleVSystem/CMakeFiles/TriangleV.dir/DependInfo.cmake"
   )

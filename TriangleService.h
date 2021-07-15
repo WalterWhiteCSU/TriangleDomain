@@ -17,8 +17,8 @@
 #define TRIANGLEDOMAIN_TRIANGLESERVICE_H
 
 #include <QTextBrowser>
-#include "TriangleSection/Util/TriangulationUtil.h"
-#include "TriangleSection/Util/ReconstructionUtil.h"
+#include "include/TriangulationUtil.h"
+#include "include/ReconstructionUtil.h"
 
 namespace TriangleDomain {
     class TriangleService {

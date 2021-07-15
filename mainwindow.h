@@ -26,9 +26,8 @@
 #include <iostream>
 #include <vector>
 #include <string>
-#include "TriangleSection/Entity/SamplingData.h"
-#include "TriangleSection/Util/FileUtil.h"
-#include "dialog.h"
+#include "include/SamplingData.h"
+#include "include/FileUtil.h"
 #include "InfoManager.h"
 #include "TriangleService.h"
 
@@ -89,7 +88,6 @@ private:
     QButtonGroup *domainGroup;
     QButtonGroup *functionGroup;
 
-    Dialog *dialog;
     QString info;
 
     TriangleDomain::InfoManager triangleData;

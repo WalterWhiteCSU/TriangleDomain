@@ -93,7 +93,7 @@ namespace TriangleDomain {
             return os;
         }
 
-        void QuantifyParameter();
+        void QuantifyParameter(int max, int min);
     };
 }
 

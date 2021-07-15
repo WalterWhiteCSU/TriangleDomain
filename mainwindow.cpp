@@ -57,6 +57,7 @@ void MainWindow::showImageFromVector(std::vector<std::vector<TriangleDomain::Sam
     //  显示图像
     QPixmap pix = QPixmap::fromImage(ima);
     label->setPixmap(pix);
+    label->setAlignment(Qt::AlignCenter);
 }
 
 void MainWindow::on_readFileBtn_clicked() {

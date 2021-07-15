@@ -180,6 +180,19 @@ TriangleDomainUtil/fast:
 	$(MAKE) $(MAKESILENT) -f TriangleSection\Util\CMakeFiles\TriangleDomainUtil.dir\build.make TriangleSection/Util/CMakeFiles/TriangleDomainUtil.dir/build
 .PHONY : TriangleDomainUtil/fast
 
+#=============================================================================
+# Target rules for targets named TriangleV
+
+# Build rule for target.
+TriangleV: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 TriangleV
+.PHONY : TriangleV
+
+# fast build rule for target.
+TriangleV/fast:
+	$(MAKE) $(MAKESILENT) -f TriangleVSystem\CMakeFiles\TriangleV.dir\build.make TriangleVSystem/CMakeFiles/TriangleV.dir/build
+.PHONY : TriangleV/fast
+
 dialog.obj: dialog.cpp.obj
 
 .PHONY : dialog.obj
@@ -299,6 +312,7 @@ help:
 	@echo ... triangleDomain_autogen
 	@echo ... TriangleDomainEntity
 	@echo ... TriangleDomainUtil
+	@echo ... TriangleV
 	@echo ... triangleDomain
 	@echo ... dialog.obj
 	@echo ... dialog.i

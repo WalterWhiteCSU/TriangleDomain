@@ -22,7 +22,6 @@ namespace TriangleDomain {
 
         int max = -2147483648;
         int min = 2147483647;
-        //  为每一个像素点赋值
         for (auto model:calculateData) {
             for (auto value:model->getFittingPara()) {
                 if (value > max) {
@@ -34,11 +33,15 @@ namespace TriangleDomain {
                     continue;
                 }
             }
+        }
+        //  为每一个像素点赋值
+        for (auto model:calculateData) {
+
             int modelRow = model->getPoint()->getX();
             int modelCol = model->getPoint()->getY();
             fitting[modelRow][modelCol].setPoint(model->getPoint());
             mask[modelRow][modelCol].setPoint(model->getPoint());
-            model->QuantifyParameter();
+            model->QuantifyParameter(max, min);
             int value = AreaCoordinateFittingValue(model->getAreaPoint(), model->getFittingPara(), fittingType);
             if (value < 0)
                 value = 0;

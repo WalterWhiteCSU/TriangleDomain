@@ -76,6 +76,8 @@ namespace TriangleDomain {
         }
 
     public:
+
+
         int isPointInTriangle(const Point *point) const;
 
         float GetTriangleArea() const;

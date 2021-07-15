@@ -121,9 +121,9 @@ namespace TriangleDomain {
         float value_3 =
                 cross(edge_ca.normal(), edge_cp.normal()) * cross(edge_ca.normal(), edge_bc.opposite().normal());
 
-        if(value_1 < 0.0f || value_2 < 0.0f || value_3 < 0.0f)
+        if (value_1 < 0.0f || value_2 < 0.0f || value_3 < 0.0f)
             return -1;
-        if(value_1 == 0.0f || value_2 == 0.0f || value_3 == 0.0f)
+        if (value_1 == 0.0f || value_2 == 0.0f || value_3 == 0.0f)
             return 0;
         return 1;
     }
@@ -160,9 +160,9 @@ namespace TriangleDomain {
     std::vector<Triangle> Triangle::triangleSection() const {
         std::vector<Triangle> res;
 
-        Point *A = this->vertexA;
-        Point *B = this->vertexB;
-        Point *C = this->vertexC;
+        Point *A = new Point(*this->vertexA);
+        Point *B = new Point(*this->vertexB);
+        Point *C = new Point(*this->vertexC);
 
         Point *AB = new Point(
                 (A->getX() + B->getX()) / 2.0f,
@@ -191,6 +191,13 @@ namespace TriangleDomain {
         //  第四个三角形
         Triangle triangle_4(AC, BC, C);
         res.push_back(triangle_4);
+
+        delete A;
+        delete B;
+        delete C;
+        delete AB;
+        delete AC;
+        delete BC;
 
         return res;
     }

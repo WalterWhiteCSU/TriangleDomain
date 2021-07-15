@@ -6,37 +6,13 @@
 
 #IncludeRegexTransform: 
 
-D:/Project/QtProject/triangleDomain/TriangleSection/Entity/AreaCoordinateSamplingData.cpp
-AreaCoordinateSamplingData.h
-D:/Project/QtProject/triangleDomain/TriangleSection/Entity/AreaCoordinateSamplingData.h
-utility
--
-
-D:/Project/QtProject/triangleDomain/TriangleSection/Entity/AreaCoordinateSamplingData.h
-vector
--
+D:/Project/QtProject/triangleDomain/TriangleSection/Entity/Point.h
 ostream
 -
-SamplingData.h
-D:/Project/QtProject/triangleDomain/TriangleSection/Entity/SamplingData.h
+
+D:/Project/QtProject/triangleDomain/TriangleSection/Entity/Triangle.cpp
 Triangle.h
 D:/Project/QtProject/triangleDomain/TriangleSection/Entity/Triangle.h
-AreaPoint.h
-D:/Project/QtProject/triangleDomain/TriangleSection/Entity/AreaPoint.h
-
-D:/Project/QtProject/triangleDomain/TriangleSection/Entity/AreaPoint.h
-ostream
--
-
-D:/Project/QtProject/triangleDomain/TriangleSection/Entity/Point.h
-ostream
--
-
-D:/Project/QtProject/triangleDomain/TriangleSection/Entity/SamplingData.h
-ostream
--
-Point.h
-D:/Project/QtProject/triangleDomain/TriangleSection/Entity/Point.h
 
 D:/Project/QtProject/triangleDomain/TriangleSection/Entity/Triangle.h
 ostream

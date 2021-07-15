@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "D:/Project/QtProject/triangleDomain/TriangleSection/Entity/AreaCoordinateSamplingData.cpp" "D:/Project/QtProject/triangleDomain/cmake-build-debug/TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/AreaCoordinateSamplingData.cpp.obj"
+  "D:/Project/QtProject/triangleDomain/TriangleSection/Entity/AreaCoordinateTriangle.cpp" "D:/Project/QtProject/triangleDomain/cmake-build-debug/TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/AreaCoordinateTriangle.cpp.obj"
   "D:/Project/QtProject/triangleDomain/TriangleSection/Entity/AreaPoint.cpp" "D:/Project/QtProject/triangleDomain/cmake-build-debug/TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/AreaPoint.cpp.obj"
   "D:/Project/QtProject/triangleDomain/TriangleSection/Entity/DescartesCoordinateSamplingData.cpp" "D:/Project/QtProject/triangleDomain/cmake-build-debug/TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/DescartesCoordinateSamplingData.cpp.obj"
   "D:/Project/QtProject/triangleDomain/TriangleSection/Entity/Point.cpp" "D:/Project/QtProject/triangleDomain/cmake-build-debug/TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/Point.cpp.obj"

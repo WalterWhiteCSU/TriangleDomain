@@ -7,6 +7,8 @@
 
 #include <QWidget>
 
+#include "mainwindow.h"
+
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class Dialog; }
@@ -20,8 +22,18 @@ public:
 
     ~Dialog() override;
 
+private slots:
+
+    /*   伯恩斯坦基   */
+    void on_bernsteinBtn_clicked();
+
+    /*   三角域V基   */
+    void on_vSystemBtn_clicked();
+
 private:
     Ui::Dialog *ui;
+
+    QWidget *workWidget;
 };
 
 

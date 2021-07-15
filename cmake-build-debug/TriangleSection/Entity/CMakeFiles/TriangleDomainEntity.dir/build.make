@@ -89,10 +89,24 @@ TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/AreaCoordinateSamplin
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TriangleDomainEntity.dir/AreaCoordinateSamplingData.cpp.s"
 	cd /d D:\Project\QtProject\triangleDomain\cmake-build-debug\TriangleSection\Entity && C:\Qt\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Project\QtProject\triangleDomain\TriangleSection\Entity\AreaCoordinateSamplingData.cpp -o CMakeFiles\TriangleDomainEntity.dir\AreaCoordinateSamplingData.cpp.s
 
+TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/AreaCoordinateTriangle.cpp.obj: TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/flags.make
+TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/AreaCoordinateTriangle.cpp.obj: TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/includes_CXX.rsp
+TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/AreaCoordinateTriangle.cpp.obj: ../TriangleSection/Entity/AreaCoordinateTriangle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Project\QtProject\triangleDomain\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/AreaCoordinateTriangle.cpp.obj"
+	cd /d D:\Project\QtProject\triangleDomain\cmake-build-debug\TriangleSection\Entity && C:\Qt\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TriangleDomainEntity.dir\AreaCoordinateTriangle.cpp.obj -c D:\Project\QtProject\triangleDomain\TriangleSection\Entity\AreaCoordinateTriangle.cpp
+
+TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/AreaCoordinateTriangle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TriangleDomainEntity.dir/AreaCoordinateTriangle.cpp.i"
+	cd /d D:\Project\QtProject\triangleDomain\cmake-build-debug\TriangleSection\Entity && C:\Qt\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Project\QtProject\triangleDomain\TriangleSection\Entity\AreaCoordinateTriangle.cpp > CMakeFiles\TriangleDomainEntity.dir\AreaCoordinateTriangle.cpp.i
+
+TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/AreaCoordinateTriangle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TriangleDomainEntity.dir/AreaCoordinateTriangle.cpp.s"
+	cd /d D:\Project\QtProject\triangleDomain\cmake-build-debug\TriangleSection\Entity && C:\Qt\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Project\QtProject\triangleDomain\TriangleSection\Entity\AreaCoordinateTriangle.cpp -o CMakeFiles\TriangleDomainEntity.dir\AreaCoordinateTriangle.cpp.s
+
 TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/AreaPoint.cpp.obj: TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/flags.make
 TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/AreaPoint.cpp.obj: TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/includes_CXX.rsp
 TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/AreaPoint.cpp.obj: ../TriangleSection/Entity/AreaPoint.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Project\QtProject\triangleDomain\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/AreaPoint.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Project\QtProject\triangleDomain\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/AreaPoint.cpp.obj"
 	cd /d D:\Project\QtProject\triangleDomain\cmake-build-debug\TriangleSection\Entity && C:\Qt\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TriangleDomainEntity.dir\AreaPoint.cpp.obj -c D:\Project\QtProject\triangleDomain\TriangleSection\Entity\AreaPoint.cpp
 
 TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/AreaPoint.cpp.i: cmake_force
@@ -106,7 +120,7 @@ TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/AreaPoint.cpp.s: cmak
 TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/DescartesCoordinateSamplingData.cpp.obj: TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/flags.make
 TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/DescartesCoordinateSamplingData.cpp.obj: TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/includes_CXX.rsp
 TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/DescartesCoordinateSamplingData.cpp.obj: ../TriangleSection/Entity/DescartesCoordinateSamplingData.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Project\QtProject\triangleDomain\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/DescartesCoordinateSamplingData.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Project\QtProject\triangleDomain\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/DescartesCoordinateSamplingData.cpp.obj"
 	cd /d D:\Project\QtProject\triangleDomain\cmake-build-debug\TriangleSection\Entity && C:\Qt\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TriangleDomainEntity.dir\DescartesCoordinateSamplingData.cpp.obj -c D:\Project\QtProject\triangleDomain\TriangleSection\Entity\DescartesCoordinateSamplingData.cpp
 
 TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/DescartesCoordinateSamplingData.cpp.i: cmake_force
@@ -120,7 +134,7 @@ TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/DescartesCoordinateSa
 TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/Point.cpp.obj: TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/flags.make
 TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/Point.cpp.obj: TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/includes_CXX.rsp
 TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/Point.cpp.obj: ../TriangleSection/Entity/Point.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Project\QtProject\triangleDomain\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/Point.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Project\QtProject\triangleDomain\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/Point.cpp.obj"
 	cd /d D:\Project\QtProject\triangleDomain\cmake-build-debug\TriangleSection\Entity && C:\Qt\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TriangleDomainEntity.dir\Point.cpp.obj -c D:\Project\QtProject\triangleDomain\TriangleSection\Entity\Point.cpp
 
 TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/Point.cpp.i: cmake_force
@@ -134,7 +148,7 @@ TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/Point.cpp.s: cmake_fo
 TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/SamplingData.cpp.obj: TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/flags.make
 TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/SamplingData.cpp.obj: TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/includes_CXX.rsp
 TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/SamplingData.cpp.obj: ../TriangleSection/Entity/SamplingData.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Project\QtProject\triangleDomain\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/SamplingData.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Project\QtProject\triangleDomain\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/SamplingData.cpp.obj"
 	cd /d D:\Project\QtProject\triangleDomain\cmake-build-debug\TriangleSection\Entity && C:\Qt\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TriangleDomainEntity.dir\SamplingData.cpp.obj -c D:\Project\QtProject\triangleDomain\TriangleSection\Entity\SamplingData.cpp
 
 TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/SamplingData.cpp.i: cmake_force
@@ -148,7 +162,7 @@ TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/SamplingData.cpp.s: c
 TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/Triangle.cpp.obj: TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/flags.make
 TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/Triangle.cpp.obj: TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/includes_CXX.rsp
 TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/Triangle.cpp.obj: ../TriangleSection/Entity/Triangle.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Project\QtProject\triangleDomain\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/Triangle.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Project\QtProject\triangleDomain\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/Triangle.cpp.obj"
 	cd /d D:\Project\QtProject\triangleDomain\cmake-build-debug\TriangleSection\Entity && C:\Qt\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TriangleDomainEntity.dir\Triangle.cpp.obj -c D:\Project\QtProject\triangleDomain\TriangleSection\Entity\Triangle.cpp
 
 TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/Triangle.cpp.i: cmake_force
@@ -162,7 +176,7 @@ TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/Triangle.cpp.s: cmake
 TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/Vector.cpp.obj: TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/flags.make
 TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/Vector.cpp.obj: TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/includes_CXX.rsp
 TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/Vector.cpp.obj: ../TriangleSection/Entity/Vector.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Project\QtProject\triangleDomain\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/Vector.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Project\QtProject\triangleDomain\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/Vector.cpp.obj"
 	cd /d D:\Project\QtProject\triangleDomain\cmake-build-debug\TriangleSection\Entity && C:\Qt\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TriangleDomainEntity.dir\Vector.cpp.obj -c D:\Project\QtProject\triangleDomain\TriangleSection\Entity\Vector.cpp
 
 TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/Vector.cpp.i: cmake_force
@@ -176,6 +190,7 @@ TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/Vector.cpp.s: cmake_f
 # Object files for target TriangleDomainEntity
 TriangleDomainEntity_OBJECTS = \
 "CMakeFiles/TriangleDomainEntity.dir/AreaCoordinateSamplingData.cpp.obj" \
+"CMakeFiles/TriangleDomainEntity.dir/AreaCoordinateTriangle.cpp.obj" \
 "CMakeFiles/TriangleDomainEntity.dir/AreaPoint.cpp.obj" \
 "CMakeFiles/TriangleDomainEntity.dir/DescartesCoordinateSamplingData.cpp.obj" \
 "CMakeFiles/TriangleDomainEntity.dir/Point.cpp.obj" \
@@ -187,6 +202,7 @@ TriangleDomainEntity_OBJECTS = \
 TriangleDomainEntity_EXTERNAL_OBJECTS =
 
 TriangleSection/Entity/libTriangleDomainEntity.a: TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/AreaCoordinateSamplingData.cpp.obj
+TriangleSection/Entity/libTriangleDomainEntity.a: TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/AreaCoordinateTriangle.cpp.obj
 TriangleSection/Entity/libTriangleDomainEntity.a: TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/AreaPoint.cpp.obj
 TriangleSection/Entity/libTriangleDomainEntity.a: TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/DescartesCoordinateSamplingData.cpp.obj
 TriangleSection/Entity/libTriangleDomainEntity.a: TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/Point.cpp.obj
@@ -195,7 +211,7 @@ TriangleSection/Entity/libTriangleDomainEntity.a: TriangleSection/Entity/CMakeFi
 TriangleSection/Entity/libTriangleDomainEntity.a: TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/Vector.cpp.obj
 TriangleSection/Entity/libTriangleDomainEntity.a: TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/build.make
 TriangleSection/Entity/libTriangleDomainEntity.a: TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Project\QtProject\triangleDomain\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX static library libTriangleDomainEntity.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Project\QtProject\triangleDomain\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX static library libTriangleDomainEntity.a"
 	cd /d D:\Project\QtProject\triangleDomain\cmake-build-debug\TriangleSection\Entity && $(CMAKE_COMMAND) -P CMakeFiles\TriangleDomainEntity.dir\cmake_clean_target.cmake
 	cd /d D:\Project\QtProject\triangleDomain\cmake-build-debug\TriangleSection\Entity && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\TriangleDomainEntity.dir\link.txt --verbose=$(VERBOSE)
 

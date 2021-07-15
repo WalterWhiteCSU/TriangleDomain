@@ -1,0 +1,2 @@
+C:\Qt\Tools\mingw810_64\bin\ar.exe qc libTriangleV.a CMakeFiles/TriangleV.dir/FileUtil.cpp.obj CMakeFiles/TriangleV.dir/TriangleVUtil.cpp.obj CMakeFiles/TriangleV.dir/Tree/CalculateData.cpp.obj CMakeFiles/TriangleV.dir/Tree/ImageQuadTree.cpp.obj CMakeFiles/TriangleV.dir/Tree/ImageQuadTreeNode.cpp.obj
+C:\Qt\Tools\mingw810_64\bin\ranlib.exe libTriangleV.a

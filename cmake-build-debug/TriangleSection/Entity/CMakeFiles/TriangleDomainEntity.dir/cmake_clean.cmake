@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/TriangleDomainEntity.dir/AreaCoordinateSamplingData.cpp.obj"
+  "CMakeFiles/TriangleDomainEntity.dir/AreaCoordinateTriangle.cpp.obj"
   "CMakeFiles/TriangleDomainEntity.dir/AreaPoint.cpp.obj"
   "CMakeFiles/TriangleDomainEntity.dir/DescartesCoordinateSamplingData.cpp.obj"
   "CMakeFiles/TriangleDomainEntity.dir/Point.cpp.obj"

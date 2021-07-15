@@ -1,11 +1,12 @@
 #include <QApplication>
 #include <QPushButton>
-#include "mainwindow.h"
+#include "dialog.h"
 
 int main(int argc, char *argv[]) {
+
     QApplication a(argc, argv);
 
-    MainWindow window;
+    Dialog window;
     window.show();
 
     return QApplication::exec();

@@ -170,6 +170,33 @@ AreaCoordinateSamplingData.cpp.s:
 	cd /d D:\Project\QtProject\triangleDomain\cmake-build-debug && $(MAKE) $(MAKESILENT) -f TriangleSection\Entity\CMakeFiles\TriangleDomainEntity.dir\build.make TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/AreaCoordinateSamplingData.cpp.s
 .PHONY : AreaCoordinateSamplingData.cpp.s
 
+AreaCoordinateTriangle.obj: AreaCoordinateTriangle.cpp.obj
+
+.PHONY : AreaCoordinateTriangle.obj
+
+# target to build an object file
+AreaCoordinateTriangle.cpp.obj:
+	cd /d D:\Project\QtProject\triangleDomain\cmake-build-debug && $(MAKE) $(MAKESILENT) -f TriangleSection\Entity\CMakeFiles\TriangleDomainEntity.dir\build.make TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/AreaCoordinateTriangle.cpp.obj
+.PHONY : AreaCoordinateTriangle.cpp.obj
+
+AreaCoordinateTriangle.i: AreaCoordinateTriangle.cpp.i
+
+.PHONY : AreaCoordinateTriangle.i
+
+# target to preprocess a source file
+AreaCoordinateTriangle.cpp.i:
+	cd /d D:\Project\QtProject\triangleDomain\cmake-build-debug && $(MAKE) $(MAKESILENT) -f TriangleSection\Entity\CMakeFiles\TriangleDomainEntity.dir\build.make TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/AreaCoordinateTriangle.cpp.i
+.PHONY : AreaCoordinateTriangle.cpp.i
+
+AreaCoordinateTriangle.s: AreaCoordinateTriangle.cpp.s
+
+.PHONY : AreaCoordinateTriangle.s
+
+# target to generate assembly for a file
+AreaCoordinateTriangle.cpp.s:
+	cd /d D:\Project\QtProject\triangleDomain\cmake-build-debug && $(MAKE) $(MAKESILENT) -f TriangleSection\Entity\CMakeFiles\TriangleDomainEntity.dir\build.make TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/AreaCoordinateTriangle.cpp.s
+.PHONY : AreaCoordinateTriangle.cpp.s
+
 AreaPoint.obj: AreaPoint.cpp.obj
 
 .PHONY : AreaPoint.obj
@@ -344,6 +371,9 @@ help:
 	@echo ... AreaCoordinateSamplingData.obj
 	@echo ... AreaCoordinateSamplingData.i
 	@echo ... AreaCoordinateSamplingData.s
+	@echo ... AreaCoordinateTriangle.obj
+	@echo ... AreaCoordinateTriangle.i
+	@echo ... AreaCoordinateTriangle.s
 	@echo ... AreaPoint.obj
 	@echo ... AreaPoint.i
 	@echo ... AreaPoint.s

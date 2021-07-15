@@ -11,9 +11,28 @@
 Dialog::Dialog(QWidget *parent) :
         QWidget(parent), ui(new Ui::Dialog) {
     ui->setupUi(this);
+    this->workWidget = nullptr;
 }
 
 Dialog::~Dialog() {
     delete ui;
+}
+
+void Dialog::on_bernsteinBtn_clicked() {
+    MainWindow *work = new MainWindow();
+    if (this->workWidget != nullptr) {
+        delete this->workWidget;
+    }
+    this->workWidget = work;
+     this->workWidget->show();
+}
+
+void Dialog::on_vSystemBtn_clicked() {
+    MainWindow *work = new MainWindow();
+    if (this->workWidget != nullptr) {
+        delete this->workWidget;
+    }
+    this->workWidget = work;
+    this->workWidget->show();
 }
 
