@@ -17,15 +17,18 @@
 #include "../../include/AreaPoint.h"
 #include "../../include/Triangle.h"
 #include "CalculateData.h"
+#include "../PublicUtil.h"
 
 namespace TriangleV {
 
     class ImageQuadTreeNode {
     public:
         //  数据列表
-        std::vector<CalculateData> dataList;
+        std::vector<CalculateData *> dataList;
         //  三角形
         TriangleDomain::Triangle *triangle;
+        //  三角形的面积坐标
+        std::vector<TriangleDomain::AreaPoint *> triangleAreaPoint;
         //  节点编号
         std::string id;
         //  层级
@@ -44,13 +47,14 @@ namespace TriangleV {
 
         ImageQuadTreeNode();
 
-        ImageQuadTreeNode(const std::vector<CalculateData> &dataList, TriangleDomain::Triangle *triangle,
+        ImageQuadTreeNode(const std::vector<CalculateData *> &dataList, TriangleDomain::Triangle *triangle,
                           const std::string &id, int layer);
 
-        ImageQuadTreeNode(const std::vector<CalculateData> &dataList, TriangleDomain::Triangle *triangle,
-                          const std::string &id, int layer, ImageQuadTreeNode *parent);
+        ImageQuadTreeNode(const std::vector<CalculateData *> &dataList, TriangleDomain::Triangle *triangle,
+                          const std::string &id, int layer, ImageQuadTreeNode *parent,
+                          TriangleDomain::Triangle &originTriangle);
 
-        ImageQuadTreeNode(const std::vector<CalculateData> &dataList, TriangleDomain::Triangle *triangle,
+        ImageQuadTreeNode(const std::vector<CalculateData *> &dataList, TriangleDomain::Triangle *triangle,
                           const std::string &id, int layer, ImageQuadTreeNode *child1, ImageQuadTreeNode *child2,
                           ImageQuadTreeNode *child3, ImageQuadTreeNode *child4, ImageQuadTreeNode *parent,
                           std::vector<float> &parameterList);
@@ -59,6 +63,9 @@ namespace TriangleV {
         ImageQuadTreeNode(const ImageQuadTreeNode &rhs);
 
         ~ImageQuadTreeNode();
+
+        /*   得到三角形的面积坐标   */
+        void SetTriangleAreaCoordinate(const TriangleDomain::Triangle &originTriangle);
 
         /*  Warning: DO NOT USE IT!!!!  */
         ImageQuadTreeNode &operator=(const ImageQuadTreeNode &rhs);

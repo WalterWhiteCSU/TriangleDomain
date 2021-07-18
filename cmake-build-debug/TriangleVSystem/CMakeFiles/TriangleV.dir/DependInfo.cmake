@@ -4,7 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/Project/QtProject/triangleDomain/TriangleVSystem/FileUtil.cpp" "D:/Project/QtProject/triangleDomain/cmake-build-debug/TriangleVSystem/CMakeFiles/TriangleV.dir/FileUtil.cpp.obj"
+  "D:/Project/QtProject/triangleDomain/TriangleVSystem/ImageTriangleVUtil.cpp" "D:/Project/QtProject/triangleDomain/cmake-build-debug/TriangleVSystem/CMakeFiles/TriangleV.dir/ImageTriangleVUtil.cpp.obj"
+  "D:/Project/QtProject/triangleDomain/TriangleVSystem/PublicUtil.cpp" "D:/Project/QtProject/triangleDomain/cmake-build-debug/TriangleVSystem/CMakeFiles/TriangleV.dir/PublicUtil.cpp.obj"
   "D:/Project/QtProject/triangleDomain/TriangleVSystem/Tree/CalculateData.cpp" "D:/Project/QtProject/triangleDomain/cmake-build-debug/TriangleVSystem/CMakeFiles/TriangleV.dir/Tree/CalculateData.cpp.obj"
   "D:/Project/QtProject/triangleDomain/TriangleVSystem/Tree/ImageQuadTree.cpp" "D:/Project/QtProject/triangleDomain/cmake-build-debug/TriangleVSystem/CMakeFiles/TriangleV.dir/Tree/ImageQuadTree.cpp.obj"
   "D:/Project/QtProject/triangleDomain/TriangleVSystem/Tree/ImageQuadTreeNode.cpp" "D:/Project/QtProject/triangleDomain/cmake-build-debug/TriangleVSystem/CMakeFiles/TriangleV.dir/Tree/ImageQuadTreeNode.cpp.obj"

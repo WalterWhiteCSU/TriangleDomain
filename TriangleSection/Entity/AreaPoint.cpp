@@ -89,4 +89,22 @@ namespace TriangleDomain {
         }
         return *this;
     }
+
+    Eigen::VectorXf AreaPoint::GetVector() {
+        Eigen::VectorXf res(3);
+
+        res(0) = this->u;
+        res(1) = this->v;
+        res(2) = this->w;
+
+        return res;
+    }
+
+    AreaPoint *AreaPoint::GetAreaPointByVector(Eigen::VectorXf vector) {
+        float u = vector(0);
+        float v = vector(1);
+        float w = vector(2);
+
+        return new AreaPoint(u, v, w);
+    }
 }

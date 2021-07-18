@@ -1525,6 +1525,8 @@ D:/Project/QtProject/triangleDomain/TriangleSection/Entity/AreaPoint.h
 D:/Project/QtProject/triangleDomain/TriangleSection/Entity/AreaPoint.h
 ostream
 -
+Eigen/Dense
+-
 
 D:/Project/QtProject/triangleDomain/TriangleSection/Entity/DescartesCoordinateSamplingData.h
 vector

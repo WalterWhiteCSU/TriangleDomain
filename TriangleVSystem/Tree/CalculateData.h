@@ -38,8 +38,8 @@ namespace TriangleV {
         }
 
         CalculateData(const CalculateData &rhs) {
-            this->data = rhs.data;
-            this->areaPoint = rhs.areaPoint;
+            this->data = new TriangleDomain::SamplingData(*rhs.data);
+            this->areaPoint = new TriangleDomain::AreaPoint(*rhs.areaPoint);
         }
 
         ~CalculateData() {

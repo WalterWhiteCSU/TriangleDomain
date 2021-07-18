@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/TriangleV.dir/FileUtil.cpp.obj"
+  "CMakeFiles/TriangleV.dir/ImageTriangleVUtil.cpp.obj"
+  "CMakeFiles/TriangleV.dir/PublicUtil.cpp.obj"
   "CMakeFiles/TriangleV.dir/Tree/CalculateData.cpp.obj"
   "CMakeFiles/TriangleV.dir/Tree/ImageQuadTree.cpp.obj"
   "CMakeFiles/TriangleV.dir/Tree/ImageQuadTreeNode.cpp.obj"

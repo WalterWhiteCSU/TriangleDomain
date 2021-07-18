@@ -358,10 +358,16 @@
 		<Unit filename="D:/Project/QtProject/triangleDomain/TriangleService.h">
 			<Option target="triangleDomain"/>
 		</Unit>
-		<Unit filename="D:/Project/QtProject/triangleDomain/TriangleVSystem/FileUtil.cpp">
+		<Unit filename="D:/Project/QtProject/triangleDomain/TriangleVSystem/ImageTriangleVUtil.cpp">
 			<Option target="TriangleV"/>
 		</Unit>
-		<Unit filename="D:/Project/QtProject/triangleDomain/TriangleVSystem/FileUtil.h">
+		<Unit filename="D:/Project/QtProject/triangleDomain/TriangleVSystem/ImageTriangleVUtil.h">
+			<Option target="TriangleV"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/TriangleVSystem/PublicUtil.cpp">
+			<Option target="TriangleV"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/TriangleVSystem/PublicUtil.h">
 			<Option target="TriangleV"/>
 		</Unit>
 		<Unit filename="D:/Project/QtProject/triangleDomain/TriangleVSystem/Tree/CalculateData.cpp">

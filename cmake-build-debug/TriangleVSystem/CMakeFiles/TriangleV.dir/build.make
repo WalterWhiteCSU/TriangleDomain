@@ -75,24 +75,38 @@ include TriangleVSystem/CMakeFiles/TriangleV.dir/progress.make
 # Include the compile flags for this target's objects.
 include TriangleVSystem/CMakeFiles/TriangleV.dir/flags.make
 
-TriangleVSystem/CMakeFiles/TriangleV.dir/FileUtil.cpp.obj: TriangleVSystem/CMakeFiles/TriangleV.dir/flags.make
-TriangleVSystem/CMakeFiles/TriangleV.dir/FileUtil.cpp.obj: TriangleVSystem/CMakeFiles/TriangleV.dir/includes_CXX.rsp
-TriangleVSystem/CMakeFiles/TriangleV.dir/FileUtil.cpp.obj: ../TriangleVSystem/FileUtil.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Project\QtProject\triangleDomain\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object TriangleVSystem/CMakeFiles/TriangleV.dir/FileUtil.cpp.obj"
-	cd /d D:\Project\QtProject\triangleDomain\cmake-build-debug\TriangleVSystem && C:\Qt\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TriangleV.dir\FileUtil.cpp.obj -c D:\Project\QtProject\triangleDomain\TriangleVSystem\FileUtil.cpp
+TriangleVSystem/CMakeFiles/TriangleV.dir/ImageTriangleVUtil.cpp.obj: TriangleVSystem/CMakeFiles/TriangleV.dir/flags.make
+TriangleVSystem/CMakeFiles/TriangleV.dir/ImageTriangleVUtil.cpp.obj: TriangleVSystem/CMakeFiles/TriangleV.dir/includes_CXX.rsp
+TriangleVSystem/CMakeFiles/TriangleV.dir/ImageTriangleVUtil.cpp.obj: ../TriangleVSystem/ImageTriangleVUtil.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Project\QtProject\triangleDomain\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object TriangleVSystem/CMakeFiles/TriangleV.dir/ImageTriangleVUtil.cpp.obj"
+	cd /d D:\Project\QtProject\triangleDomain\cmake-build-debug\TriangleVSystem && C:\Qt\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TriangleV.dir\ImageTriangleVUtil.cpp.obj -c D:\Project\QtProject\triangleDomain\TriangleVSystem\ImageTriangleVUtil.cpp
 
-TriangleVSystem/CMakeFiles/TriangleV.dir/FileUtil.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TriangleV.dir/FileUtil.cpp.i"
-	cd /d D:\Project\QtProject\triangleDomain\cmake-build-debug\TriangleVSystem && C:\Qt\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Project\QtProject\triangleDomain\TriangleVSystem\FileUtil.cpp > CMakeFiles\TriangleV.dir\FileUtil.cpp.i
+TriangleVSystem/CMakeFiles/TriangleV.dir/ImageTriangleVUtil.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TriangleV.dir/ImageTriangleVUtil.cpp.i"
+	cd /d D:\Project\QtProject\triangleDomain\cmake-build-debug\TriangleVSystem && C:\Qt\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Project\QtProject\triangleDomain\TriangleVSystem\ImageTriangleVUtil.cpp > CMakeFiles\TriangleV.dir\ImageTriangleVUtil.cpp.i
 
-TriangleVSystem/CMakeFiles/TriangleV.dir/FileUtil.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TriangleV.dir/FileUtil.cpp.s"
-	cd /d D:\Project\QtProject\triangleDomain\cmake-build-debug\TriangleVSystem && C:\Qt\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Project\QtProject\triangleDomain\TriangleVSystem\FileUtil.cpp -o CMakeFiles\TriangleV.dir\FileUtil.cpp.s
+TriangleVSystem/CMakeFiles/TriangleV.dir/ImageTriangleVUtil.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TriangleV.dir/ImageTriangleVUtil.cpp.s"
+	cd /d D:\Project\QtProject\triangleDomain\cmake-build-debug\TriangleVSystem && C:\Qt\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Project\QtProject\triangleDomain\TriangleVSystem\ImageTriangleVUtil.cpp -o CMakeFiles\TriangleV.dir\ImageTriangleVUtil.cpp.s
+
+TriangleVSystem/CMakeFiles/TriangleV.dir/PublicUtil.cpp.obj: TriangleVSystem/CMakeFiles/TriangleV.dir/flags.make
+TriangleVSystem/CMakeFiles/TriangleV.dir/PublicUtil.cpp.obj: TriangleVSystem/CMakeFiles/TriangleV.dir/includes_CXX.rsp
+TriangleVSystem/CMakeFiles/TriangleV.dir/PublicUtil.cpp.obj: ../TriangleVSystem/PublicUtil.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Project\QtProject\triangleDomain\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object TriangleVSystem/CMakeFiles/TriangleV.dir/PublicUtil.cpp.obj"
+	cd /d D:\Project\QtProject\triangleDomain\cmake-build-debug\TriangleVSystem && C:\Qt\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TriangleV.dir\PublicUtil.cpp.obj -c D:\Project\QtProject\triangleDomain\TriangleVSystem\PublicUtil.cpp
+
+TriangleVSystem/CMakeFiles/TriangleV.dir/PublicUtil.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TriangleV.dir/PublicUtil.cpp.i"
+	cd /d D:\Project\QtProject\triangleDomain\cmake-build-debug\TriangleVSystem && C:\Qt\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Project\QtProject\triangleDomain\TriangleVSystem\PublicUtil.cpp > CMakeFiles\TriangleV.dir\PublicUtil.cpp.i
+
+TriangleVSystem/CMakeFiles/TriangleV.dir/PublicUtil.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TriangleV.dir/PublicUtil.cpp.s"
+	cd /d D:\Project\QtProject\triangleDomain\cmake-build-debug\TriangleVSystem && C:\Qt\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Project\QtProject\triangleDomain\TriangleVSystem\PublicUtil.cpp -o CMakeFiles\TriangleV.dir\PublicUtil.cpp.s
 
 TriangleVSystem/CMakeFiles/TriangleV.dir/TriangleVUtil.cpp.obj: TriangleVSystem/CMakeFiles/TriangleV.dir/flags.make
 TriangleVSystem/CMakeFiles/TriangleV.dir/TriangleVUtil.cpp.obj: TriangleVSystem/CMakeFiles/TriangleV.dir/includes_CXX.rsp
 TriangleVSystem/CMakeFiles/TriangleV.dir/TriangleVUtil.cpp.obj: ../TriangleVSystem/TriangleVUtil.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Project\QtProject\triangleDomain\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object TriangleVSystem/CMakeFiles/TriangleV.dir/TriangleVUtil.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Project\QtProject\triangleDomain\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object TriangleVSystem/CMakeFiles/TriangleV.dir/TriangleVUtil.cpp.obj"
 	cd /d D:\Project\QtProject\triangleDomain\cmake-build-debug\TriangleVSystem && C:\Qt\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TriangleV.dir\TriangleVUtil.cpp.obj -c D:\Project\QtProject\triangleDomain\TriangleVSystem\TriangleVUtil.cpp
 
 TriangleVSystem/CMakeFiles/TriangleV.dir/TriangleVUtil.cpp.i: cmake_force
@@ -106,7 +120,7 @@ TriangleVSystem/CMakeFiles/TriangleV.dir/TriangleVUtil.cpp.s: cmake_force
 TriangleVSystem/CMakeFiles/TriangleV.dir/Tree/CalculateData.cpp.obj: TriangleVSystem/CMakeFiles/TriangleV.dir/flags.make
 TriangleVSystem/CMakeFiles/TriangleV.dir/Tree/CalculateData.cpp.obj: TriangleVSystem/CMakeFiles/TriangleV.dir/includes_CXX.rsp
 TriangleVSystem/CMakeFiles/TriangleV.dir/Tree/CalculateData.cpp.obj: ../TriangleVSystem/Tree/CalculateData.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Project\QtProject\triangleDomain\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object TriangleVSystem/CMakeFiles/TriangleV.dir/Tree/CalculateData.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Project\QtProject\triangleDomain\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object TriangleVSystem/CMakeFiles/TriangleV.dir/Tree/CalculateData.cpp.obj"
 	cd /d D:\Project\QtProject\triangleDomain\cmake-build-debug\TriangleVSystem && C:\Qt\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TriangleV.dir\Tree\CalculateData.cpp.obj -c D:\Project\QtProject\triangleDomain\TriangleVSystem\Tree\CalculateData.cpp
 
 TriangleVSystem/CMakeFiles/TriangleV.dir/Tree/CalculateData.cpp.i: cmake_force
@@ -120,7 +134,7 @@ TriangleVSystem/CMakeFiles/TriangleV.dir/Tree/CalculateData.cpp.s: cmake_force
 TriangleVSystem/CMakeFiles/TriangleV.dir/Tree/ImageQuadTree.cpp.obj: TriangleVSystem/CMakeFiles/TriangleV.dir/flags.make
 TriangleVSystem/CMakeFiles/TriangleV.dir/Tree/ImageQuadTree.cpp.obj: TriangleVSystem/CMakeFiles/TriangleV.dir/includes_CXX.rsp
 TriangleVSystem/CMakeFiles/TriangleV.dir/Tree/ImageQuadTree.cpp.obj: ../TriangleVSystem/Tree/ImageQuadTree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Project\QtProject\triangleDomain\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object TriangleVSystem/CMakeFiles/TriangleV.dir/Tree/ImageQuadTree.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Project\QtProject\triangleDomain\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object TriangleVSystem/CMakeFiles/TriangleV.dir/Tree/ImageQuadTree.cpp.obj"
 	cd /d D:\Project\QtProject\triangleDomain\cmake-build-debug\TriangleVSystem && C:\Qt\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TriangleV.dir\Tree\ImageQuadTree.cpp.obj -c D:\Project\QtProject\triangleDomain\TriangleVSystem\Tree\ImageQuadTree.cpp
 
 TriangleVSystem/CMakeFiles/TriangleV.dir/Tree/ImageQuadTree.cpp.i: cmake_force
@@ -134,7 +148,7 @@ TriangleVSystem/CMakeFiles/TriangleV.dir/Tree/ImageQuadTree.cpp.s: cmake_force
 TriangleVSystem/CMakeFiles/TriangleV.dir/Tree/ImageQuadTreeNode.cpp.obj: TriangleVSystem/CMakeFiles/TriangleV.dir/flags.make
 TriangleVSystem/CMakeFiles/TriangleV.dir/Tree/ImageQuadTreeNode.cpp.obj: TriangleVSystem/CMakeFiles/TriangleV.dir/includes_CXX.rsp
 TriangleVSystem/CMakeFiles/TriangleV.dir/Tree/ImageQuadTreeNode.cpp.obj: ../TriangleVSystem/Tree/ImageQuadTreeNode.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Project\QtProject\triangleDomain\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object TriangleVSystem/CMakeFiles/TriangleV.dir/Tree/ImageQuadTreeNode.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Project\QtProject\triangleDomain\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object TriangleVSystem/CMakeFiles/TriangleV.dir/Tree/ImageQuadTreeNode.cpp.obj"
 	cd /d D:\Project\QtProject\triangleDomain\cmake-build-debug\TriangleVSystem && C:\Qt\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TriangleV.dir\Tree\ImageQuadTreeNode.cpp.obj -c D:\Project\QtProject\triangleDomain\TriangleVSystem\Tree\ImageQuadTreeNode.cpp
 
 TriangleVSystem/CMakeFiles/TriangleV.dir/Tree/ImageQuadTreeNode.cpp.i: cmake_force
@@ -147,7 +161,8 @@ TriangleVSystem/CMakeFiles/TriangleV.dir/Tree/ImageQuadTreeNode.cpp.s: cmake_for
 
 # Object files for target TriangleV
 TriangleV_OBJECTS = \
-"CMakeFiles/TriangleV.dir/FileUtil.cpp.obj" \
+"CMakeFiles/TriangleV.dir/ImageTriangleVUtil.cpp.obj" \
+"CMakeFiles/TriangleV.dir/PublicUtil.cpp.obj" \
 "CMakeFiles/TriangleV.dir/TriangleVUtil.cpp.obj" \
 "CMakeFiles/TriangleV.dir/Tree/CalculateData.cpp.obj" \
 "CMakeFiles/TriangleV.dir/Tree/ImageQuadTree.cpp.obj" \
@@ -156,14 +171,15 @@ TriangleV_OBJECTS = \
 # External object files for target TriangleV
 TriangleV_EXTERNAL_OBJECTS =
 
-TriangleVSystem/libTriangleV.a: TriangleVSystem/CMakeFiles/TriangleV.dir/FileUtil.cpp.obj
+TriangleVSystem/libTriangleV.a: TriangleVSystem/CMakeFiles/TriangleV.dir/ImageTriangleVUtil.cpp.obj
+TriangleVSystem/libTriangleV.a: TriangleVSystem/CMakeFiles/TriangleV.dir/PublicUtil.cpp.obj
 TriangleVSystem/libTriangleV.a: TriangleVSystem/CMakeFiles/TriangleV.dir/TriangleVUtil.cpp.obj
 TriangleVSystem/libTriangleV.a: TriangleVSystem/CMakeFiles/TriangleV.dir/Tree/CalculateData.cpp.obj
 TriangleVSystem/libTriangleV.a: TriangleVSystem/CMakeFiles/TriangleV.dir/Tree/ImageQuadTree.cpp.obj
 TriangleVSystem/libTriangleV.a: TriangleVSystem/CMakeFiles/TriangleV.dir/Tree/ImageQuadTreeNode.cpp.obj
 TriangleVSystem/libTriangleV.a: TriangleVSystem/CMakeFiles/TriangleV.dir/build.make
 TriangleVSystem/libTriangleV.a: TriangleVSystem/CMakeFiles/TriangleV.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Project\QtProject\triangleDomain\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library libTriangleV.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Project\QtProject\triangleDomain\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX static library libTriangleV.a"
 	cd /d D:\Project\QtProject\triangleDomain\cmake-build-debug\TriangleVSystem && $(CMAKE_COMMAND) -P CMakeFiles\TriangleV.dir\cmake_clean_target.cmake
 	cd /d D:\Project\QtProject\triangleDomain\cmake-build-debug\TriangleVSystem && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\TriangleV.dir\link.txt --verbose=$(VERBOSE)
 

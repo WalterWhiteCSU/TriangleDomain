@@ -19,6 +19,7 @@ namespace TriangleV {
     class ImageQuadTree {
     public:
         ImageQuadTreeNode *tree;
+        int layer;
 
         ImageQuadTree();
 
@@ -26,7 +27,10 @@ namespace TriangleV {
 
         /*   通过数据列表得到图像的四叉树   */
         ImageQuadTree &
-        getAncestorImageQuadTreeByList(std::vector<CalculateData> dataList, TriangleDomain::Triangle triangle);
+        getAncestorImageQuadTreeByList(std::vector<CalculateData *> dataList, TriangleDomain::Triangle triangle);
+
+        /*   得到图像四叉树的层次遍历   */
+        std::vector<ImageQuadTreeNode *> levelOrder();
 
     private:
     };

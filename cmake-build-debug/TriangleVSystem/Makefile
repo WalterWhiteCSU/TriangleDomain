@@ -143,32 +143,59 @@ TriangleV/fast:
 	cd /d D:\Project\QtProject\triangleDomain\cmake-build-debug && $(MAKE) $(MAKESILENT) -f TriangleVSystem\CMakeFiles\TriangleV.dir\build.make TriangleVSystem/CMakeFiles/TriangleV.dir/build
 .PHONY : TriangleV/fast
 
-FileUtil.obj: FileUtil.cpp.obj
+ImageTriangleVUtil.obj: ImageTriangleVUtil.cpp.obj
 
-.PHONY : FileUtil.obj
+.PHONY : ImageTriangleVUtil.obj
 
 # target to build an object file
-FileUtil.cpp.obj:
-	cd /d D:\Project\QtProject\triangleDomain\cmake-build-debug && $(MAKE) $(MAKESILENT) -f TriangleVSystem\CMakeFiles\TriangleV.dir\build.make TriangleVSystem/CMakeFiles/TriangleV.dir/FileUtil.cpp.obj
-.PHONY : FileUtil.cpp.obj
+ImageTriangleVUtil.cpp.obj:
+	cd /d D:\Project\QtProject\triangleDomain\cmake-build-debug && $(MAKE) $(MAKESILENT) -f TriangleVSystem\CMakeFiles\TriangleV.dir\build.make TriangleVSystem/CMakeFiles/TriangleV.dir/ImageTriangleVUtil.cpp.obj
+.PHONY : ImageTriangleVUtil.cpp.obj
 
-FileUtil.i: FileUtil.cpp.i
+ImageTriangleVUtil.i: ImageTriangleVUtil.cpp.i
 
-.PHONY : FileUtil.i
+.PHONY : ImageTriangleVUtil.i
 
 # target to preprocess a source file
-FileUtil.cpp.i:
-	cd /d D:\Project\QtProject\triangleDomain\cmake-build-debug && $(MAKE) $(MAKESILENT) -f TriangleVSystem\CMakeFiles\TriangleV.dir\build.make TriangleVSystem/CMakeFiles/TriangleV.dir/FileUtil.cpp.i
-.PHONY : FileUtil.cpp.i
+ImageTriangleVUtil.cpp.i:
+	cd /d D:\Project\QtProject\triangleDomain\cmake-build-debug && $(MAKE) $(MAKESILENT) -f TriangleVSystem\CMakeFiles\TriangleV.dir\build.make TriangleVSystem/CMakeFiles/TriangleV.dir/ImageTriangleVUtil.cpp.i
+.PHONY : ImageTriangleVUtil.cpp.i
 
-FileUtil.s: FileUtil.cpp.s
+ImageTriangleVUtil.s: ImageTriangleVUtil.cpp.s
 
-.PHONY : FileUtil.s
+.PHONY : ImageTriangleVUtil.s
 
 # target to generate assembly for a file
-FileUtil.cpp.s:
-	cd /d D:\Project\QtProject\triangleDomain\cmake-build-debug && $(MAKE) $(MAKESILENT) -f TriangleVSystem\CMakeFiles\TriangleV.dir\build.make TriangleVSystem/CMakeFiles/TriangleV.dir/FileUtil.cpp.s
-.PHONY : FileUtil.cpp.s
+ImageTriangleVUtil.cpp.s:
+	cd /d D:\Project\QtProject\triangleDomain\cmake-build-debug && $(MAKE) $(MAKESILENT) -f TriangleVSystem\CMakeFiles\TriangleV.dir\build.make TriangleVSystem/CMakeFiles/TriangleV.dir/ImageTriangleVUtil.cpp.s
+.PHONY : ImageTriangleVUtil.cpp.s
+
+PublicUtil.obj: PublicUtil.cpp.obj
+
+.PHONY : PublicUtil.obj
+
+# target to build an object file
+PublicUtil.cpp.obj:
+	cd /d D:\Project\QtProject\triangleDomain\cmake-build-debug && $(MAKE) $(MAKESILENT) -f TriangleVSystem\CMakeFiles\TriangleV.dir\build.make TriangleVSystem/CMakeFiles/TriangleV.dir/PublicUtil.cpp.obj
+.PHONY : PublicUtil.cpp.obj
+
+PublicUtil.i: PublicUtil.cpp.i
+
+.PHONY : PublicUtil.i
+
+# target to preprocess a source file
+PublicUtil.cpp.i:
+	cd /d D:\Project\QtProject\triangleDomain\cmake-build-debug && $(MAKE) $(MAKESILENT) -f TriangleVSystem\CMakeFiles\TriangleV.dir\build.make TriangleVSystem/CMakeFiles/TriangleV.dir/PublicUtil.cpp.i
+.PHONY : PublicUtil.cpp.i
+
+PublicUtil.s: PublicUtil.cpp.s
+
+.PHONY : PublicUtil.s
+
+# target to generate assembly for a file
+PublicUtil.cpp.s:
+	cd /d D:\Project\QtProject\triangleDomain\cmake-build-debug && $(MAKE) $(MAKESILENT) -f TriangleVSystem\CMakeFiles\TriangleV.dir\build.make TriangleVSystem/CMakeFiles/TriangleV.dir/PublicUtil.cpp.s
+.PHONY : PublicUtil.cpp.s
 
 Tree/CalculateData.obj: Tree/CalculateData.cpp.obj
 
@@ -287,9 +314,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... TriangleV
-	@echo ... FileUtil.obj
-	@echo ... FileUtil.i
-	@echo ... FileUtil.s
+	@echo ... ImageTriangleVUtil.obj
+	@echo ... ImageTriangleVUtil.i
+	@echo ... ImageTriangleVUtil.s
+	@echo ... PublicUtil.obj
+	@echo ... PublicUtil.i
+	@echo ... PublicUtil.s
 	@echo ... Tree/CalculateData.obj
 	@echo ... Tree/CalculateData.i
 	@echo ... Tree/CalculateData.s

@@ -17,6 +17,7 @@
 #define TRIANGLEDOMAIN_AREAPOINT_H
 
 #include <ostream>
+#include <Eigen/Dense>
 
 namespace TriangleDomain {
 
@@ -64,6 +65,11 @@ namespace TriangleDomain {
             os << "u: " << point.u << " v: " << point.v << " w: " << point.w;
             return os;
         }
+
+    public:
+        Eigen::VectorXf GetVector();
+
+        static AreaPoint *GetAreaPointByVector(Eigen::VectorXf vector);
     };
 }
 

@@ -23,7 +23,8 @@ namespace TriangleV {
     }
 
 
-    ImageQuadTreeNode::ImageQuadTreeNode(const std::vector<CalculateData> &dataList, TriangleDomain::Triangle *triangle,
+    ImageQuadTreeNode::ImageQuadTreeNode(const std::vector<CalculateData *> &dataList,
+                                         TriangleDomain::Triangle *triangle,
                                          const std::string &id, int layer) {
         this->dataList = dataList;
         this->triangle = new TriangleDomain::Triangle(*triangle);
@@ -36,10 +37,14 @@ namespace TriangleV {
         this->child2 = nullptr;
         this->child3 = nullptr;
         this->child4 = nullptr;
+
+        SetTriangleAreaCoordinate(*triangle);
     }
 
-    ImageQuadTreeNode::ImageQuadTreeNode(const std::vector<CalculateData> &dataList, TriangleDomain::Triangle *triangle,
-                                         const std::string &id, int layer, ImageQuadTreeNode *parent) {
+    ImageQuadTreeNode::ImageQuadTreeNode(const std::vector<CalculateData *> &dataList,
+                                         TriangleDomain::Triangle *triangle,
+                                         const std::string &id, int layer, ImageQuadTreeNode *parent,
+                                         TriangleDomain::Triangle &originTriangle) {
         this->dataList = dataList;
         this->triangle = new TriangleDomain::Triangle(*triangle);
         this->id = id;
@@ -51,9 +56,12 @@ namespace TriangleV {
         this->child2 = nullptr;
         this->child3 = nullptr;
         this->child4 = nullptr;
+
+        SetTriangleAreaCoordinate(originTriangle);
     }
 
-    ImageQuadTreeNode::ImageQuadTreeNode(const std::vector<CalculateData> &dataList, TriangleDomain::Triangle *triangle,
+    ImageQuadTreeNode::ImageQuadTreeNode(const std::vector<CalculateData *> &dataList,
+                                         TriangleDomain::Triangle *triangle,
                                          const std::string &id, int layer, ImageQuadTreeNode *child1,
                                          ImageQuadTreeNode *child2, ImageQuadTreeNode *child3,
                                          ImageQuadTreeNode *child4, ImageQuadTreeNode *parent,
@@ -82,12 +90,10 @@ namespace TriangleV {
     ImageQuadTreeNode::~ImageQuadTreeNode() {
         delete this->triangle;
 
-        delete this->child1;
-        delete this->child2;
-        delete this->child3;
-        delete this->child4;
-
-        delete this->parent;
+        this->child1 = nullptr;
+        this->child2 = nullptr;
+        this->child3 = nullptr;
+        this->child4 = nullptr;
     }
 
     ImageQuadTreeNode &ImageQuadTreeNode::operator=(const ImageQuadTreeNode &rhs) {
@@ -102,6 +108,19 @@ namespace TriangleV {
             this->child4 = rhs.child4;
             this->parent = rhs.parent;
         }
+
+        return *this;
+    }
+
+    void ImageQuadTreeNode::SetTriangleAreaCoordinate(const TriangleDomain::Triangle &originTriangle) {
+        this->triangleAreaPoint.clear();
+
+        auto a = PublicUtil::GetAreaCoordinateByTriangle(originTriangle, *this->triangle->getVertexA());
+        auto b = PublicUtil::GetAreaCoordinateByTriangle(originTriangle, *this->triangle->getVertexB());
+        auto c = PublicUtil::GetAreaCoordinateByTriangle(originTriangle, *this->triangle->getVertexC());
+        this->triangleAreaPoint.push_back(a);
+        this->triangleAreaPoint.push_back(b);
+        this->triangleAreaPoint.push_back(c);
     }
 
 

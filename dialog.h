@@ -6,8 +6,12 @@
 #define TRIANGLEDOMAIN_DIALOG_H
 
 #include <QWidget>
-
 #include "mainwindow.h"
+#include "include/FileUtil.h"
+#include "include/TriangulationUtil.h"
+
+#include "include/ImageTriangleVUtil.h"
+#include "include/TriangleVUtil.h"
 
 
 QT_BEGIN_NAMESPACE

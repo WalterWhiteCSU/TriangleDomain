@@ -24,15 +24,14 @@ void Dialog::on_bernsteinBtn_clicked() {
         delete this->workWidget;
     }
     this->workWidget = work;
-     this->workWidget->show();
+    this->workWidget->show();
 }
 
 void Dialog::on_vSystemBtn_clicked() {
-    MainWindow *work = new MainWindow();
-    if (this->workWidget != nullptr) {
-        delete this->workWidget;
-    }
-    this->workWidget = work;
-    this->workWidget->show();
+    auto tree = TriangleV::ImageTriangleVUtil::TriangleV(
+            "D:\\Project\\QtProject\\triangleDomain\\Images\\Lena.png");
+    TriangleV::TriangleVUtil::TriangleVFitting(tree[0]);
+    TriangleV::TriangleVUtil::TriangleVFitting(tree[1]);
+    std::cout << "test" << std::endl;
 }
 
