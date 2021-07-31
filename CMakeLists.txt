@@ -22,7 +22,7 @@ set(Opencv_LIBS opencv_core opencv_imgproc opencv_highgui opencv_imgcodecs)
 include_directories(include/eigen-3.3.9)
 
 # 当前目录下的文件
-set(SRC_LIST main.cpp mainwindow.cpp mainwindow.h mainwindow.ui dialog.cpp dialog.h dialog.ui InfoManager.h TriangleService.h)
+set(SRC_LIST main.cpp mainwindow.cpp mainwindow.h mainwindow.ui dialog.cpp dialog.h dialog.ui InfoManager.h TriangleService.h TestService.cpp TestService.h trianglevwindow.cpp trianglevwindow.h trianglevwindow.ui)
 
 # 添加子目录
 add_subdirectory(./TriangleSection)

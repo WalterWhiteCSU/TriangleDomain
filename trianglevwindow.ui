@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TriangleVWindow</class>
+ <widget class="QWidget" name="TriangleVWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1507</width>
+    <height>904</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>TriangleVWindow</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QWidget" name="function_widget" native="true">
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>50</height>
+      </size>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QCommandLinkButton" name="bernstein_fitting_btn">
+        <property name="text">
+         <string>Bernstein Fitting</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCommandLinkButton" name="triangle_v_base_function_btn">
+        <property name="text">
+         <string>Triangle V System Base Function</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCommandLinkButton" name="triangle_v_image_processing_btn">
+        <property name="text">
+         <string>Triangle V System Image Processing</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QWidget" name="work_widget" native="true"/>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

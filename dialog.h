@@ -12,6 +12,7 @@
 
 #include "include/ImageTriangleVUtil.h"
 #include "include/TriangleVUtil.h"
+#include "TestService.h"
 
 
 QT_BEGIN_NAMESPACE

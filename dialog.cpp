@@ -28,10 +28,10 @@ void Dialog::on_bernsteinBtn_clicked() {
 }
 
 void Dialog::on_vSystemBtn_clicked() {
-    auto tree = TriangleV::ImageTriangleVUtil::TriangleV(
-            "D:\\Project\\QtProject\\triangleDomain\\Images\\Lena.png");
-    TriangleV::TriangleVUtil::TriangleVFitting(tree[0]);
-    TriangleV::TriangleVUtil::TriangleVFitting(tree[1]);
+    //  图像三角域V系统拟合测试
+    auto tree = TriangleV::TestService::ImageQuadTreeFittingTest();
+
+    auto testImage = TriangleV::TestService::FirstGroupOfTriangleVTest();
     std::cout << "test" << std::endl;
 }
 

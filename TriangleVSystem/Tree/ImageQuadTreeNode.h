@@ -35,6 +35,8 @@ namespace TriangleV {
         int layer;
         //  每个三角形的参数（拟合系数）
         std::vector<float> parameterList;
+        //  标记是否为叶子节点
+        bool isLeafNode;
 
         //  孩子节点
         ImageQuadTreeNode *child1;

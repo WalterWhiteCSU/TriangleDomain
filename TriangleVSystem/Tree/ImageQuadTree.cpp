@@ -67,16 +67,16 @@ namespace TriangleV {
             ImageQuadTreeNode *model = nodeQueue.front();
             res.push_back(model);
 
-            if (model->child1 != nullptr) {
+            if (model->child1 != nullptr && !model->child1->isLeafNode) {
                 nodeQueue.push(model->child1);
             }
-            if (model->child2 != nullptr) {
+            if (model->child2 != nullptr && !model->child2->isLeafNode) {
                 nodeQueue.push(model->child2);
             }
-            if (model->child3 != nullptr) {
+            if (model->child3 != nullptr && !model->child3->isLeafNode) {
                 nodeQueue.push(model->child3);
             }
-            if (model->child4 != nullptr) {
+            if (model->child4 != nullptr && !model->child4->isLeafNode) {
                 nodeQueue.push(model->child4);
             }
 

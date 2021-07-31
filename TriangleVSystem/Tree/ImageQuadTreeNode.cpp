@@ -39,6 +39,8 @@ namespace TriangleV {
         this->child4 = nullptr;
 
         SetTriangleAreaCoordinate(*triangle);
+
+        this->isLeafNode = false;
     }
 
     ImageQuadTreeNode::ImageQuadTreeNode(const std::vector<CalculateData *> &dataList,
@@ -58,6 +60,8 @@ namespace TriangleV {
         this->child4 = nullptr;
 
         SetTriangleAreaCoordinate(originTriangle);
+
+        this->isLeafNode = false;
     }
 
     ImageQuadTreeNode::ImageQuadTreeNode(const std::vector<CalculateData *> &dataList,
@@ -85,6 +89,7 @@ namespace TriangleV {
         this->child3 = rhs.child3;
         this->child4 = rhs.child4;
         this->parent = rhs.parent;
+        this->isLeafNode = rhs.isLeafNode;
     }
 
     ImageQuadTreeNode::~ImageQuadTreeNode() {
@@ -107,6 +112,7 @@ namespace TriangleV {
             this->child3 = rhs.child3;
             this->child4 = rhs.child4;
             this->parent = rhs.parent;
+            this->isLeafNode = rhs.isLeafNode;
         }
 
         return *this;

@@ -4,10 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "D:/Project/QtProject/triangleDomain/TestService.cpp" "D:/Project/QtProject/triangleDomain/cmake-build-debug/CMakeFiles/triangleDomain.dir/TestService.cpp.obj"
   "D:/Project/QtProject/triangleDomain/dialog.cpp" "D:/Project/QtProject/triangleDomain/cmake-build-debug/CMakeFiles/triangleDomain.dir/dialog.cpp.obj"
   "D:/Project/QtProject/triangleDomain/main.cpp" "D:/Project/QtProject/triangleDomain/cmake-build-debug/CMakeFiles/triangleDomain.dir/main.cpp.obj"
   "D:/Project/QtProject/triangleDomain/mainwindow.cpp" "D:/Project/QtProject/triangleDomain/cmake-build-debug/CMakeFiles/triangleDomain.dir/mainwindow.cpp.obj"
   "D:/Project/QtProject/triangleDomain/cmake-build-debug/triangleDomain_autogen/mocs_compilation.cpp" "D:/Project/QtProject/triangleDomain/cmake-build-debug/CMakeFiles/triangleDomain.dir/triangleDomain_autogen/mocs_compilation.cpp.obj"
+  "D:/Project/QtProject/triangleDomain/trianglevwindow.cpp" "D:/Project/QtProject/triangleDomain/cmake-build-debug/CMakeFiles/triangleDomain.dir/trianglevwindow.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

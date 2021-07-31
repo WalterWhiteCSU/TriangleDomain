@@ -233,6 +233,4 @@ namespace TriangleDomain {
         delete AB;
         return res;
     }
-
-
 }

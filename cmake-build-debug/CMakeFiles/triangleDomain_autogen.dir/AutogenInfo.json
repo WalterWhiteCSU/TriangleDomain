@@ -189,6 +189,11 @@
 			"EWIEGA46WW/moc_InfoManager.cpp"
 		],
 		[
+			"D:/Project/QtProject/triangleDomain/TestService.h",
+			"MU",
+			"EWIEGA46WW/moc_TestService.cpp"
+		],
+		[
 			"D:/Project/QtProject/triangleDomain/TriangleService.h",
 			"MU",
 			"EWIEGA46WW/moc_TriangleService.cpp"
@@ -202,6 +207,11 @@
 			"D:/Project/QtProject/triangleDomain/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp"
+		],
+		[
+			"D:/Project/QtProject/triangleDomain/trianglevwindow.h",
+			"MU",
+			"EWIEGA46WW/moc_trianglevwindow.cpp"
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
@@ -269,9 +279,11 @@
 	"SETTINGS_FILE" : "D:/Project/QtProject/triangleDomain/cmake-build-debug/CMakeFiles/triangleDomain_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[ "D:/Project/QtProject/triangleDomain/TestService.cpp", "MU" ],
 		[ "D:/Project/QtProject/triangleDomain/dialog.cpp", "MU" ],
 		[ "D:/Project/QtProject/triangleDomain/main.cpp", "MU" ],
-		[ "D:/Project/QtProject/triangleDomain/mainwindow.cpp", "MU" ]
+		[ "D:/Project/QtProject/triangleDomain/mainwindow.cpp", "MU" ],
+		[ "D:/Project/QtProject/triangleDomain/trianglevwindow.cpp", "MU" ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

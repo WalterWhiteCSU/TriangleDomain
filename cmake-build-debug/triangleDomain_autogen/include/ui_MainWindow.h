@@ -25,9 +25,11 @@ QT_BEGIN_NAMESPACE
 class Ui_MainWindow
 {
 public:
-    QHBoxLayout *horizontalLayout;
-    QLabel *OriginalImage;
+    QVBoxLayout *verticalLayout_6;
+    QWidget *widget;
+    QHBoxLayout *horizontalLayout_2;
     QLabel *ReconstructionImage;
+    QLabel *OriginalImage;
     QWidget *controlWidget;
     QVBoxLayout *verticalLayout;
     QWidget *infoWidget;
@@ -47,6 +49,8 @@ public:
     QLineEdit *permitError;
     QPushButton *startBtn;
     QPushButton *changeBtn;
+    QWidget *widget_2;
+    QVBoxLayout *verticalLayout_7;
     QTextBrowser *infoBox;
 
     void setupUi(QWidget *MainWindow)
@@ -55,9 +59,24 @@ public:
             MainWindow->setObjectName(QString::fromUtf8("MainWindow"));
         MainWindow->resize(1537, 847);
         MainWindow->setStyleSheet(QString::fromUtf8("background-color: rgb(197, 197, 197)"));
-        horizontalLayout = new QHBoxLayout(MainWindow);
-        horizontalLayout->setObjectName(QString::fromUtf8("horizontalLayout"));
-        OriginalImage = new QLabel(MainWindow);
+        verticalLayout_6 = new QVBoxLayout(MainWindow);
+        verticalLayout_6->setObjectName(QString::fromUtf8("verticalLayout_6"));
+        widget = new QWidget(MainWindow);
+        widget->setObjectName(QString::fromUtf8("widget"));
+        horizontalLayout_2 = new QHBoxLayout(widget);
+        horizontalLayout_2->setObjectName(QString::fromUtf8("horizontalLayout_2"));
+        ReconstructionImage = new QLabel(widget);
+        ReconstructionImage->setObjectName(QString::fromUtf8("ReconstructionImage"));
+        ReconstructionImage->setStyleSheet(QString::fromUtf8("background-color: rgb(212, 212, 212);\n"
+"\n"
+"border-radius: 25px;\n"
+"border-width: 3px;\n"
+"border-style: solid;\n"
+"border-color:rgb(16, 16, 16);"));
+
+        horizontalLayout_2->addWidget(ReconstructionImage);
+
+        OriginalImage = new QLabel(widget);
         OriginalImage->setObjectName(QString::fromUtf8("OriginalImage"));
         OriginalImage->setStyleSheet(QString::fromUtf8("background-color: rgb(212, 212, 212);\n"
 "\n"
@@ -67,20 +86,9 @@ public:
 "border-style: solid;\n"
 "border-color:rgb(16, 16, 16);"));
 
-        horizontalLayout->addWidget(OriginalImage);
+        horizontalLayout_2->addWidget(OriginalImage);
 
-        ReconstructionImage = new QLabel(MainWindow);
-        ReconstructionImage->setObjectName(QString::fromUtf8("ReconstructionImage"));
-        ReconstructionImage->setStyleSheet(QString::fromUtf8("background-color: rgb(212, 212, 212);\n"
-"\n"
-"border-radius: 25px;\n"
-"border-width: 3px;\n"
-"border-style: solid;\n"
-"border-color:rgb(16, 16, 16);"));
-
-        horizontalLayout->addWidget(ReconstructionImage);
-
-        controlWidget = new QWidget(MainWindow);
+        controlWidget = new QWidget(widget);
         controlWidget->setObjectName(QString::fromUtf8("controlWidget"));
         controlWidget->setMaximumSize(QSize(409, 16777215));
         verticalLayout = new QVBoxLayout(controlWidget);
@@ -110,6 +118,7 @@ public:
 
         systemTypeWidget = new QWidget(infoWidget);
         systemTypeWidget->setObjectName(QString::fromUtf8("systemTypeWidget"));
+        systemTypeWidget->setMaximumSize(QSize(16777215, 50));
         verticalLayout_2 = new QVBoxLayout(systemTypeWidget);
         verticalLayout_2->setObjectName(QString::fromUtf8("verticalLayout_2"));
         triangulationBtn = new QRadioButton(systemTypeWidget);
@@ -127,6 +136,7 @@ public:
 
         systemTimesWidget = new QWidget(infoWidget);
         systemTimesWidget->setObjectName(QString::fromUtf8("systemTimesWidget"));
+        systemTimesWidget->setMaximumSize(QSize(16777215, 50));
         verticalLayout_3 = new QVBoxLayout(systemTimesWidget);
         verticalLayout_3->setObjectName(QString::fromUtf8("verticalLayout_3"));
         linearBtn = new QRadioButton(systemTimesWidget);
@@ -144,6 +154,7 @@ public:
 
         errorInputWidget = new QWidget(infoWidget);
         errorInputWidget->setObjectName(QString::fromUtf8("errorInputWidget"));
+        errorInputWidget->setMaximumSize(QSize(16777215, 80));
         verticalLayout_5 = new QVBoxLayout(errorInputWidget);
         verticalLayout_5->setObjectName(QString::fromUtf8("verticalLayout_5"));
         label = new QLabel(errorInputWidget);
@@ -184,7 +195,18 @@ public:
 
         verticalLayout->addWidget(infoWidget);
 
-        infoBox = new QTextBrowser(controlWidget);
+
+        horizontalLayout_2->addWidget(controlWidget);
+
+
+        verticalLayout_6->addWidget(widget);
+
+        widget_2 = new QWidget(MainWindow);
+        widget_2->setObjectName(QString::fromUtf8("widget_2"));
+        widget_2->setMaximumSize(QSize(16777215, 200));
+        verticalLayout_7 = new QVBoxLayout(widget_2);
+        verticalLayout_7->setObjectName(QString::fromUtf8("verticalLayout_7"));
+        infoBox = new QTextBrowser(widget_2);
         infoBox->setObjectName(QString::fromUtf8("infoBox"));
         infoBox->setMaximumSize(QSize(16777215, 500));
         infoBox->setStyleSheet(QString::fromUtf8("background-color:rgb(212, 212, 212);\n"
@@ -195,10 +217,10 @@ public:
 "border-style: solid;\n"
 "border-color:rgb(16, 16, 16);"));
 
-        verticalLayout->addWidget(infoBox);
+        verticalLayout_7->addWidget(infoBox);
 
 
-        horizontalLayout->addWidget(controlWidget);
+        verticalLayout_6->addWidget(widget_2);
 
 
         retranslateUi(MainWindow);
@@ -209,8 +231,8 @@ public:
     void retranslateUi(QWidget *MainWindow)
     {
         MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "MainWindow", nullptr));
-        OriginalImage->setText(QCoreApplication::translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-size:18pt; font-weight:700; font-style:italic;\">The Original Image</span></p></body></html>", nullptr));
         ReconstructionImage->setText(QCoreApplication::translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-size:18pt; font-weight:700; font-style:italic;\">The Reconstructed Image</span></p></body></html>", nullptr));
+        OriginalImage->setText(QCoreApplication::translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-size:18pt; font-weight:700; font-style:italic;\">The Original Image</span></p></body></html>", nullptr));
         readFileBtn->setText(QCoreApplication::translate("MainWindow", "ReadImage", nullptr));
         triangulationBtn->setText(QCoreApplication::translate("MainWindow", "Triangular", nullptr));
         descartesBtn->setText(QCoreApplication::translate("MainWindow", "Descartes", nullptr));

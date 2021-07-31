@@ -1768,6 +1768,20 @@ C:/Qt/6.1.1/mingw81_64/include/QtCore/qrefcount.h
 QtCore/qatomic.h
 -
 
+C:/Qt/6.1.1/mingw81_64/include/QtCore/qregularexpression.h
+QtCore/qglobal.h
+-
+QtCore/qstring.h
+-
+QtCore/qstringview.h
+-
+QtCore/qshareddata.h
+-
+QtCore/qvariant.h
+-
+iterator
+-
+
 C:/Qt/6.1.1/mingw81_64/include/QtCore/qscopedpointer.h
 QtCore/qglobal.h
 -
@@ -2057,6 +2071,10 @@ stdlib.h
 C:/Qt/6.1.1/mingw81_64/include/QtCore/qversiontagging.h
 QtCore/qglobal.h
 -
+
+C:/Qt/6.1.1/mingw81_64/include/QtGui/QIntValidator
+qvalidator.h
+C:/Qt/6.1.1/mingw81_64/include/QtGui/qvalidator.h
 
 C:/Qt/6.1.1/mingw81_64/include/QtGui/QTransform
 qtransform.h
@@ -2456,6 +2474,18 @@ QtCore/qpoint.h
 QtCore/qrect.h
 -
 
+C:/Qt/6.1.1/mingw81_64/include/QtGui/qvalidator.h
+QtGui/qtguiglobal.h
+-
+QtCore/qobject.h
+-
+QtCore/qstring.h
+-
+QtCore/qregularexpression.h
+-
+QtCore/qlocale.h
+-
+
 C:/Qt/6.1.1/mingw81_64/include/QtGui/qvector2d.h
 QtGui/qvectornd.h
 -
@@ -2494,6 +2524,10 @@ C:/Qt/6.1.1/mingw81_64/include/QtWidgets/QButtonGroup
 qbuttongroup.h
 C:/Qt/6.1.1/mingw81_64/include/QtWidgets/qbuttongroup.h
 
+C:/Qt/6.1.1/mingw81_64/include/QtWidgets/QCommandLinkButton
+qcommandlinkbutton.h
+C:/Qt/6.1.1/mingw81_64/include/QtWidgets/qcommandlinkbutton.h
+
 C:/Qt/6.1.1/mingw81_64/include/QtWidgets/QFileDialog
 qfiledialog.h
 C:/Qt/6.1.1/mingw81_64/include/QtWidgets/qfiledialog.h
@@ -2506,6 +2540,10 @@ C:/Qt/6.1.1/mingw81_64/include/QtWidgets/QLabel
 qlabel.h
 C:/Qt/6.1.1/mingw81_64/include/QtWidgets/qlabel.h
 
+C:/Qt/6.1.1/mingw81_64/include/QtWidgets/QLineEdit
+qlineedit.h
+C:/Qt/6.1.1/mingw81_64/include/QtWidgets/qlineedit.h
+
 C:/Qt/6.1.1/mingw81_64/include/QtWidgets/QMessageBox
 qmessagebox.h
 C:/Qt/6.1.1/mingw81_64/include/QtWidgets/qmessagebox.h
@@ -2514,9 +2552,17 @@ C:/Qt/6.1.1/mingw81_64/include/QtWidgets/QPushButton
 qpushbutton.h
 C:/Qt/6.1.1/mingw81_64/include/QtWidgets/qpushbutton.h
 
+C:/Qt/6.1.1/mingw81_64/include/QtWidgets/QRadioButton
+qradiobutton.h
+C:/Qt/6.1.1/mingw81_64/include/QtWidgets/qradiobutton.h
+
 C:/Qt/6.1.1/mingw81_64/include/QtWidgets/QTextBrowser
 qtextbrowser.h
 C:/Qt/6.1.1/mingw81_64/include/QtWidgets/qtextbrowser.h
+
+C:/Qt/6.1.1/mingw81_64/include/QtWidgets/QVBoxLayout
+qboxlayout.h
+C:/Qt/6.1.1/mingw81_64/include/QtWidgets/qboxlayout.h
 
 C:/Qt/6.1.1/mingw81_64/include/QtWidgets/QWidget
 qwidget.h
@@ -2568,6 +2614,12 @@ C:/Qt/6.1.1/mingw81_64/include/QtWidgets/qbuttongroup.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtCore/qobject.h
+-
+
+C:/Qt/6.1.1/mingw81_64/include/QtWidgets/qcommandlinkbutton.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtWidgets/qpushbutton.h
 -
 
 C:/Qt/6.1.1/mingw81_64/include/QtWidgets/qdialog.h
@@ -2646,6 +2698,18 @@ QtCore/qrect.h
 limits.h
 -
 
+C:/Qt/6.1.1/mingw81_64/include/QtWidgets/qlineedit.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtWidgets/qframe.h
+-
+QtGui/qtextcursor.h
+-
+QtCore/qstring.h
+-
+QtCore/qmargins.h
+-
+
 C:/Qt/6.1.1/mingw81_64/include/QtWidgets/qmessagebox.h
 QtWidgets/qtwidgetsglobal.h
 -
@@ -2653,6 +2717,12 @@ QtWidgets/qdialog.h
 -
 
 C:/Qt/6.1.1/mingw81_64/include/QtWidgets/qpushbutton.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtWidgets/qabstractbutton.h
+-
+
+C:/Qt/6.1.1/mingw81_64/include/QtWidgets/qradiobutton.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qabstractbutton.h
@@ -3178,6 +3248,22 @@ D:/Project/QtProject/triangleDomain/InfoManager.h
 include/SamplingData.h
 D:/Project/QtProject/triangleDomain/include/SamplingData.h
 
+D:/Project/QtProject/triangleDomain/TestService.h
+vector
+-
+include/ImageQuadTree.h
+D:/Project/QtProject/triangleDomain/include/ImageQuadTree.h
+include/ImageTriangleVUtil.h
+D:/Project/QtProject/triangleDomain/include/ImageTriangleVUtil.h
+include/TriangleVUtil.h
+D:/Project/QtProject/triangleDomain/include/TriangleVUtil.h
+include/Triangle.h
+D:/Project/QtProject/triangleDomain/include/Triangle.h
+include/AreaPoint.h
+D:/Project/QtProject/triangleDomain/include/AreaPoint.h
+include/SamplingData.h
+D:/Project/QtProject/triangleDomain/include/SamplingData.h
+
 D:/Project/QtProject/triangleDomain/TriangleSection/Entity/AreaCoordinateSamplingData.h
 vector
 -
@@ -3388,17 +3474,25 @@ QtCore/qbytearray.h
 QtCore/qmetatype.h
 -
 
+D:/Project/QtProject/triangleDomain/cmake-build-debug/triangleDomain_autogen/EWIEGA46WW/moc_trianglevwindow.cpp
+memory
+-
+../../../trianglevwindow.h
+D:/Project/QtProject/triangleDomain/trianglevwindow.h
+QtGui/qtextcursor.h
+-
+QtCore/qbytearray.h
+-
+QtCore/qmetatype.h
+-
+
 D:/Project/QtProject/triangleDomain/cmake-build-debug/triangleDomain_autogen/mocs_compilation.cpp
 EWIEGA46WW/moc_dialog.cpp
 D:/Project/QtProject/triangleDomain/cmake-build-debug/triangleDomain_autogen/EWIEGA46WW/moc_dialog.cpp
 EWIEGA46WW/moc_mainwindow.cpp
 D:/Project/QtProject/triangleDomain/cmake-build-debug/triangleDomain_autogen/EWIEGA46WW/moc_mainwindow.cpp
-
-D:/Project/QtProject/triangleDomain/dialog.cpp
-dialog.h
-D:/Project/QtProject/triangleDomain/dialog.h
-ui_Dialog.h
-D:/Project/QtProject/triangleDomain/ui_Dialog.h
+EWIEGA46WW/moc_trianglevwindow.cpp
+D:/Project/QtProject/triangleDomain/cmake-build-debug/triangleDomain_autogen/EWIEGA46WW/moc_trianglevwindow.cpp
 
 D:/Project/QtProject/triangleDomain/dialog.h
 QWidget
@@ -3413,6 +3507,8 @@ include/ImageTriangleVUtil.h
 D:/Project/QtProject/triangleDomain/include/ImageTriangleVUtil.h
 include/TriangleVUtil.h
 D:/Project/QtProject/triangleDomain/include/TriangleVUtil.h
+TestService.h
+D:/Project/QtProject/triangleDomain/TestService.h
 
 D:/Project/QtProject/triangleDomain/include/AreaPoint.h
 ../TriangleSection/Entity/AreaPoint.h
@@ -3422,13 +3518,13 @@ D:/Project/QtProject/triangleDomain/include/FileUtil.h
 ../TriangleSection/Util/FileUtil.h
 D:/Project/QtProject/triangleDomain/TriangleSection/Util/FileUtil.h
 
+D:/Project/QtProject/triangleDomain/include/ImageQuadTree.h
+../TriangleVSystem/Tree/ImageQuadTree.h
+D:/Project/QtProject/triangleDomain/TriangleVSystem/Tree/ImageQuadTree.h
+
 D:/Project/QtProject/triangleDomain/include/ImageTriangleVUtil.h
 ../TriangleVSystem/ImageTriangleVUtil.h
 D:/Project/QtProject/triangleDomain/TriangleVSystem/ImageTriangleVUtil.h
-
-D:/Project/QtProject/triangleDomain/include/PublicUtil.h
-../TriangleVSystem/PublicUtil.h
-D:/Project/QtProject/triangleDomain/TriangleVSystem/PublicUtil.h
 
 D:/Project/QtProject/triangleDomain/include/ReconstructionUtil.h
 ../TriangleSection/Util/ReconstructionUtil.h
@@ -3450,15 +3546,13 @@ D:/Project/QtProject/triangleDomain/include/TriangulationUtil.h
 ../TriangleSection/Util/TriangulationUtil.h
 D:/Project/QtProject/triangleDomain/TriangleSection/Util/TriangulationUtil.h
 
-D:/Project/QtProject/triangleDomain/main.cpp
-QApplication
+D:/Project/QtProject/triangleDomain/mainwindow.cpp
+QIntValidator
 -
-QPushButton
--
-dialog.h
-D:/Project/QtProject/triangleDomain/dialog.h
-include/PublicUtil.h
-D:/Project/QtProject/triangleDomain/include/PublicUtil.h
+mainwindow.h
+D:/Project/QtProject/triangleDomain/mainwindow.h
+ui_MainWindow.h
+D:/Project/QtProject/triangleDomain/ui_MainWindow.h
 
 D:/Project/QtProject/triangleDomain/mainwindow.h
 QWidget
@@ -3486,14 +3580,50 @@ D:/Project/QtProject/triangleDomain/InfoManager.h
 TriangleService.h
 D:/Project/QtProject/triangleDomain/TriangleService.h
 
-triangleDomain_autogen/include/ui_Dialog.h
+D:/Project/QtProject/triangleDomain/trianglevwindow.cpp
+trianglevwindow.h
+D:/Project/QtProject/triangleDomain/trianglevwindow.h
+ui_TriangleVWindow.h
+D:/Project/QtProject/triangleDomain/ui_TriangleVWindow.h
+
+D:/Project/QtProject/triangleDomain/trianglevwindow.h
+QWidget
+-
+mainwindow.h
+D:/Project/QtProject/triangleDomain/mainwindow.h
+
+triangleDomain_autogen/include/ui_MainWindow.h
 QtCore/QVariant
 -
 QtWidgets/QApplication
 -
 QtWidgets/QHBoxLayout
 -
+QtWidgets/QLabel
+-
+QtWidgets/QLineEdit
+-
 QtWidgets/QPushButton
+-
+QtWidgets/QRadioButton
+-
+QtWidgets/QTextBrowser
+-
+QtWidgets/QVBoxLayout
+-
+QtWidgets/QWidget
+-
+
+triangleDomain_autogen/include/ui_TriangleVWindow.h
+QtCore/QVariant
+-
+QtWidgets/QApplication
+-
+QtWidgets/QCommandLinkButton
+-
+QtWidgets/QHBoxLayout
+-
+QtWidgets/QVBoxLayout
 -
 QtWidgets/QWidget
 -

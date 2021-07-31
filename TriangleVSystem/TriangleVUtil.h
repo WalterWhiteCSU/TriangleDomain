@@ -62,7 +62,7 @@ namespace TriangleV {
          *          void                            空
          *
          * */
-        static void FirstV(std::vector<CalculateData *> &data, Eigen::MatrixXf &matrix);
+        static std::vector<std::vector<float>> FirstV(std::vector<CalculateData *> &data);
 
         /*
          * 三角域V系统生成元

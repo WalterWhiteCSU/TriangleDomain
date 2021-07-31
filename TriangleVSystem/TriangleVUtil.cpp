@@ -24,21 +24,18 @@ namespace TriangleV {
         Eigen::MatrixXf vMatrix = GetVMatrix(totalData, nodeList, imageQuadTree->layer);
 
         //  将Y赋值为为每个像素点的灰度值
-        Eigen::VectorXf valueVec = Eigen::VectorXf::Ones(totalData.size());
+        Eigen::VectorXf valueVec = Eigen::VectorXf::Zero(totalData.size());
         for (int i = 0; i < totalData.size(); ++i) {
             valueVec(i) = totalData[i]->data->getValue();
         }
 
         //  通过最小二乘解得拟合系数
-        clock_t start, end;
-        start = clock();
         std::cout << "Start solve Equations" << std::endl;
 //        Eigen::VectorXf coefficientVec = (vMatrix.transpose() * vMatrix).inverse() * vMatrix.transpose() * valueVec;
         Eigen::VectorXf coefficientVec = vMatrix.colPivHouseholderQr().solve(valueVec);
-        std::cout << "Equation solved" << std::endl;
-        end = clock();
+//        Eigen::VectorXf coefficientVec = vMatrix.householderQr().solve(valueVec);
 
-        std::cout << "time: " << double(end - start) / CLOCKS_PER_SEC << std::endl;
+        std::cout << "Equation solved" << std::endl;
 
         //  为每个四叉树的节点中的拟合系数赋值
         //  先为祖先节点赋值、为12个
@@ -62,11 +59,14 @@ namespace TriangleV {
         Eigen::MatrixXf vMatrix = Eigen::MatrixXf::Zero(row, col);
 
         //  第一组V系统
-        FirstV(totalData, vMatrix);
-
+        std::vector<std::vector<float>> firstVector = FirstV(totalData);
         //  计算第二组V系统
         std::vector<std::vector<float>> basicGenerate = GenerateV(totalData, 1);
         for (int i = 0; i < row; ++i) {
+            vMatrix(i, 0) = firstVector[i][0];
+            vMatrix(i, 1) = firstVector[i][1];
+            vMatrix(i, 2) = firstVector[i][2];
+
             vMatrix(i, 3) = basicGenerate[i][0];
             vMatrix(i, 4) = basicGenerate[i][1];
             vMatrix(i, 5) = basicGenerate[i][2];
@@ -91,6 +91,7 @@ namespace TriangleV {
 
             //  得到当前节点中的所有取值
             auto localGenerate = GenerateV(affineData, pow(2, layer - 1));
+//           auto localGenerate = GenerateV(affineData, 1);
             //  为矩阵赋值
             SetMatrixValueByAffineList(vMatrix, localGenerate, totalData, nodeList[i]->triangle,
                                        currentMatrixColCount);
@@ -100,17 +101,22 @@ namespace TriangleV {
         return vMatrix;
     }
 
-    void TriangleVUtil::FirstV(std::vector<CalculateData *> &data, Eigen::MatrixXf &matrix) {
+    std::vector<std::vector<float>> TriangleVUtil::FirstV(std::vector<CalculateData *> &data) {
+        std::vector<std::vector<float>> res;
 
         for (int i = 0; i < data.size(); ++i) {
             float u = data[i]->areaPoint->getU();
             float v = data[i]->areaPoint->getV();
 
-            matrix(i, 0) = sqrt(2.0f);
-            matrix(i, 1) = 6.0f * u - 2.0f;
-            matrix(i, 2) = 2.0f * sqrt(3.0f) * (u + 2 * v - 1);
+            std::vector<float> model;
+            model.push_back(sqrt(2.0f));
+            model.push_back(6.0f * u - 2.0f);
+            model.push_back(2.0f * sqrt(3.0f) * (u + 2 * v - 1));
+
+            res.push_back(model);
         }
 
+        return res;
     }
 
     std::vector<std::vector<float>>
@@ -274,8 +280,8 @@ namespace TriangleV {
         float u3 = node->triangleAreaPoint[2]->getU();
         float v3 = node->triangleAreaPoint[2]->getV();
         float w3 = node->triangleAreaPoint[2]->getW();
-        coordinateMatrix(2, 2) = u3;
-        coordinateMatrix(2, 2) = v3;
+        coordinateMatrix(0, 2) = u3;
+        coordinateMatrix(1, 2) = v3;
         coordinateMatrix(2, 2) = w3;
 
         //  求得仿射矩阵

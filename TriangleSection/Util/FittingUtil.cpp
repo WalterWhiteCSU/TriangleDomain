@@ -228,6 +228,4 @@ namespace TriangleDomain {
         result /= PointList.size();
         return result;
     }
-
-
 }

@@ -193,6 +193,33 @@ TriangleV/fast:
 	$(MAKE) $(MAKESILENT) -f TriangleVSystem\CMakeFiles\TriangleV.dir\build.make TriangleVSystem/CMakeFiles/TriangleV.dir/build
 .PHONY : TriangleV/fast
 
+TestService.obj: TestService.cpp.obj
+
+.PHONY : TestService.obj
+
+# target to build an object file
+TestService.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\triangleDomain.dir\build.make CMakeFiles/triangleDomain.dir/TestService.cpp.obj
+.PHONY : TestService.cpp.obj
+
+TestService.i: TestService.cpp.i
+
+.PHONY : TestService.i
+
+# target to preprocess a source file
+TestService.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\triangleDomain.dir\build.make CMakeFiles/triangleDomain.dir/TestService.cpp.i
+.PHONY : TestService.cpp.i
+
+TestService.s: TestService.cpp.s
+
+.PHONY : TestService.s
+
+# target to generate assembly for a file
+TestService.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\triangleDomain.dir\build.make CMakeFiles/triangleDomain.dir/TestService.cpp.s
+.PHONY : TestService.cpp.s
+
 dialog.obj: dialog.cpp.obj
 
 .PHONY : dialog.obj
@@ -301,6 +328,33 @@ triangleDomain_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\triangleDomain.dir\build.make CMakeFiles/triangleDomain.dir/triangleDomain_autogen/mocs_compilation.cpp.s
 .PHONY : triangleDomain_autogen/mocs_compilation.cpp.s
 
+trianglevwindow.obj: trianglevwindow.cpp.obj
+
+.PHONY : trianglevwindow.obj
+
+# target to build an object file
+trianglevwindow.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\triangleDomain.dir\build.make CMakeFiles/triangleDomain.dir/trianglevwindow.cpp.obj
+.PHONY : trianglevwindow.cpp.obj
+
+trianglevwindow.i: trianglevwindow.cpp.i
+
+.PHONY : trianglevwindow.i
+
+# target to preprocess a source file
+trianglevwindow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\triangleDomain.dir\build.make CMakeFiles/triangleDomain.dir/trianglevwindow.cpp.i
+.PHONY : trianglevwindow.cpp.i
+
+trianglevwindow.s: trianglevwindow.cpp.s
+
+.PHONY : trianglevwindow.s
+
+# target to generate assembly for a file
+trianglevwindow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\triangleDomain.dir\build.make CMakeFiles/triangleDomain.dir/trianglevwindow.cpp.s
+.PHONY : trianglevwindow.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -314,6 +368,9 @@ help:
 	@echo ... TriangleDomainUtil
 	@echo ... TriangleV
 	@echo ... triangleDomain
+	@echo ... TestService.obj
+	@echo ... TestService.i
+	@echo ... TestService.s
 	@echo ... dialog.obj
 	@echo ... dialog.i
 	@echo ... dialog.s
@@ -326,6 +383,9 @@ help:
 	@echo ... triangleDomain_autogen/mocs_compilation.obj
 	@echo ... triangleDomain_autogen/mocs_compilation.i
 	@echo ... triangleDomain_autogen/mocs_compilation.s
+	@echo ... trianglevwindow.obj
+	@echo ... trianglevwindow.i
+	@echo ... trianglevwindow.s
 .PHONY : help
 
 

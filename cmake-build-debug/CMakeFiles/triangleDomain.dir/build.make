@@ -131,12 +131,42 @@ CMakeFiles/triangleDomain.dir/dialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/triangleDomain.dir/dialog.cpp.s"
 	C:\Qt\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Project\QtProject\triangleDomain\dialog.cpp -o CMakeFiles\triangleDomain.dir\dialog.cpp.s
 
+CMakeFiles/triangleDomain.dir/TestService.cpp.obj: CMakeFiles/triangleDomain.dir/flags.make
+CMakeFiles/triangleDomain.dir/TestService.cpp.obj: CMakeFiles/triangleDomain.dir/includes_CXX.rsp
+CMakeFiles/triangleDomain.dir/TestService.cpp.obj: ../TestService.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Project\QtProject\triangleDomain\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/triangleDomain.dir/TestService.cpp.obj"
+	C:\Qt\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\triangleDomain.dir\TestService.cpp.obj -c D:\Project\QtProject\triangleDomain\TestService.cpp
+
+CMakeFiles/triangleDomain.dir/TestService.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/triangleDomain.dir/TestService.cpp.i"
+	C:\Qt\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Project\QtProject\triangleDomain\TestService.cpp > CMakeFiles\triangleDomain.dir\TestService.cpp.i
+
+CMakeFiles/triangleDomain.dir/TestService.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/triangleDomain.dir/TestService.cpp.s"
+	C:\Qt\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Project\QtProject\triangleDomain\TestService.cpp -o CMakeFiles\triangleDomain.dir\TestService.cpp.s
+
+CMakeFiles/triangleDomain.dir/trianglevwindow.cpp.obj: CMakeFiles/triangleDomain.dir/flags.make
+CMakeFiles/triangleDomain.dir/trianglevwindow.cpp.obj: CMakeFiles/triangleDomain.dir/includes_CXX.rsp
+CMakeFiles/triangleDomain.dir/trianglevwindow.cpp.obj: ../trianglevwindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Project\QtProject\triangleDomain\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/triangleDomain.dir/trianglevwindow.cpp.obj"
+	C:\Qt\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\triangleDomain.dir\trianglevwindow.cpp.obj -c D:\Project\QtProject\triangleDomain\trianglevwindow.cpp
+
+CMakeFiles/triangleDomain.dir/trianglevwindow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/triangleDomain.dir/trianglevwindow.cpp.i"
+	C:\Qt\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Project\QtProject\triangleDomain\trianglevwindow.cpp > CMakeFiles\triangleDomain.dir\trianglevwindow.cpp.i
+
+CMakeFiles/triangleDomain.dir/trianglevwindow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/triangleDomain.dir/trianglevwindow.cpp.s"
+	C:\Qt\Tools\mingw810_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Project\QtProject\triangleDomain\trianglevwindow.cpp -o CMakeFiles\triangleDomain.dir\trianglevwindow.cpp.s
+
 # Object files for target triangleDomain
 triangleDomain_OBJECTS = \
 "CMakeFiles/triangleDomain.dir/triangleDomain_autogen/mocs_compilation.cpp.obj" \
 "CMakeFiles/triangleDomain.dir/main.cpp.obj" \
 "CMakeFiles/triangleDomain.dir/mainwindow.cpp.obj" \
-"CMakeFiles/triangleDomain.dir/dialog.cpp.obj"
+"CMakeFiles/triangleDomain.dir/dialog.cpp.obj" \
+"CMakeFiles/triangleDomain.dir/TestService.cpp.obj" \
+"CMakeFiles/triangleDomain.dir/trianglevwindow.cpp.obj"
 
 # External object files for target triangleDomain
 triangleDomain_EXTERNAL_OBJECTS =
@@ -145,6 +175,8 @@ triangleDomain.exe: CMakeFiles/triangleDomain.dir/triangleDomain_autogen/mocs_co
 triangleDomain.exe: CMakeFiles/triangleDomain.dir/main.cpp.obj
 triangleDomain.exe: CMakeFiles/triangleDomain.dir/mainwindow.cpp.obj
 triangleDomain.exe: CMakeFiles/triangleDomain.dir/dialog.cpp.obj
+triangleDomain.exe: CMakeFiles/triangleDomain.dir/TestService.cpp.obj
+triangleDomain.exe: CMakeFiles/triangleDomain.dir/trianglevwindow.cpp.obj
 triangleDomain.exe: CMakeFiles/triangleDomain.dir/build.make
 triangleDomain.exe: D:/CPPRepo/opencv3.1/opencv/Qt-build/install/x64/mingw/lib/libopencv_highgui310.dll.a
 triangleDomain.exe: TriangleSection/Util/libTriangleDomainUtil.a
@@ -159,7 +191,7 @@ triangleDomain.exe: C:/Qt/6.1.1/mingw81_64/lib/libQt6Core.a
 triangleDomain.exe: CMakeFiles/triangleDomain.dir/linklibs.rsp
 triangleDomain.exe: CMakeFiles/triangleDomain.dir/objects1.rsp
 triangleDomain.exe: CMakeFiles/triangleDomain.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Project\QtProject\triangleDomain\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable triangleDomain.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Project\QtProject\triangleDomain\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable triangleDomain.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\triangleDomain.dir\link.txt --verbose=$(VERBOSE)
 	C:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory D:/Project/QtProject/triangleDomain/cmake-build-debug/plugins/platforms/
 	C:\Qt\Tools\CMake_64\bin\cmake.exe -E copy C:/Qt/6.1.1/mingw81_64/plugins/platforms/qwindows.dll D:/Project/QtProject/triangleDomain/cmake-build-debug/plugins/platforms/

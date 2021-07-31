@@ -277,6 +277,12 @@
 		<Unit filename="D:/Project/QtProject/triangleDomain/InfoManager.h">
 			<Option target="triangleDomain"/>
 		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/TestService.cpp">
+			<Option target="triangleDomain"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/TestService.h">
+			<Option target="triangleDomain"/>
+		</Unit>
 		<Unit filename="D:/Project/QtProject/triangleDomain/TriangleSection/Entity/AreaCoordinateSamplingData.cpp">
 			<Option target="TriangleDomainEntity"/>
 		</Unit>
@@ -416,6 +422,15 @@
 			<Option target="triangleDomain"/>
 		</Unit>
 		<Unit filename="D:/Project/QtProject/triangleDomain/mainwindow.ui">
+			<Option target="triangleDomain"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/trianglevwindow.cpp">
+			<Option target="triangleDomain"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/trianglevwindow.h">
+			<Option target="triangleDomain"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/trianglevwindow.ui">
 			<Option target="triangleDomain"/>
 		</Unit>
 		<Unit filename="D:/Project/QtProject/triangleDomain/CMakeLists.txt">
