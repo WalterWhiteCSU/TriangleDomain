@@ -10,18 +10,24 @@
 **********************************************************************************/
 
 #include "TestService.h"
+#include <opencv2/opencv.hpp>
+
 
 namespace TriangleV {
-    std::vector<ImageQuadTree *> TestService::ImageQuadTreeFittingTest() {
+    std::vector<ImageQuadTree *> TestService::ImageQuadTreeFittingTest(std::string imagePath) {
+        //  显示图像
+        cv::Mat img = cv::imread("D:\\Project\\QtProject\\triangleDomain\\Images\\Lena16.png", 0);
+        cv::imshow("origin", img);
+
         std::vector<ImageQuadTree *> tree = TriangleV::ImageTriangleVUtil::TriangleV(
-                "D:\\Project\\QtProject\\triangleDomain\\Images\\Lena64.png");
+                imagePath);
         TriangleV::TriangleVUtil::TriangleVFitting(tree[0]);
         TriangleV::TriangleVUtil::TriangleVFitting(tree[1]);
 
         return tree;
     }
 
-    std::vector<std::vector<std::vector<float>>> TestService::FirstGroupOfTriangleVTest() {
+    std::vector<std::vector<TriangleDomain::SamplingData>> TestService::FirstGroupOfTriangleVTest() {
         //  设置图像
         std::vector<std::vector<CalculateData *>> image;
         for (int i = 0; i < 512; ++i) {
@@ -62,17 +68,32 @@ namespace TriangleV {
 
         /// TODO
         //  为输出的每个像素点赋值（每个点的值 9个）
-        std::vector<std::vector<std::vector<float>>> res;
-        for (int i = 0; i < 512; ++i) {
-            std::vector<std::vector<float>> temp;
-            for (int j = 0; j < 512; ++j) {
-                std::vector<float> single(9);
-                temp.push_back(single);
+        std::vector<std::vector<TriangleDomain::SamplingData>> res;
+        for (size_t i = 0; i < selectedPoint.size(); i++) {
+            std::vector<TriangleDomain::SamplingData> pointList;
+
+            for (auto value: firstGroupV[i]) {
+                TriangleDomain::SamplingData model;
+                model.setPoint(selectedPoint[i]->data->getPoint());
+                model.setValue(value);
+                pointList.push_back(model);
             }
-            res.push_back(temp);
+
+            for (auto value: secondGroupV[i]) {
+                TriangleDomain::SamplingData model;
+                model.setPoint(selectedPoint[i]->data->getPoint());
+                model.setValue(value);
+                pointList.push_back(model);
+            }
+            res.push_back(pointList);
         }
-
-
         return res;
     }
+
+    void TestService::ShowRecontructedImage(std::string imagePath, std::vector<ImageQuadTree *> imageTree) {
+        //  读取原始图像
+        std::vector<std::vector<TriangleDomain::SamplingData>> image = TriangleDomain::FileUtil::ReadImage(
+                std::move(imagePath));
+    }
+
 }

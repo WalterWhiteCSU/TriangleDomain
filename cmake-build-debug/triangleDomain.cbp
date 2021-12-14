@@ -307,6 +307,12 @@
 		<Unit filename="D:/Project/QtProject/triangleDomain/TriangleSection/Entity/DescartesCoordinateSamplingData.h">
 			<Option target="TriangleDomainEntity"/>
 		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/TriangleSection/Entity/FittingInfo.cpp">
+			<Option target="TriangleDomainEntity"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/TriangleSection/Entity/FittingInfo.h">
+			<Option target="TriangleDomainEntity"/>
+		</Unit>
 		<Unit filename="D:/Project/QtProject/triangleDomain/TriangleSection/Entity/Point.cpp">
 			<Option target="TriangleDomainEntity"/>
 		</Unit>
@@ -410,6 +416,9 @@
 			<Option target="triangleDomain"/>
 		</Unit>
 		<Unit filename="D:/Project/QtProject/triangleDomain/dialog.ui">
+			<Option target="triangleDomain"/>
+		</Unit>
+		<Unit filename="D:/Project/QtProject/triangleDomain/include/FittingInfo.h">
 			<Option target="triangleDomain"/>
 		</Unit>
 		<Unit filename="D:/Project/QtProject/triangleDomain/main.cpp">

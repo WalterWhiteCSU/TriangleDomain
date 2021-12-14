@@ -204,6 +204,11 @@
 			"EWIEGA46WW/moc_dialog.cpp"
 		],
 		[
+			"D:/Project/QtProject/triangleDomain/include/FittingInfo.h",
+			"MU",
+			"6YEA5652QU/moc_FittingInfo.cpp"
+		],
+		[
 			"D:/Project/QtProject/triangleDomain/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp"

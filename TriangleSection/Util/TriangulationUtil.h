@@ -18,6 +18,7 @@
 #include "../Entity/Triangle.h"
 #include "../Entity/AreaCoordinateSamplingData.h"
 #include "../Entity/DescartesCoordinateSamplingData.h"
+#include "../Entity/FittingInfo.h"
 #include "FittingUtil.h"
 #include "ReconstructionUtil.h"
 
@@ -43,7 +44,8 @@ namespace TriangleDomain {
         static std::vector<AreaCoordinateSamplingData *>
         AreaCoordinateSelectPoint(const Triangle triangle,
                                   std::vector<AreaCoordinateSamplingData *> &AreaCoordinateData,
-                                  int triangleNumber, int fittingType, float permitError);
+                                  int triangleNumber, int fittingType, float permitError,
+                                  std::vector<FittingInfo> &fittingInfoList);
 
         /*
          * 直角坐标下的三角剖分拟合
@@ -64,7 +66,7 @@ namespace TriangleDomain {
         static std::vector<DescartesCoordinateSamplingData *>
         DescartesCoordinateSelectPoint(const Triangle triangle,
                                        std::vector<DescartesCoordinateSamplingData *> &DescartesCoordinateData,
-                                       int triangleNumber, int fittingType, float permitError);
+                                       int triangleNumber, int fittingType, float permitError,std::vector<FittingInfo> &fittingInfoList);
 
         /*
          * 获得初始的三角形
@@ -120,7 +122,7 @@ namespace TriangleDomain {
          * */
         static std::vector<std::vector<std::vector<SamplingData>>>
         AreaCoordinateTriangulation(const std::vector<std::vector<SamplingData>> &image, int fittingType,
-                                    float permitError);
+                                    float permitError, std::vector<FittingInfo> &fittingInfoList);
 
         /*
          * 直角坐标下的三角剖分
@@ -129,6 +131,7 @@ namespace TriangleDomain {
          *          image:                  图片数据
          *          fittingType:            拟合类型
          *          permitError:            允许误差
+         *          fittingInfoList:        拟合信息
          *
          *      @Return:
          *          vector<vector<vector<SamplingData>>>
@@ -137,7 +140,7 @@ namespace TriangleDomain {
          * */
         static std::vector<std::vector<std::vector<SamplingData>>>
         DescartesCoordinatesTriangulation(const std::vector<std::vector<SamplingData>> &image, int fittingType,
-                                          float permitError);
+                                          float permitError,std::vector<FittingInfo> &fittingInfoList);
 
         /*
          * 判断数据点是否在三角形边缘

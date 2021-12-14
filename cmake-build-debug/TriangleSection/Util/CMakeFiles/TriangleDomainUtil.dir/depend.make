@@ -262,6 +262,7 @@ TriangleSection/Util/CMakeFiles/TriangleDomainUtil.dir/FileUtil.cpp.obj: D:/CPPR
 TriangleSection/Util/CMakeFiles/TriangleDomainUtil.dir/FileUtil.cpp.obj: ../TriangleSection/Entity/AreaCoordinateSamplingData.h
 TriangleSection/Util/CMakeFiles/TriangleDomainUtil.dir/FileUtil.cpp.obj: ../TriangleSection/Entity/AreaPoint.h
 TriangleSection/Util/CMakeFiles/TriangleDomainUtil.dir/FileUtil.cpp.obj: ../TriangleSection/Entity/DescartesCoordinateSamplingData.h
+TriangleSection/Util/CMakeFiles/TriangleDomainUtil.dir/FileUtil.cpp.obj: ../TriangleSection/Entity/FittingInfo.h
 TriangleSection/Util/CMakeFiles/TriangleDomainUtil.dir/FileUtil.cpp.obj: ../TriangleSection/Entity/Point.h
 TriangleSection/Util/CMakeFiles/TriangleDomainUtil.dir/FileUtil.cpp.obj: ../TriangleSection/Entity/SamplingData.h
 TriangleSection/Util/CMakeFiles/TriangleDomainUtil.dir/FileUtil.cpp.obj: ../TriangleSection/Entity/Triangle.h
@@ -1126,6 +1127,7 @@ TriangleSection/Util/CMakeFiles/TriangleDomainUtil.dir/TriangulationUtil.cpp.obj
 TriangleSection/Util/CMakeFiles/TriangleDomainUtil.dir/TriangulationUtil.cpp.obj: ../TriangleSection/Entity/AreaCoordinateSamplingData.h
 TriangleSection/Util/CMakeFiles/TriangleDomainUtil.dir/TriangulationUtil.cpp.obj: ../TriangleSection/Entity/AreaPoint.h
 TriangleSection/Util/CMakeFiles/TriangleDomainUtil.dir/TriangulationUtil.cpp.obj: ../TriangleSection/Entity/DescartesCoordinateSamplingData.h
+TriangleSection/Util/CMakeFiles/TriangleDomainUtil.dir/TriangulationUtil.cpp.obj: ../TriangleSection/Entity/FittingInfo.h
 TriangleSection/Util/CMakeFiles/TriangleDomainUtil.dir/TriangulationUtil.cpp.obj: ../TriangleSection/Entity/Point.h
 TriangleSection/Util/CMakeFiles/TriangleDomainUtil.dir/TriangulationUtil.cpp.obj: ../TriangleSection/Entity/SamplingData.h
 TriangleSection/Util/CMakeFiles/TriangleDomainUtil.dir/TriangulationUtil.cpp.obj: ../TriangleSection/Entity/Triangle.h

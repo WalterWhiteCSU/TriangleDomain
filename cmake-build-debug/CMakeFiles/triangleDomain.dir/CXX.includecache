@@ -3248,6 +3248,12 @@ D:/Project/QtProject/triangleDomain/InfoManager.h
 include/SamplingData.h
 D:/Project/QtProject/triangleDomain/include/SamplingData.h
 
+D:/Project/QtProject/triangleDomain/TestService.cpp
+TestService.h
+D:/Project/QtProject/triangleDomain/TestService.h
+opencv2/opencv.hpp
+-
+
 D:/Project/QtProject/triangleDomain/TestService.h
 vector
 -
@@ -3292,6 +3298,18 @@ D:/Project/QtProject/triangleDomain/TriangleSection/Entity/SamplingData.h
 Triangle.h
 D:/Project/QtProject/triangleDomain/TriangleSection/Entity/Triangle.h
 
+D:/Project/QtProject/triangleDomain/TriangleSection/Entity/FittingInfo.h
+vector
+-
+Point.h
+D:/Project/QtProject/triangleDomain/TriangleSection/Entity/Point.h
+AreaPoint.h
+D:/Project/QtProject/triangleDomain/TriangleSection/Entity/AreaPoint.h
+AreaCoordinateSamplingData.h
+D:/Project/QtProject/triangleDomain/TriangleSection/Entity/AreaCoordinateSamplingData.h
+DescartesCoordinateSamplingData.h
+D:/Project/QtProject/triangleDomain/TriangleSection/Entity/DescartesCoordinateSamplingData.h
+
 D:/Project/QtProject/triangleDomain/TriangleSection/Entity/Point.h
 ostream
 -
@@ -3325,11 +3343,7 @@ vector
 -
 iostream
 -
-opencv2/core.hpp
--
-opencv2/imgcodecs.hpp
--
-opencv2/highgui.hpp
+opencv2/opencv.hpp
 -
 ../Entity/SamplingData.h
 D:/Project/QtProject/triangleDomain/TriangleSection/Entity/SamplingData.h
@@ -3337,6 +3351,8 @@ D:/Project/QtProject/triangleDomain/TriangleSection/Entity/SamplingData.h
 D:/Project/QtProject/triangleDomain/TriangleSection/Entity/AreaCoordinateSamplingData.h
 ../Entity/DescartesCoordinateSamplingData.h
 D:/Project/QtProject/triangleDomain/TriangleSection/Entity/DescartesCoordinateSamplingData.h
+../Entity/FittingInfo.h
+D:/Project/QtProject/triangleDomain/TriangleSection/Entity/FittingInfo.h
 
 D:/Project/QtProject/triangleDomain/TriangleSection/Util/FittingUtil.h
 ../Entity/AreaCoordinateSamplingData.h
@@ -3369,6 +3385,8 @@ D:/Project/QtProject/triangleDomain/TriangleSection/Entity/Triangle.h
 D:/Project/QtProject/triangleDomain/TriangleSection/Entity/AreaCoordinateSamplingData.h
 ../Entity/DescartesCoordinateSamplingData.h
 D:/Project/QtProject/triangleDomain/TriangleSection/Entity/DescartesCoordinateSamplingData.h
+../Entity/FittingInfo.h
+D:/Project/QtProject/triangleDomain/TriangleSection/Entity/FittingInfo.h
 FittingUtil.h
 D:/Project/QtProject/triangleDomain/TriangleSection/Util/FittingUtil.h
 ReconstructionUtil.h
@@ -3381,6 +3399,8 @@ include/TriangulationUtil.h
 D:/Project/QtProject/triangleDomain/include/TriangulationUtil.h
 include/ReconstructionUtil.h
 D:/Project/QtProject/triangleDomain/include/ReconstructionUtil.h
+include/FittingInfo.h
+D:/Project/QtProject/triangleDomain/include/FittingInfo.h
 
 D:/Project/QtProject/triangleDomain/TriangleVSystem/ImageTriangleVUtil.h
 vector
@@ -3494,6 +3514,12 @@ D:/Project/QtProject/triangleDomain/cmake-build-debug/triangleDomain_autogen/EWI
 EWIEGA46WW/moc_trianglevwindow.cpp
 D:/Project/QtProject/triangleDomain/cmake-build-debug/triangleDomain_autogen/EWIEGA46WW/moc_trianglevwindow.cpp
 
+D:/Project/QtProject/triangleDomain/dialog.cpp
+dialog.h
+D:/Project/QtProject/triangleDomain/dialog.h
+ui_Dialog.h
+D:/Project/QtProject/triangleDomain/ui_Dialog.h
+
 D:/Project/QtProject/triangleDomain/dialog.h
 QWidget
 -
@@ -3518,6 +3544,10 @@ D:/Project/QtProject/triangleDomain/include/FileUtil.h
 ../TriangleSection/Util/FileUtil.h
 D:/Project/QtProject/triangleDomain/TriangleSection/Util/FileUtil.h
 
+D:/Project/QtProject/triangleDomain/include/FittingInfo.h
+../TriangleSection/Entity/FittingInfo.h
+D:/Project/QtProject/triangleDomain/TriangleSection/Entity/FittingInfo.h
+
 D:/Project/QtProject/triangleDomain/include/ImageQuadTree.h
 ../TriangleVSystem/Tree/ImageQuadTree.h
 D:/Project/QtProject/triangleDomain/TriangleVSystem/Tree/ImageQuadTree.h
@@ -3525,6 +3555,10 @@ D:/Project/QtProject/triangleDomain/TriangleVSystem/Tree/ImageQuadTree.h
 D:/Project/QtProject/triangleDomain/include/ImageTriangleVUtil.h
 ../TriangleVSystem/ImageTriangleVUtil.h
 D:/Project/QtProject/triangleDomain/TriangleVSystem/ImageTriangleVUtil.h
+
+D:/Project/QtProject/triangleDomain/include/PublicUtil.h
+../TriangleVSystem/PublicUtil.h
+D:/Project/QtProject/triangleDomain/TriangleVSystem/PublicUtil.h
 
 D:/Project/QtProject/triangleDomain/include/ReconstructionUtil.h
 ../TriangleSection/Util/ReconstructionUtil.h
@@ -3545,6 +3579,16 @@ D:/Project/QtProject/triangleDomain/TriangleVSystem/TriangleVUtil.h
 D:/Project/QtProject/triangleDomain/include/TriangulationUtil.h
 ../TriangleSection/Util/TriangulationUtil.h
 D:/Project/QtProject/triangleDomain/TriangleSection/Util/TriangulationUtil.h
+
+D:/Project/QtProject/triangleDomain/main.cpp
+QApplication
+-
+QPushButton
+-
+dialog.h
+D:/Project/QtProject/triangleDomain/dialog.h
+include/PublicUtil.h
+D:/Project/QtProject/triangleDomain/include/PublicUtil.h
 
 D:/Project/QtProject/triangleDomain/mainwindow.cpp
 QIntValidator
@@ -3591,6 +3635,18 @@ QWidget
 -
 mainwindow.h
 D:/Project/QtProject/triangleDomain/mainwindow.h
+
+triangleDomain_autogen/include/ui_Dialog.h
+QtCore/QVariant
+-
+QtWidgets/QApplication
+-
+QtWidgets/QHBoxLayout
+-
+QtWidgets/QPushButton
+-
+QtWidgets/QWidget
+-
 
 triangleDomain_autogen/include/ui_MainWindow.h
 QtCore/QVariant

@@ -15,7 +15,7 @@ MainWindow::MainWindow(QWidget *parent) :
 
     //  初始化ButtonGroup
     this->domainGroup = new QButtonGroup(this);
-    domainGroup->addButton(this->ui->triangulationBtn, 1);
+    domainGroup->addButton(this ->ui->triangulationBtn, 1);
     domainGroup->addButton(this->ui->descartesBtn, 2);
     //  设置默认选中
     ui->triangulationBtn->setChecked(true);

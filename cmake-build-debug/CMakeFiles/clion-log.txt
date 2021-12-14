@@ -4,6 +4,10 @@ C:\Qt\Tools\CMake_64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Min
 -- OpenCV STATIC: ON
 -- Found OpenCV 3.1.0 in D:/CPPRepo/opencv3.1/opencv/Qt-build/install/x64/mingw/lib
 -- You might need to add D:/CPPRepo/opencv3.1/opencv/Qt-build/install/x64/mingw/bin to your PATH to be able to run your applications.
+-- OpenCV library status:
+--     version: 3.1.0
+--     libraries: opencv_videostab;opencv_videoio;opencv_video;opencv_superres;opencv_stitching;opencv_shape;opencv_photo;opencv_objdetect;opencv_ml;opencv_imgproc;opencv_imgcodecs;opencv_highgui;opencv_flann;opencv_features2d;opencv_core;opencv_calib3d
+--     include path: D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include;D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv
 -- Could NOT find Vulkan (missing: Vulkan_LIBRARY Vulkan_INCLUDE_DIR) 
 -- Configuring done
 CMake Warning (dev) in TriangleSection/Entity/CMakeLists.txt:

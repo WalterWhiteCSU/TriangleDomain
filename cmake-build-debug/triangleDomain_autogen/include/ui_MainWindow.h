@@ -28,8 +28,8 @@ public:
     QVBoxLayout *verticalLayout_6;
     QWidget *widget;
     QHBoxLayout *horizontalLayout_2;
-    QLabel *ReconstructionImage;
     QLabel *OriginalImage;
+    QLabel *ReconstructionImage;
     QWidget *controlWidget;
     QVBoxLayout *verticalLayout;
     QWidget *infoWidget;
@@ -65,17 +65,6 @@ public:
         widget->setObjectName(QString::fromUtf8("widget"));
         horizontalLayout_2 = new QHBoxLayout(widget);
         horizontalLayout_2->setObjectName(QString::fromUtf8("horizontalLayout_2"));
-        ReconstructionImage = new QLabel(widget);
-        ReconstructionImage->setObjectName(QString::fromUtf8("ReconstructionImage"));
-        ReconstructionImage->setStyleSheet(QString::fromUtf8("background-color: rgb(212, 212, 212);\n"
-"\n"
-"border-radius: 25px;\n"
-"border-width: 3px;\n"
-"border-style: solid;\n"
-"border-color:rgb(16, 16, 16);"));
-
-        horizontalLayout_2->addWidget(ReconstructionImage);
-
         OriginalImage = new QLabel(widget);
         OriginalImage->setObjectName(QString::fromUtf8("OriginalImage"));
         OriginalImage->setStyleSheet(QString::fromUtf8("background-color: rgb(212, 212, 212);\n"
@@ -87,6 +76,17 @@ public:
 "border-color:rgb(16, 16, 16);"));
 
         horizontalLayout_2->addWidget(OriginalImage);
+
+        ReconstructionImage = new QLabel(widget);
+        ReconstructionImage->setObjectName(QString::fromUtf8("ReconstructionImage"));
+        ReconstructionImage->setStyleSheet(QString::fromUtf8("background-color: rgb(212, 212, 212);\n"
+"\n"
+"border-radius: 25px;\n"
+"border-width: 3px;\n"
+"border-style: solid;\n"
+"border-color:rgb(16, 16, 16);"));
+
+        horizontalLayout_2->addWidget(ReconstructionImage);
 
         controlWidget = new QWidget(widget);
         controlWidget->setObjectName(QString::fromUtf8("controlWidget"));
@@ -231,8 +231,8 @@ public:
     void retranslateUi(QWidget *MainWindow)
     {
         MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "MainWindow", nullptr));
-        ReconstructionImage->setText(QCoreApplication::translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-size:18pt; font-weight:700; font-style:italic;\">The Reconstructed Image</span></p></body></html>", nullptr));
         OriginalImage->setText(QCoreApplication::translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-size:18pt; font-weight:700; font-style:italic;\">The Original Image</span></p></body></html>", nullptr));
+        ReconstructionImage->setText(QCoreApplication::translate("MainWindow", "<html><head/><body><p align=\"center\"><span style=\" font-size:18pt; font-weight:700; font-style:italic;\">The Reconstructed Image</span></p></body></html>", nullptr));
         readFileBtn->setText(QCoreApplication::translate("MainWindow", "ReadImage", nullptr));
         triangulationBtn->setText(QCoreApplication::translate("MainWindow", "Triangular", nullptr));
         descartesBtn->setText(QCoreApplication::translate("MainWindow", "Descartes", nullptr));

@@ -28,10 +28,12 @@ void Dialog::on_bernsteinBtn_clicked() {
 }
 
 void Dialog::on_vSystemBtn_clicked() {
+    //  图像路径
+    std::string imagePath = "D:\\Project\\QtProject\\triangleDomain\\Images\\Lena64.png";
     //  图像三角域V系统拟合测试
-    auto tree = TriangleV::TestService::ImageQuadTreeFittingTest();
-
-    auto testImage = TriangleV::TestService::FirstGroupOfTriangleVTest();
+    auto tree = TriangleV::TestService::ImageQuadTreeFittingTest(imagePath);
+    //  重建图像
+    TriangleV::TestService::ShowRecontructedImage(imagePath, tree);
     std::cout << "test" << std::endl;
 }
 

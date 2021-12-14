@@ -353,7 +353,10 @@ D:/Project/QtProject/triangleDomain/dialog.h
  mdp:C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/vadefs.h
  mdp:C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/wchar.h
  mdp:C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/wctype.h
+ mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/calib3d.hpp
+ mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/calib3d/calib3d_c.h
  mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/core.hpp
+ mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/core/affine.hpp
  mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/core/base.hpp
  mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/core/bufferpool.hpp
  mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/core/core_c.h
@@ -376,12 +379,28 @@ D:/Project/QtProject/triangleDomain/dialog.h
  mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/core/types_c.h
  mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/core/utility.hpp
  mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/core/version.hpp
+ mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/features2d.hpp
+ mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/flann/config.h
+ mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/flann/defines.h
+ mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/flann/miniflann.hpp
  mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/highgui.hpp
  mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/highgui/highgui_c.h
  mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/imgcodecs.hpp
  mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/imgcodecs/imgcodecs_c.h
+ mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/imgproc.hpp
  mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/imgproc/imgproc_c.h
  mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/imgproc/types_c.h
+ mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/ml.hpp
+ mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/objdetect.hpp
+ mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/objdetect/detection_based_tracker.hpp
+ mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/objdetect/objdetect_c.h
+ mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/opencv.hpp
+ mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/photo.hpp
+ mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/photo/photo_c.h
+ mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/video.hpp
+ mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/video/background_segm.hpp
+ mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/video/tracking.hpp
+ mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/video/tracking_c.h
  mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/videoio.hpp
  mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/videoio/videoio_c.h
  mdp:D:/Project/QtProject/triangleDomain/InfoManager.h
@@ -389,6 +408,7 @@ D:/Project/QtProject/triangleDomain/dialog.h
  mdp:D:/Project/QtProject/triangleDomain/TriangleSection/Entity/AreaCoordinateSamplingData.h
  mdp:D:/Project/QtProject/triangleDomain/TriangleSection/Entity/AreaPoint.h
  mdp:D:/Project/QtProject/triangleDomain/TriangleSection/Entity/DescartesCoordinateSamplingData.h
+ mdp:D:/Project/QtProject/triangleDomain/TriangleSection/Entity/FittingInfo.h
  mdp:D:/Project/QtProject/triangleDomain/TriangleSection/Entity/Point.h
  mdp:D:/Project/QtProject/triangleDomain/TriangleSection/Entity/SamplingData.h
  mdp:D:/Project/QtProject/triangleDomain/TriangleSection/Entity/Triangle.h
@@ -406,6 +426,7 @@ D:/Project/QtProject/triangleDomain/dialog.h
  mdp:D:/Project/QtProject/triangleDomain/TriangleVSystem/TriangleVUtil.h
  mdp:D:/Project/QtProject/triangleDomain/include/AreaPoint.h
  mdp:D:/Project/QtProject/triangleDomain/include/FileUtil.h
+ mdp:D:/Project/QtProject/triangleDomain/include/FittingInfo.h
  mdp:D:/Project/QtProject/triangleDomain/include/ImageQuadTree.h
  mdp:D:/Project/QtProject/triangleDomain/include/ImageTriangleVUtil.h
  mdp:D:/Project/QtProject/triangleDomain/include/ReconstructionUtil.h
@@ -746,6 +767,7 @@ D:/Project/QtProject/triangleDomain/mainwindow.h
  mdp:C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/cpp_type_traits.h
  mdp:C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/cxxabi_forced.h
  mdp:C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/cxxabi_init_exception.h
+ mdp:C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/deque.tcc
  mdp:C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/enable_special_members.h
  mdp:C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/exception.h
  mdp:C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/exception_defines.h
@@ -778,12 +800,14 @@ D:/Project/QtProject/triangleDomain/mainwindow.h
  mdp:C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/shared_ptr_atomic.h
  mdp:C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/shared_ptr_base.h
  mdp:C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/specfun.h
+ mdp:C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/sstream.tcc
  mdp:C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/std_abs.h
  mdp:C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/std_function.h
  mdp:C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_algo.h
  mdp:C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_algobase.h
  mdp:C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_bvector.h
  mdp:C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_construct.h
+ mdp:C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_deque.h
  mdp:C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_function.h
  mdp:C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_heap.h
  mdp:C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_iterator.h
@@ -809,17 +833,24 @@ D:/Project/QtProject/triangleDomain/mainwindow.h
  mdp:C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/unique_ptr.h
  mdp:C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/uses_allocator.h
  mdp:C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/vector.tcc
+ mdp:C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cassert
  mdp:C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cctype
+ mdp:C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cerrno
+ mdp:C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cfloat
+ mdp:C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/climits
  mdp:C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/clocale
  mdp:C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cmath
+ mdp:C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/complex
  mdp:C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstddef
  mdp:C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdint
+ mdp:C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdio
  mdp:C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdlib
  mdp:C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstring
  mdp:C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cwchar
  mdp:C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cwctype
  mdp:C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/debug/assertions.h
  mdp:C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/debug/debug.h
+ mdp:C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/deque
  mdp:C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/exception
  mdp:C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/aligned_buffer.h
  mdp:C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/alloc_traits.h
@@ -839,11 +870,13 @@ D:/Project/QtProject/triangleDomain/mainwindow.h
  mdp:C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/limits
  mdp:C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/list
  mdp:C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/map
+ mdp:C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/math.h
  mdp:C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/memory
  mdp:C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/new
  mdp:C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/numeric
  mdp:C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/optional
  mdp:C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream
+ mdp:C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/sstream
  mdp:C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/stdexcept
  mdp:C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/stdlib.h
  mdp:C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/streambuf
@@ -878,9 +911,15 @@ D:/Project/QtProject/triangleDomain/mainwindow.h
  mdp:C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h
  mdp:C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/gthr.h
  mdp:C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h
+ mdp:C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/emmintrin.h
+ mdp:C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/float.h
+ mdp:C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mm_malloc.h
+ mdp:C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/mmintrin.h
+ mdp:C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/pmmintrin.h
  mdp:C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdarg.h
  mdp:C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stddef.h
  mdp:C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdint.h
+ mdp:C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/xmmintrin.h
  mdp:C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw.h
  mdp:C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_mac.h
  mdp:C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_off_t.h
@@ -914,16 +953,245 @@ D:/Project/QtProject/triangleDomain/mainwindow.h
  mdp:C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/vadefs.h
  mdp:C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/wchar.h
  mdp:C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/wctype.h
+ mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/calib3d.hpp
+ mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/calib3d/calib3d_c.h
+ mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/core.hpp
+ mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/core/affine.hpp
+ mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/core/base.hpp
+ mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/core/bufferpool.hpp
+ mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/core/core_c.h
+ mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/core/cvdef.h
+ mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/core/cvstd.hpp
+ mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/core/cvstd.inl.hpp
+ mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/core/fast_math.hpp
+ mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/core/hal/interface.h
+ mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/core/mat.hpp
+ mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/core/mat.inl.hpp
+ mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/core/matx.hpp
+ mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/core/neon_utils.hpp
+ mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/core/operations.hpp
+ mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/core/optim.hpp
+ mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/core/persistence.hpp
+ mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/core/ptr.inl.hpp
+ mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/core/saturate.hpp
+ mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/core/traits.hpp
+ mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/core/types.hpp
+ mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/core/types_c.h
+ mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/core/utility.hpp
+ mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/core/version.hpp
+ mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/features2d.hpp
+ mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/flann/config.h
+ mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/flann/defines.h
+ mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/flann/miniflann.hpp
+ mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/highgui.hpp
+ mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/highgui/highgui_c.h
+ mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/imgcodecs.hpp
+ mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/imgcodecs/imgcodecs_c.h
+ mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/imgproc.hpp
+ mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/imgproc/imgproc_c.h
+ mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/imgproc/types_c.h
+ mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/ml.hpp
+ mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/objdetect.hpp
+ mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/objdetect/detection_based_tracker.hpp
+ mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/objdetect/objdetect_c.h
+ mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/opencv.hpp
+ mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/photo.hpp
+ mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/photo/photo_c.h
+ mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/video.hpp
+ mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/video/background_segm.hpp
+ mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/video/tracking.hpp
+ mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/video/tracking_c.h
+ mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/videoio.hpp
+ mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/videoio/videoio_c.h
  mdp:D:/Project/QtProject/triangleDomain/InfoManager.h
+ mdp:D:/Project/QtProject/triangleDomain/TriangleSection/Entity/AreaCoordinateSamplingData.h
+ mdp:D:/Project/QtProject/triangleDomain/TriangleSection/Entity/AreaPoint.h
+ mdp:D:/Project/QtProject/triangleDomain/TriangleSection/Entity/DescartesCoordinateSamplingData.h
+ mdp:D:/Project/QtProject/triangleDomain/TriangleSection/Entity/FittingInfo.h
+ mdp:D:/Project/QtProject/triangleDomain/TriangleSection/Entity/Point.h
  mdp:D:/Project/QtProject/triangleDomain/TriangleSection/Entity/SamplingData.h
+ mdp:D:/Project/QtProject/triangleDomain/TriangleSection/Entity/Triangle.h
+ mdp:D:/Project/QtProject/triangleDomain/TriangleSection/Entity/Vector.h
  mdp:D:/Project/QtProject/triangleDomain/TriangleSection/Util/FileUtil.h
+ mdp:D:/Project/QtProject/triangleDomain/TriangleSection/Util/FittingUtil.h
  mdp:D:/Project/QtProject/triangleDomain/TriangleSection/Util/ReconstructionUtil.h
  mdp:D:/Project/QtProject/triangleDomain/TriangleSection/Util/TriangulationUtil.h
  mdp:D:/Project/QtProject/triangleDomain/TriangleService.h
  mdp:D:/Project/QtProject/triangleDomain/include/FileUtil.h
+ mdp:D:/Project/QtProject/triangleDomain/include/FittingInfo.h
  mdp:D:/Project/QtProject/triangleDomain/include/ReconstructionUtil.h
  mdp:D:/Project/QtProject/triangleDomain/include/SamplingData.h
  mdp:D:/Project/QtProject/triangleDomain/include/TriangulationUtil.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/Cholesky
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/Core
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/Dense
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/Eigenvalues
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/Geometry
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/Householder
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/Jacobi
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/LU
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/QR
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/SVD
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Cholesky/LDLT.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Cholesky/LLT.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/Array.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/ArrayBase.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/ArrayWrapper.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/Assign.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/AssignEvaluator.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/BandMatrix.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/Block.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/BooleanRedux.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/CommaInitializer.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/ConditionEstimator.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/CoreEvaluators.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/CoreIterators.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/CwiseBinaryOp.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/CwiseNullaryOp.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/CwiseTernaryOp.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/CwiseUnaryOp.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/CwiseUnaryView.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/DenseBase.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/DenseCoeffsBase.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/DenseStorage.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/Diagonal.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/DiagonalMatrix.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/DiagonalProduct.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/Dot.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/EigenBase.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/Fuzzy.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/GeneralProduct.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/GenericPacketMath.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/GlobalFunctions.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/IO.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/Inverse.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/Map.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/MapBase.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/MathFunctions.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/MathFunctionsImpl.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/Matrix.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/MatrixBase.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/NestByValue.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/NoAlias.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/NumTraits.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/PermutationMatrix.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/PlainObjectBase.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/Product.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/ProductEvaluators.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/Random.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/Redux.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/Ref.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/Replicate.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/ReturnByValue.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/Reverse.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/Select.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/SelfAdjointView.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/SelfCwiseBinaryOp.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/Solve.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/SolveTriangular.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/SolverBase.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/StableNorm.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/Stride.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/Swap.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/Transpose.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/Transpositions.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/TriangularMatrix.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/VectorBlock.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/VectorwiseOp.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/Visitor.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/arch/CUDA/Complex.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/arch/CUDA/Half.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/arch/CUDA/PacketMathHalf.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/arch/CUDA/TypeCasting.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/arch/Default/ConjHelper.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/arch/Default/Settings.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/arch/SSE/Complex.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/arch/SSE/MathFunctions.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/arch/SSE/PacketMath.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/arch/SSE/TypeCasting.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/functors/AssignmentFunctors.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/functors/BinaryFunctors.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/functors/NullaryFunctors.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/functors/StlFunctors.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/functors/TernaryFunctors.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/functors/UnaryFunctors.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/products/GeneralBlockPanelKernel.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/products/GeneralMatrixMatrix.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/products/GeneralMatrixMatrixTriangular.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/products/GeneralMatrixVector.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/products/Parallelizer.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/products/SelfadjointMatrixMatrix.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/products/SelfadjointMatrixVector.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/products/SelfadjointProduct.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/products/SelfadjointRank2Update.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/products/TriangularMatrixMatrix.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/products/TriangularMatrixVector.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/products/TriangularSolverMatrix.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/products/TriangularSolverVector.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/util/BlasUtil.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/util/Constants.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/util/DisableStupidWarnings.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/util/ForwardDeclarations.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/util/MKL_support.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/util/Macros.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/util/Memory.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/util/Meta.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/util/ReenableStupidWarnings.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/util/StaticAssert.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Core/util/XprHelper.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Eigenvalues/ComplexEigenSolver.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Eigenvalues/ComplexSchur.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Eigenvalues/EigenSolver.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Eigenvalues/GeneralizedSelfAdjointEigenSolver.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Eigenvalues/HessenbergDecomposition.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Eigenvalues/RealQZ.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Eigenvalues/RealSchur.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Eigenvalues/SelfAdjointEigenSolver.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Eigenvalues/Tridiagonalization.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Geometry/AlignedBox.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Geometry/AngleAxis.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Geometry/EulerAngles.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Geometry/Homogeneous.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Geometry/Hyperplane.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Geometry/OrthoMethods.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Geometry/ParametrizedLine.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Geometry/Quaternion.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Geometry/Rotation2D.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Geometry/RotationBase.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Geometry/Scaling.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Geometry/Transform.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Geometry/Translation.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Geometry/Umeyama.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Geometry/arch/Geometry_SSE.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Householder/BlockHouseholder.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Householder/Householder.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Householder/HouseholderSequence.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/Jacobi/Jacobi.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/LU/Determinant.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/LU/FullPivLU.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/LU/InverseImpl.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/LU/PartialPivLU.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/LU/arch/Inverse_SSE.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/QR/ColPivHouseholderQR.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/QR/CompleteOrthogonalDecomposition.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/QR/FullPivHouseholderQR.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/QR/HouseholderQR.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/SVD/BDCSVD.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/SVD/JacobiSVD.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/SVD/SVDBase.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/SVD/UpperBidiagonalization.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/misc/Image.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/misc/Kernel.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/misc/RealSvd2x2.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/plugins/ArrayCwiseBinaryOps.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/plugins/ArrayCwiseUnaryOps.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/plugins/BlockMethods.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/plugins/CommonCwiseBinaryOps.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/plugins/CommonCwiseUnaryOps.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/plugins/MatrixCwiseBinaryOps.h
+ mdp:D:/Project/QtProject/triangleDomain/include/eigen-3.3.9/Eigen/src/plugins/MatrixCwiseUnaryOps.h
 D:/Project/QtProject/triangleDomain/dialog.cpp
  uic:ui_Dialog.h
 D:/Project/QtProject/triangleDomain/TriangleService.h
@@ -1092,6 +1360,7 @@ D:/Project/QtProject/triangleDomain/trianglevwindow.h
  mdp:C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/cpp_type_traits.h
  mdp:C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/cxxabi_forced.h
  mdp:C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/cxxabi_init_exception.h
+ mdp:C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/deque.tcc
  mdp:C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/enable_special_members.h
  mdp:C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/exception.h
  mdp:C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/exception_defines.h
@@ -1131,6 +1400,7 @@ D:/Project/QtProject/triangleDomain/trianglevwindow.h
  mdp:C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_algobase.h
  mdp:C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_bvector.h
  mdp:C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_construct.h
+ mdp:C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_deque.h
  mdp:C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_function.h
  mdp:C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_heap.h
  mdp:C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_iterator.h
@@ -1173,6 +1443,7 @@ D:/Project/QtProject/triangleDomain/trianglevwindow.h
  mdp:C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cwctype
  mdp:C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/debug/assertions.h
  mdp:C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/debug/debug.h
+ mdp:C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/deque
  mdp:C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/exception
  mdp:C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/aligned_buffer.h
  mdp:C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/alloc_traits.h
@@ -1275,7 +1546,10 @@ D:/Project/QtProject/triangleDomain/trianglevwindow.h
  mdp:C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/vadefs.h
  mdp:C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/wchar.h
  mdp:C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/wctype.h
+ mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/calib3d.hpp
+ mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/calib3d/calib3d_c.h
  mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/core.hpp
+ mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/core/affine.hpp
  mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/core/base.hpp
  mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/core/bufferpool.hpp
  mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/core/core_c.h
@@ -1298,18 +1572,35 @@ D:/Project/QtProject/triangleDomain/trianglevwindow.h
  mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/core/types_c.h
  mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/core/utility.hpp
  mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/core/version.hpp
+ mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/features2d.hpp
+ mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/flann/config.h
+ mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/flann/defines.h
+ mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/flann/miniflann.hpp
  mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/highgui.hpp
  mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/highgui/highgui_c.h
  mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/imgcodecs.hpp
  mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/imgcodecs/imgcodecs_c.h
+ mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/imgproc.hpp
  mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/imgproc/imgproc_c.h
  mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/imgproc/types_c.h
+ mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/ml.hpp
+ mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/objdetect.hpp
+ mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/objdetect/detection_based_tracker.hpp
+ mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/objdetect/objdetect_c.h
+ mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/opencv.hpp
+ mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/photo.hpp
+ mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/photo/photo_c.h
+ mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/video.hpp
+ mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/video/background_segm.hpp
+ mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/video/tracking.hpp
+ mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/video/tracking_c.h
  mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/videoio.hpp
  mdp:D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv2/videoio/videoio_c.h
  mdp:D:/Project/QtProject/triangleDomain/InfoManager.h
  mdp:D:/Project/QtProject/triangleDomain/TriangleSection/Entity/AreaCoordinateSamplingData.h
  mdp:D:/Project/QtProject/triangleDomain/TriangleSection/Entity/AreaPoint.h
  mdp:D:/Project/QtProject/triangleDomain/TriangleSection/Entity/DescartesCoordinateSamplingData.h
+ mdp:D:/Project/QtProject/triangleDomain/TriangleSection/Entity/FittingInfo.h
  mdp:D:/Project/QtProject/triangleDomain/TriangleSection/Entity/Point.h
  mdp:D:/Project/QtProject/triangleDomain/TriangleSection/Entity/SamplingData.h
  mdp:D:/Project/QtProject/triangleDomain/TriangleSection/Entity/Triangle.h
@@ -1320,6 +1611,7 @@ D:/Project/QtProject/triangleDomain/trianglevwindow.h
  mdp:D:/Project/QtProject/triangleDomain/TriangleSection/Util/TriangulationUtil.h
  mdp:D:/Project/QtProject/triangleDomain/TriangleService.h
  mdp:D:/Project/QtProject/triangleDomain/include/FileUtil.h
+ mdp:D:/Project/QtProject/triangleDomain/include/FittingInfo.h
  mdp:D:/Project/QtProject/triangleDomain/include/ReconstructionUtil.h
  mdp:D:/Project/QtProject/triangleDomain/include/SamplingData.h
  mdp:D:/Project/QtProject/triangleDomain/include/TriangulationUtil.h
@@ -1496,3 +1788,4 @@ D:/Project/QtProject/triangleDomain/trianglevwindow.h
  mdp:D:/Project/QtProject/triangleDomain/mainwindow.h
 D:/Project/QtProject/triangleDomain/trianglevwindow.cpp
  uic:ui_TriangleVWindow.h
+D:/Project/QtProject/triangleDomain/include/FittingInfo.h

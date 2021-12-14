@@ -1064,12 +1064,6 @@ lapacke_mangling.h
 
 ../include/eigen-3.3.9/Eigen/src/plugins/MatrixCwiseUnaryOps.h
 
-D:/Project/QtProject/triangleDomain/TriangleSection/Entity/AreaCoordinateSamplingData.cpp
-AreaCoordinateSamplingData.h
-D:/Project/QtProject/triangleDomain/TriangleSection/Entity/AreaCoordinateSamplingData.h
-utility
--
-
 D:/Project/QtProject/triangleDomain/TriangleSection/Entity/AreaCoordinateSamplingData.h
 vector
 -
@@ -1088,12 +1082,6 @@ ostream
 Eigen/Dense
 -
 
-D:/Project/QtProject/triangleDomain/TriangleSection/Entity/DescartesCoordinateSamplingData.cpp
-DescartesCoordinateSamplingData.h
-D:/Project/QtProject/triangleDomain/TriangleSection/Entity/DescartesCoordinateSamplingData.h
-utility
--
-
 D:/Project/QtProject/triangleDomain/TriangleSection/Entity/DescartesCoordinateSamplingData.h
 vector
 -
@@ -1104,6 +1092,22 @@ D:/Project/QtProject/triangleDomain/TriangleSection/Entity/SamplingData.h
 Triangle.h
 D:/Project/QtProject/triangleDomain/TriangleSection/Entity/Triangle.h
 
+D:/Project/QtProject/triangleDomain/TriangleSection/Entity/FittingInfo.cpp
+FittingInfo.h
+D:/Project/QtProject/triangleDomain/TriangleSection/Entity/FittingInfo.h
+
+D:/Project/QtProject/triangleDomain/TriangleSection/Entity/FittingInfo.h
+vector
+-
+Point.h
+D:/Project/QtProject/triangleDomain/TriangleSection/Entity/Point.h
+AreaPoint.h
+D:/Project/QtProject/triangleDomain/TriangleSection/Entity/AreaPoint.h
+AreaCoordinateSamplingData.h
+D:/Project/QtProject/triangleDomain/TriangleSection/Entity/AreaCoordinateSamplingData.h
+DescartesCoordinateSamplingData.h
+D:/Project/QtProject/triangleDomain/TriangleSection/Entity/DescartesCoordinateSamplingData.h
+
 D:/Project/QtProject/triangleDomain/TriangleSection/Entity/Point.h
 ostream
 -
@@ -1113,10 +1117,6 @@ ostream
 -
 Point.h
 D:/Project/QtProject/triangleDomain/TriangleSection/Entity/Point.h
-
-D:/Project/QtProject/triangleDomain/TriangleSection/Entity/Triangle.cpp
-Triangle.h
-D:/Project/QtProject/triangleDomain/TriangleSection/Entity/Triangle.h
 
 D:/Project/QtProject/triangleDomain/TriangleSection/Entity/Triangle.h
 ostream

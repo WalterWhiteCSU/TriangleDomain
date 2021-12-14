@@ -265,6 +265,7 @@ CMakeFiles/triangleDomain.dir/TestService.cpp.obj
  D:/Project/QtProject/triangleDomain/TriangleSection/Entity/AreaCoordinateSamplingData.h
  D:/Project/QtProject/triangleDomain/TriangleSection/Entity/AreaPoint.h
  D:/Project/QtProject/triangleDomain/TriangleSection/Entity/DescartesCoordinateSamplingData.h
+ D:/Project/QtProject/triangleDomain/TriangleSection/Entity/FittingInfo.h
  D:/Project/QtProject/triangleDomain/TriangleSection/Entity/Point.h
  D:/Project/QtProject/triangleDomain/TriangleSection/Entity/SamplingData.h
  D:/Project/QtProject/triangleDomain/TriangleSection/Entity/Triangle.h
@@ -720,6 +721,7 @@ CMakeFiles/triangleDomain.dir/dialog.cpp.obj
  D:/Project/QtProject/triangleDomain/TriangleSection/Entity/AreaCoordinateSamplingData.h
  D:/Project/QtProject/triangleDomain/TriangleSection/Entity/AreaPoint.h
  D:/Project/QtProject/triangleDomain/TriangleSection/Entity/DescartesCoordinateSamplingData.h
+ D:/Project/QtProject/triangleDomain/TriangleSection/Entity/FittingInfo.h
  D:/Project/QtProject/triangleDomain/TriangleSection/Entity/Point.h
  D:/Project/QtProject/triangleDomain/TriangleSection/Entity/SamplingData.h
  D:/Project/QtProject/triangleDomain/TriangleSection/Entity/Triangle.h
@@ -739,6 +741,7 @@ CMakeFiles/triangleDomain.dir/dialog.cpp.obj
  D:/Project/QtProject/triangleDomain/dialog.h
  D:/Project/QtProject/triangleDomain/include/AreaPoint.h
  D:/Project/QtProject/triangleDomain/include/FileUtil.h
+ D:/Project/QtProject/triangleDomain/include/FittingInfo.h
  D:/Project/QtProject/triangleDomain/include/ImageQuadTree.h
  D:/Project/QtProject/triangleDomain/include/ImageTriangleVUtil.h
  D:/Project/QtProject/triangleDomain/include/ReconstructionUtil.h
@@ -1175,6 +1178,7 @@ CMakeFiles/triangleDomain.dir/main.cpp.obj
  D:/Project/QtProject/triangleDomain/TriangleSection/Entity/AreaCoordinateSamplingData.h
  D:/Project/QtProject/triangleDomain/TriangleSection/Entity/AreaPoint.h
  D:/Project/QtProject/triangleDomain/TriangleSection/Entity/DescartesCoordinateSamplingData.h
+ D:/Project/QtProject/triangleDomain/TriangleSection/Entity/FittingInfo.h
  D:/Project/QtProject/triangleDomain/TriangleSection/Entity/Point.h
  D:/Project/QtProject/triangleDomain/TriangleSection/Entity/SamplingData.h
  D:/Project/QtProject/triangleDomain/TriangleSection/Entity/Triangle.h
@@ -1193,6 +1197,7 @@ CMakeFiles/triangleDomain.dir/main.cpp.obj
  D:/Project/QtProject/triangleDomain/dialog.h
  D:/Project/QtProject/triangleDomain/include/AreaPoint.h
  D:/Project/QtProject/triangleDomain/include/FileUtil.h
+ D:/Project/QtProject/triangleDomain/include/FittingInfo.h
  D:/Project/QtProject/triangleDomain/include/ImageQuadTree.h
  D:/Project/QtProject/triangleDomain/include/ImageTriangleVUtil.h
  D:/Project/QtProject/triangleDomain/include/PublicUtil.h
@@ -1643,6 +1648,7 @@ CMakeFiles/triangleDomain.dir/mainwindow.cpp.obj
  D:/Project/QtProject/triangleDomain/TriangleSection/Entity/AreaCoordinateSamplingData.h
  D:/Project/QtProject/triangleDomain/TriangleSection/Entity/AreaPoint.h
  D:/Project/QtProject/triangleDomain/TriangleSection/Entity/DescartesCoordinateSamplingData.h
+ D:/Project/QtProject/triangleDomain/TriangleSection/Entity/FittingInfo.h
  D:/Project/QtProject/triangleDomain/TriangleSection/Entity/Point.h
  D:/Project/QtProject/triangleDomain/TriangleSection/Entity/SamplingData.h
  D:/Project/QtProject/triangleDomain/TriangleSection/Entity/Triangle.h
@@ -1653,6 +1659,7 @@ CMakeFiles/triangleDomain.dir/mainwindow.cpp.obj
  D:/Project/QtProject/triangleDomain/TriangleSection/Util/TriangulationUtil.h
  D:/Project/QtProject/triangleDomain/TriangleService.h
  D:/Project/QtProject/triangleDomain/include/FileUtil.h
+ D:/Project/QtProject/triangleDomain/include/FittingInfo.h
  D:/Project/QtProject/triangleDomain/include/ReconstructionUtil.h
  D:/Project/QtProject/triangleDomain/include/SamplingData.h
  D:/Project/QtProject/triangleDomain/include/TriangulationUtil.h
@@ -2076,6 +2083,7 @@ CMakeFiles/triangleDomain.dir/triangleDomain_autogen/mocs_compilation.cpp.obj
  D:/Project/QtProject/triangleDomain/TriangleSection/Entity/AreaCoordinateSamplingData.h
  D:/Project/QtProject/triangleDomain/TriangleSection/Entity/AreaPoint.h
  D:/Project/QtProject/triangleDomain/TriangleSection/Entity/DescartesCoordinateSamplingData.h
+ D:/Project/QtProject/triangleDomain/TriangleSection/Entity/FittingInfo.h
  D:/Project/QtProject/triangleDomain/TriangleSection/Entity/Point.h
  D:/Project/QtProject/triangleDomain/TriangleSection/Entity/SamplingData.h
  D:/Project/QtProject/triangleDomain/TriangleSection/Entity/Triangle.h
@@ -2098,6 +2106,7 @@ CMakeFiles/triangleDomain.dir/triangleDomain_autogen/mocs_compilation.cpp.obj
  D:/Project/QtProject/triangleDomain/dialog.h
  D:/Project/QtProject/triangleDomain/include/AreaPoint.h
  D:/Project/QtProject/triangleDomain/include/FileUtil.h
+ D:/Project/QtProject/triangleDomain/include/FittingInfo.h
  D:/Project/QtProject/triangleDomain/include/ImageQuadTree.h
  D:/Project/QtProject/triangleDomain/include/ImageTriangleVUtil.h
  D:/Project/QtProject/triangleDomain/include/ReconstructionUtil.h
@@ -2541,6 +2550,7 @@ CMakeFiles/triangleDomain.dir/trianglevwindow.cpp.obj
  D:/Project/QtProject/triangleDomain/TriangleSection/Entity/AreaCoordinateSamplingData.h
  D:/Project/QtProject/triangleDomain/TriangleSection/Entity/AreaPoint.h
  D:/Project/QtProject/triangleDomain/TriangleSection/Entity/DescartesCoordinateSamplingData.h
+ D:/Project/QtProject/triangleDomain/TriangleSection/Entity/FittingInfo.h
  D:/Project/QtProject/triangleDomain/TriangleSection/Entity/Point.h
  D:/Project/QtProject/triangleDomain/TriangleSection/Entity/SamplingData.h
  D:/Project/QtProject/triangleDomain/TriangleSection/Entity/Triangle.h
@@ -2551,6 +2561,7 @@ CMakeFiles/triangleDomain.dir/trianglevwindow.cpp.obj
  D:/Project/QtProject/triangleDomain/TriangleSection/Util/TriangulationUtil.h
  D:/Project/QtProject/triangleDomain/TriangleService.h
  D:/Project/QtProject/triangleDomain/include/FileUtil.h
+ D:/Project/QtProject/triangleDomain/include/FittingInfo.h
  D:/Project/QtProject/triangleDomain/include/ReconstructionUtil.h
  D:/Project/QtProject/triangleDomain/include/SamplingData.h
  D:/Project/QtProject/triangleDomain/include/TriangulationUtil.h

@@ -262,6 +262,7 @@ TriangleVSystem/CMakeFiles/TriangleV.dir/ImageTriangleVUtil.cpp.obj: D:/CPPRepo/
 TriangleVSystem/CMakeFiles/TriangleV.dir/ImageTriangleVUtil.cpp.obj: ../TriangleSection/Entity/AreaCoordinateSamplingData.h
 TriangleVSystem/CMakeFiles/TriangleV.dir/ImageTriangleVUtil.cpp.obj: ../TriangleSection/Entity/AreaPoint.h
 TriangleVSystem/CMakeFiles/TriangleV.dir/ImageTriangleVUtil.cpp.obj: ../TriangleSection/Entity/DescartesCoordinateSamplingData.h
+TriangleVSystem/CMakeFiles/TriangleV.dir/ImageTriangleVUtil.cpp.obj: ../TriangleSection/Entity/FittingInfo.h
 TriangleVSystem/CMakeFiles/TriangleV.dir/ImageTriangleVUtil.cpp.obj: ../TriangleSection/Entity/Point.h
 TriangleVSystem/CMakeFiles/TriangleV.dir/ImageTriangleVUtil.cpp.obj: ../TriangleSection/Entity/SamplingData.h
 TriangleVSystem/CMakeFiles/TriangleV.dir/ImageTriangleVUtil.cpp.obj: ../TriangleSection/Entity/Triangle.h

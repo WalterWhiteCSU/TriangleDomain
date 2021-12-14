@@ -251,6 +251,33 @@ DescartesCoordinateSamplingData.cpp.s:
 	cd /d D:\Project\QtProject\triangleDomain\cmake-build-debug && $(MAKE) $(MAKESILENT) -f TriangleSection\Entity\CMakeFiles\TriangleDomainEntity.dir\build.make TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/DescartesCoordinateSamplingData.cpp.s
 .PHONY : DescartesCoordinateSamplingData.cpp.s
 
+FittingInfo.obj: FittingInfo.cpp.obj
+
+.PHONY : FittingInfo.obj
+
+# target to build an object file
+FittingInfo.cpp.obj:
+	cd /d D:\Project\QtProject\triangleDomain\cmake-build-debug && $(MAKE) $(MAKESILENT) -f TriangleSection\Entity\CMakeFiles\TriangleDomainEntity.dir\build.make TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/FittingInfo.cpp.obj
+.PHONY : FittingInfo.cpp.obj
+
+FittingInfo.i: FittingInfo.cpp.i
+
+.PHONY : FittingInfo.i
+
+# target to preprocess a source file
+FittingInfo.cpp.i:
+	cd /d D:\Project\QtProject\triangleDomain\cmake-build-debug && $(MAKE) $(MAKESILENT) -f TriangleSection\Entity\CMakeFiles\TriangleDomainEntity.dir\build.make TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/FittingInfo.cpp.i
+.PHONY : FittingInfo.cpp.i
+
+FittingInfo.s: FittingInfo.cpp.s
+
+.PHONY : FittingInfo.s
+
+# target to generate assembly for a file
+FittingInfo.cpp.s:
+	cd /d D:\Project\QtProject\triangleDomain\cmake-build-debug && $(MAKE) $(MAKESILENT) -f TriangleSection\Entity\CMakeFiles\TriangleDomainEntity.dir\build.make TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/FittingInfo.cpp.s
+.PHONY : FittingInfo.cpp.s
+
 Point.obj: Point.cpp.obj
 
 .PHONY : Point.obj
@@ -380,6 +407,9 @@ help:
 	@echo ... DescartesCoordinateSamplingData.obj
 	@echo ... DescartesCoordinateSamplingData.i
 	@echo ... DescartesCoordinateSamplingData.s
+	@echo ... FittingInfo.obj
+	@echo ... FittingInfo.i
+	@echo ... FittingInfo.s
 	@echo ... Point.obj
 	@echo ... Point.i
 	@echo ... Point.s

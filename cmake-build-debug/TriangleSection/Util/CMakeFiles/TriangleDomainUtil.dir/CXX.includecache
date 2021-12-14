@@ -1076,10 +1076,6 @@ D:/Project/QtProject/triangleDomain/TriangleSection/Entity/Triangle.h
 AreaPoint.h
 D:/Project/QtProject/triangleDomain/TriangleSection/Entity/AreaPoint.h
 
-D:/Project/QtProject/triangleDomain/TriangleSection/Entity/AreaCoordinateTriangle.h
-AreaPoint.h
-D:/Project/QtProject/triangleDomain/TriangleSection/Entity/AreaPoint.h
-
 D:/Project/QtProject/triangleDomain/TriangleSection/Entity/AreaPoint.h
 ostream
 -
@@ -1095,6 +1091,18 @@ SamplingData.h
 D:/Project/QtProject/triangleDomain/TriangleSection/Entity/SamplingData.h
 Triangle.h
 D:/Project/QtProject/triangleDomain/TriangleSection/Entity/Triangle.h
+
+D:/Project/QtProject/triangleDomain/TriangleSection/Entity/FittingInfo.h
+vector
+-
+Point.h
+D:/Project/QtProject/triangleDomain/TriangleSection/Entity/Point.h
+AreaPoint.h
+D:/Project/QtProject/triangleDomain/TriangleSection/Entity/AreaPoint.h
+AreaCoordinateSamplingData.h
+D:/Project/QtProject/triangleDomain/TriangleSection/Entity/AreaCoordinateSamplingData.h
+DescartesCoordinateSamplingData.h
+D:/Project/QtProject/triangleDomain/TriangleSection/Entity/DescartesCoordinateSamplingData.h
 
 D:/Project/QtProject/triangleDomain/TriangleSection/Entity/Point.h
 ostream
@@ -1124,10 +1132,6 @@ ostream
 Point.h
 D:/Project/QtProject/triangleDomain/TriangleSection/Entity/Point.h
 
-D:/Project/QtProject/triangleDomain/TriangleSection/Util/FittingUtil.cpp
-FittingUtil.h
-D:/Project/QtProject/triangleDomain/TriangleSection/Util/FittingUtil.h
-
 D:/Project/QtProject/triangleDomain/TriangleSection/Util/FittingUtil.h
 ../Entity/AreaCoordinateSamplingData.h
 D:/Project/QtProject/triangleDomain/TriangleSection/Entity/AreaCoordinateSamplingData.h
@@ -1138,19 +1142,35 @@ Eigen/Dense
 iostream
 -
 
-D:/Project/QtProject/triangleDomain/TriangleSection/Util/TriangleVFunc.cpp
-TriangleVFunc.h
-D:/Project/QtProject/triangleDomain/TriangleSection/Util/TriangleVFunc.h
-
-D:/Project/QtProject/triangleDomain/TriangleSection/Util/TriangleVFunc.h
-Eigen/Dense
--
+D:/Project/QtProject/triangleDomain/TriangleSection/Util/ReconstructionUtil.h
 vector
 -
-cmath
+../Entity/SamplingData.h
+D:/Project/QtProject/triangleDomain/TriangleSection/Entity/SamplingData.h
+../Entity/AreaCoordinateSamplingData.h
+D:/Project/QtProject/triangleDomain/TriangleSection/Entity/AreaCoordinateSamplingData.h
+FittingUtil.h
+D:/Project/QtProject/triangleDomain/TriangleSection/Util/FittingUtil.h
+
+D:/Project/QtProject/triangleDomain/TriangleSection/Util/TriangulationUtil.cpp
+TriangulationUtil.h
+D:/Project/QtProject/triangleDomain/TriangleSection/Util/TriangulationUtil.h
+
+D:/Project/QtProject/triangleDomain/TriangleSection/Util/TriangulationUtil.h
+vector
 -
-../Entity/AreaPoint.h
-D:/Project/QtProject/triangleDomain/TriangleSection/Entity/AreaPoint.h
-../Entity/AreaCoordinateTriangle.h
-D:/Project/QtProject/triangleDomain/TriangleSection/Entity/AreaCoordinateTriangle.h
+../Entity/SamplingData.h
+D:/Project/QtProject/triangleDomain/TriangleSection/Entity/SamplingData.h
+../Entity/Triangle.h
+D:/Project/QtProject/triangleDomain/TriangleSection/Entity/Triangle.h
+../Entity/AreaCoordinateSamplingData.h
+D:/Project/QtProject/triangleDomain/TriangleSection/Entity/AreaCoordinateSamplingData.h
+../Entity/DescartesCoordinateSamplingData.h
+D:/Project/QtProject/triangleDomain/TriangleSection/Entity/DescartesCoordinateSamplingData.h
+../Entity/FittingInfo.h
+D:/Project/QtProject/triangleDomain/TriangleSection/Entity/FittingInfo.h
+FittingUtil.h
+D:/Project/QtProject/triangleDomain/TriangleSection/Util/FittingUtil.h
+ReconstructionUtil.h
+D:/Project/QtProject/triangleDomain/TriangleSection/Util/ReconstructionUtil.h
 

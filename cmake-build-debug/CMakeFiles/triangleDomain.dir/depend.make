@@ -264,6 +264,7 @@ CMakeFiles/triangleDomain.dir/TestService.cpp.obj: ../TestService.h
 CMakeFiles/triangleDomain.dir/TestService.cpp.obj: ../TriangleSection/Entity/AreaCoordinateSamplingData.h
 CMakeFiles/triangleDomain.dir/TestService.cpp.obj: ../TriangleSection/Entity/AreaPoint.h
 CMakeFiles/triangleDomain.dir/TestService.cpp.obj: ../TriangleSection/Entity/DescartesCoordinateSamplingData.h
+CMakeFiles/triangleDomain.dir/TestService.cpp.obj: ../TriangleSection/Entity/FittingInfo.h
 CMakeFiles/triangleDomain.dir/TestService.cpp.obj: ../TriangleSection/Entity/Point.h
 CMakeFiles/triangleDomain.dir/TestService.cpp.obj: ../TriangleSection/Entity/SamplingData.h
 CMakeFiles/triangleDomain.dir/TestService.cpp.obj: ../TriangleSection/Entity/Triangle.h
@@ -719,6 +720,7 @@ CMakeFiles/triangleDomain.dir/dialog.cpp.obj: ../TestService.h
 CMakeFiles/triangleDomain.dir/dialog.cpp.obj: ../TriangleSection/Entity/AreaCoordinateSamplingData.h
 CMakeFiles/triangleDomain.dir/dialog.cpp.obj: ../TriangleSection/Entity/AreaPoint.h
 CMakeFiles/triangleDomain.dir/dialog.cpp.obj: ../TriangleSection/Entity/DescartesCoordinateSamplingData.h
+CMakeFiles/triangleDomain.dir/dialog.cpp.obj: ../TriangleSection/Entity/FittingInfo.h
 CMakeFiles/triangleDomain.dir/dialog.cpp.obj: ../TriangleSection/Entity/Point.h
 CMakeFiles/triangleDomain.dir/dialog.cpp.obj: ../TriangleSection/Entity/SamplingData.h
 CMakeFiles/triangleDomain.dir/dialog.cpp.obj: ../TriangleSection/Entity/Triangle.h
@@ -738,6 +740,7 @@ CMakeFiles/triangleDomain.dir/dialog.cpp.obj: ../dialog.cpp
 CMakeFiles/triangleDomain.dir/dialog.cpp.obj: ../dialog.h
 CMakeFiles/triangleDomain.dir/dialog.cpp.obj: ../include/AreaPoint.h
 CMakeFiles/triangleDomain.dir/dialog.cpp.obj: ../include/FileUtil.h
+CMakeFiles/triangleDomain.dir/dialog.cpp.obj: ../include/FittingInfo.h
 CMakeFiles/triangleDomain.dir/dialog.cpp.obj: ../include/ImageQuadTree.h
 CMakeFiles/triangleDomain.dir/dialog.cpp.obj: ../include/ImageTriangleVUtil.h
 CMakeFiles/triangleDomain.dir/dialog.cpp.obj: ../include/ReconstructionUtil.h
@@ -1174,6 +1177,7 @@ CMakeFiles/triangleDomain.dir/main.cpp.obj: ../TestService.h
 CMakeFiles/triangleDomain.dir/main.cpp.obj: ../TriangleSection/Entity/AreaCoordinateSamplingData.h
 CMakeFiles/triangleDomain.dir/main.cpp.obj: ../TriangleSection/Entity/AreaPoint.h
 CMakeFiles/triangleDomain.dir/main.cpp.obj: ../TriangleSection/Entity/DescartesCoordinateSamplingData.h
+CMakeFiles/triangleDomain.dir/main.cpp.obj: ../TriangleSection/Entity/FittingInfo.h
 CMakeFiles/triangleDomain.dir/main.cpp.obj: ../TriangleSection/Entity/Point.h
 CMakeFiles/triangleDomain.dir/main.cpp.obj: ../TriangleSection/Entity/SamplingData.h
 CMakeFiles/triangleDomain.dir/main.cpp.obj: ../TriangleSection/Entity/Triangle.h
@@ -1192,6 +1196,7 @@ CMakeFiles/triangleDomain.dir/main.cpp.obj: ../TriangleVSystem/TriangleVUtil.h
 CMakeFiles/triangleDomain.dir/main.cpp.obj: ../dialog.h
 CMakeFiles/triangleDomain.dir/main.cpp.obj: ../include/AreaPoint.h
 CMakeFiles/triangleDomain.dir/main.cpp.obj: ../include/FileUtil.h
+CMakeFiles/triangleDomain.dir/main.cpp.obj: ../include/FittingInfo.h
 CMakeFiles/triangleDomain.dir/main.cpp.obj: ../include/ImageQuadTree.h
 CMakeFiles/triangleDomain.dir/main.cpp.obj: ../include/ImageTriangleVUtil.h
 CMakeFiles/triangleDomain.dir/main.cpp.obj: ../include/PublicUtil.h
@@ -1642,6 +1647,7 @@ CMakeFiles/triangleDomain.dir/mainwindow.cpp.obj: ../InfoManager.h
 CMakeFiles/triangleDomain.dir/mainwindow.cpp.obj: ../TriangleSection/Entity/AreaCoordinateSamplingData.h
 CMakeFiles/triangleDomain.dir/mainwindow.cpp.obj: ../TriangleSection/Entity/AreaPoint.h
 CMakeFiles/triangleDomain.dir/mainwindow.cpp.obj: ../TriangleSection/Entity/DescartesCoordinateSamplingData.h
+CMakeFiles/triangleDomain.dir/mainwindow.cpp.obj: ../TriangleSection/Entity/FittingInfo.h
 CMakeFiles/triangleDomain.dir/mainwindow.cpp.obj: ../TriangleSection/Entity/Point.h
 CMakeFiles/triangleDomain.dir/mainwindow.cpp.obj: ../TriangleSection/Entity/SamplingData.h
 CMakeFiles/triangleDomain.dir/mainwindow.cpp.obj: ../TriangleSection/Entity/Triangle.h
@@ -1652,6 +1658,7 @@ CMakeFiles/triangleDomain.dir/mainwindow.cpp.obj: ../TriangleSection/Util/Recons
 CMakeFiles/triangleDomain.dir/mainwindow.cpp.obj: ../TriangleSection/Util/TriangulationUtil.h
 CMakeFiles/triangleDomain.dir/mainwindow.cpp.obj: ../TriangleService.h
 CMakeFiles/triangleDomain.dir/mainwindow.cpp.obj: ../include/FileUtil.h
+CMakeFiles/triangleDomain.dir/mainwindow.cpp.obj: ../include/FittingInfo.h
 CMakeFiles/triangleDomain.dir/mainwindow.cpp.obj: ../include/ReconstructionUtil.h
 CMakeFiles/triangleDomain.dir/mainwindow.cpp.obj: ../include/SamplingData.h
 CMakeFiles/triangleDomain.dir/mainwindow.cpp.obj: ../include/TriangulationUtil.h
@@ -2075,6 +2082,7 @@ CMakeFiles/triangleDomain.dir/triangleDomain_autogen/mocs_compilation.cpp.obj: .
 CMakeFiles/triangleDomain.dir/triangleDomain_autogen/mocs_compilation.cpp.obj: ../TriangleSection/Entity/AreaCoordinateSamplingData.h
 CMakeFiles/triangleDomain.dir/triangleDomain_autogen/mocs_compilation.cpp.obj: ../TriangleSection/Entity/AreaPoint.h
 CMakeFiles/triangleDomain.dir/triangleDomain_autogen/mocs_compilation.cpp.obj: ../TriangleSection/Entity/DescartesCoordinateSamplingData.h
+CMakeFiles/triangleDomain.dir/triangleDomain_autogen/mocs_compilation.cpp.obj: ../TriangleSection/Entity/FittingInfo.h
 CMakeFiles/triangleDomain.dir/triangleDomain_autogen/mocs_compilation.cpp.obj: ../TriangleSection/Entity/Point.h
 CMakeFiles/triangleDomain.dir/triangleDomain_autogen/mocs_compilation.cpp.obj: ../TriangleSection/Entity/SamplingData.h
 CMakeFiles/triangleDomain.dir/triangleDomain_autogen/mocs_compilation.cpp.obj: ../TriangleSection/Entity/Triangle.h
@@ -2097,6 +2105,7 @@ CMakeFiles/triangleDomain.dir/triangleDomain_autogen/mocs_compilation.cpp.obj: t
 CMakeFiles/triangleDomain.dir/triangleDomain_autogen/mocs_compilation.cpp.obj: ../dialog.h
 CMakeFiles/triangleDomain.dir/triangleDomain_autogen/mocs_compilation.cpp.obj: ../include/AreaPoint.h
 CMakeFiles/triangleDomain.dir/triangleDomain_autogen/mocs_compilation.cpp.obj: ../include/FileUtil.h
+CMakeFiles/triangleDomain.dir/triangleDomain_autogen/mocs_compilation.cpp.obj: ../include/FittingInfo.h
 CMakeFiles/triangleDomain.dir/triangleDomain_autogen/mocs_compilation.cpp.obj: ../include/ImageQuadTree.h
 CMakeFiles/triangleDomain.dir/triangleDomain_autogen/mocs_compilation.cpp.obj: ../include/ImageTriangleVUtil.h
 CMakeFiles/triangleDomain.dir/triangleDomain_autogen/mocs_compilation.cpp.obj: ../include/ReconstructionUtil.h
@@ -2540,6 +2549,7 @@ CMakeFiles/triangleDomain.dir/trianglevwindow.cpp.obj: ../InfoManager.h
 CMakeFiles/triangleDomain.dir/trianglevwindow.cpp.obj: ../TriangleSection/Entity/AreaCoordinateSamplingData.h
 CMakeFiles/triangleDomain.dir/trianglevwindow.cpp.obj: ../TriangleSection/Entity/AreaPoint.h
 CMakeFiles/triangleDomain.dir/trianglevwindow.cpp.obj: ../TriangleSection/Entity/DescartesCoordinateSamplingData.h
+CMakeFiles/triangleDomain.dir/trianglevwindow.cpp.obj: ../TriangleSection/Entity/FittingInfo.h
 CMakeFiles/triangleDomain.dir/trianglevwindow.cpp.obj: ../TriangleSection/Entity/Point.h
 CMakeFiles/triangleDomain.dir/trianglevwindow.cpp.obj: ../TriangleSection/Entity/SamplingData.h
 CMakeFiles/triangleDomain.dir/trianglevwindow.cpp.obj: ../TriangleSection/Entity/Triangle.h
@@ -2550,6 +2560,7 @@ CMakeFiles/triangleDomain.dir/trianglevwindow.cpp.obj: ../TriangleSection/Util/R
 CMakeFiles/triangleDomain.dir/trianglevwindow.cpp.obj: ../TriangleSection/Util/TriangulationUtil.h
 CMakeFiles/triangleDomain.dir/trianglevwindow.cpp.obj: ../TriangleService.h
 CMakeFiles/triangleDomain.dir/trianglevwindow.cpp.obj: ../include/FileUtil.h
+CMakeFiles/triangleDomain.dir/trianglevwindow.cpp.obj: ../include/FittingInfo.h
 CMakeFiles/triangleDomain.dir/trianglevwindow.cpp.obj: ../include/ReconstructionUtil.h
 CMakeFiles/triangleDomain.dir/trianglevwindow.cpp.obj: ../include/SamplingData.h
 CMakeFiles/triangleDomain.dir/trianglevwindow.cpp.obj: ../include/TriangulationUtil.h

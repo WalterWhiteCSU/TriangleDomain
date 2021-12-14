@@ -16,7 +16,7 @@ namespace TriangleV {
     ImageQuadTree *TriangleVUtil::TriangleVFitting(ImageQuadTree *imageQuadTree) {
         //  得到总共的数据点
         std::vector<CalculateData *> totalData = imageQuadTree->tree->dataList;
-
+        int totalDataCount = totalData.size();
         //  层次遍历，得到每个节点中的数据
         std::vector<ImageQuadTreeNode *> nodeList = imageQuadTree->levelOrder();
 

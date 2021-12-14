@@ -34,7 +34,7 @@ namespace TriangleV {
          *
          *
          * */
-        static std::vector<ImageQuadTree *> ImageQuadTreeFittingTest();
+        static std::vector<ImageQuadTree *> ImageQuadTreeFittingTest(std::string imagePath);
 
         /*
          * 对第一组三角域v系统进行测试
@@ -46,7 +46,19 @@ namespace TriangleV {
          *
          *
          * */
-        static std::vector<std::vector<std::vector<float>>> FirstGroupOfTriangleVTest();
+        static std::vector<std::vector<TriangleDomain::SamplingData>> FirstGroupOfTriangleVTest();
+
+        /*
+         * 重建图像
+         *
+         *      @Param:
+         *
+         *      @Return:
+         *          std::vector<ImageQuadTree *>       拟合得到的四叉树
+         *
+         *
+         * */
+        static void ShowRecontructedImage(std::string imagePath, std::vector<ImageQuadTree *> imageTree);
     };
 }
 

@@ -18,11 +18,16 @@ find_package(OpenCV REQUIRED)
 include_directories(${OpenCV_INCLUDE_DIRS})
 set(Opencv_LIBS opencv_core opencv_imgproc opencv_highgui opencv_imgcodecs)
 
+message(STATUS "OpenCV library status:")
+message(STATUS "    version: ${OpenCV_VERSION}")
+message(STATUS "    libraries: ${OpenCV_LIBS}")
+message(STATUS "    include path: ${OpenCV_INCLUDE_DIRS}")
+
 ## include Eigen
 include_directories(include/eigen-3.3.9)
 
 # 当前目录下的文件
-set(SRC_LIST main.cpp mainwindow.cpp mainwindow.h mainwindow.ui dialog.cpp dialog.h dialog.ui InfoManager.h TriangleService.h TestService.cpp TestService.h trianglevwindow.cpp trianglevwindow.h trianglevwindow.ui)
+set(SRC_LIST main.cpp mainwindow.cpp mainwindow.h mainwindow.ui dialog.cpp dialog.h dialog.ui InfoManager.h TriangleService.h TestService.cpp TestService.h trianglevwindow.cpp trianglevwindow.h trianglevwindow.ui include/FittingInfo.h)
 
 # 添加子目录
 add_subdirectory(./TriangleSection)

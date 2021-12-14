@@ -16,12 +16,11 @@
 
 #include <vector>
 #include <iostream>
-#include <opencv2/core.hpp>
-#include <opencv2/imgcodecs.hpp>
-#include <opencv2/highgui.hpp>
+#include <opencv2/opencv.hpp>
 #include "../Entity/SamplingData.h"
 #include "../Entity/AreaCoordinateSamplingData.h"
 #include "../Entity/DescartesCoordinateSamplingData.h"
+#include "../Entity/FittingInfo.h"
 
 namespace TriangleDomain {
 
@@ -51,6 +50,27 @@ namespace TriangleDomain {
          * */
         static void ShowReconstructionImage(std::vector<std::vector<SamplingData>> reconstructionImage);
 
+        /*
+         * 通过原始的采样点集得到图像
+         *
+         *      @Param:
+         *          dataList:            点集
+         *          imgSize:             图像大小
+         *
+         *
+         * */
+        static void SaveImageBySampleData(std::vector<SamplingData> dataList, int imgSize, std::string path);
+
+        /*
+         * 记录拟合过程中的信息
+         *
+         *      @Param:
+         *          data:            点集
+         *          path:            文件路径
+         *
+         *
+         * */
+        static void SaveFittingInfo(std::vector<FittingInfo> data,std::string filePath);
     };
 }
 

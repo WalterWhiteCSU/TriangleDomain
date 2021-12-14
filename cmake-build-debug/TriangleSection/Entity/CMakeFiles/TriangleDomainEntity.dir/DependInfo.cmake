@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "D:/Project/QtProject/triangleDomain/TriangleSection/Entity/AreaCoordinateTriangle.cpp" "D:/Project/QtProject/triangleDomain/cmake-build-debug/TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/AreaCoordinateTriangle.cpp.obj"
   "D:/Project/QtProject/triangleDomain/TriangleSection/Entity/AreaPoint.cpp" "D:/Project/QtProject/triangleDomain/cmake-build-debug/TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/AreaPoint.cpp.obj"
   "D:/Project/QtProject/triangleDomain/TriangleSection/Entity/DescartesCoordinateSamplingData.cpp" "D:/Project/QtProject/triangleDomain/cmake-build-debug/TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/DescartesCoordinateSamplingData.cpp.obj"
+  "D:/Project/QtProject/triangleDomain/TriangleSection/Entity/FittingInfo.cpp" "D:/Project/QtProject/triangleDomain/cmake-build-debug/TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/FittingInfo.cpp.obj"
   "D:/Project/QtProject/triangleDomain/TriangleSection/Entity/Point.cpp" "D:/Project/QtProject/triangleDomain/cmake-build-debug/TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/Point.cpp.obj"
   "D:/Project/QtProject/triangleDomain/TriangleSection/Entity/SamplingData.cpp" "D:/Project/QtProject/triangleDomain/cmake-build-debug/TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/SamplingData.cpp.obj"
   "D:/Project/QtProject/triangleDomain/TriangleSection/Entity/Triangle.cpp" "D:/Project/QtProject/triangleDomain/cmake-build-debug/TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/Triangle.cpp.obj"

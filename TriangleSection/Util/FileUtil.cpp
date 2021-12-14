@@ -49,4 +49,18 @@ namespace TriangleDomain {
 //        cv::waitKey();
     }
 
+    void FileUtil::SaveImageBySampleData(std::vector<SamplingData> dataList, int imgSize, std::string path) {
+        cv::Mat image(imgSize, imgSize, CV_8UC1);
+
+        for (auto model: dataList) {
+            image.at<uchar>(model.getPoint()->getX(), model.getPoint()->getY()) = model.getValue();
+        }
+
+        cv::imwrite(path, image);
+    }
+
+    void FileUtil::SaveFittingInfo(std::vector<FittingInfo> data, std::string) {
+
+    }
+
 }

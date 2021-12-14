@@ -19,6 +19,7 @@
 #include <QTextBrowser>
 #include "include/TriangulationUtil.h"
 #include "include/ReconstructionUtil.h"
+#include "include/FittingInfo.h"
 
 namespace TriangleDomain {
     class TriangleService {
@@ -40,12 +41,14 @@ namespace TriangleDomain {
             infobox->insertPlainText("Processing Start..........................................................\n");
 
             std::vector<std::vector<std::vector<SamplingData>>> sectionData;
+            std::vector<FittingInfo> fittingInfoList;
             switch (triangleInfo.domainType) {
                 case 1:
                     infobox->insertPlainText("Start Area Coordinate Triangle Section Process......\n");
                     sectionData = TriangleDomain::TriangulationUtil::AreaCoordinateTriangulation(triangleInfo.data,
                                                                                                  triangleInfo.functionType,
-                                                                                                 triangleInfo.permitError);
+                                                                                                 triangleInfo.permitError,
+                                                                                                 fittingInfoList);
                     infobox->insertPlainText("# Area Coordinate Triangle Section Process Sucess!\n");
                     infobox->insertPlainText("Use ");
                     infobox->insertPlainText(QString::fromStdString(std::to_string(triangleInfo.functionType)));
@@ -56,11 +59,12 @@ namespace TriangleDomain {
                             ReconstructionUtil::ImagePSNR(triangleInfo.data, sectionData[0]))));
                     infobox->insertPlainText("\n");
 
+
                     break;
                 case 2:
                     infobox->insertPlainText("Start Descartes Coordinate Triangle Section Process......\n");
                     sectionData = TriangleDomain::TriangulationUtil::DescartesCoordinatesTriangulation(
-                            triangleInfo.data, triangleInfo.functionType, triangleInfo.permitError);
+                            triangleInfo.data, triangleInfo.functionType, triangleInfo.permitError,fittingInfoList);
                     infobox->insertPlainText("# Descartes Coordinate Triangle Section Process Sucess!\n");
                     infobox->insertPlainText("Use ");
                     infobox->insertPlainText(QString::fromStdString(std::to_string(triangleInfo.functionType)));

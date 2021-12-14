@@ -9,7 +9,8 @@ namespace TriangleDomain {
     /*   面积坐标下的三角剖分   */
     std::vector<std::vector<std::vector<SamplingData>>>
     TriangulationUtil::AreaCoordinateTriangulation(const std::vector<std::vector<SamplingData>> &image,
-                                                   int fittingType, float permitError) {
+                                                   int fittingType, float permitError,
+                                                   std::vector<FittingInfo> &fittingInfoList) {
         // 将数据转换为面积坐标形式
         auto AreaCoordinateData = ConvertImageToAreaCoordinate(image);
         // 初始三角网格划分
@@ -20,7 +21,7 @@ namespace TriangleDomain {
         for (const auto &initialTriangle : initialTriangleList) {
             //  对每个初始划分好的三角形进行拟合
             auto samplingData = AreaCoordinateSelectPoint(initialTriangle, AreaCoordinateData, flag, fittingType,
-                                                          permitError);
+                                                          permitError, fittingInfoList);
             flag++;
 
             //  将计算得到的数据添加到结果集合
@@ -39,7 +40,8 @@ namespace TriangleDomain {
     /*   直角坐标下的三角剖分   */
     std::vector<std::vector<std::vector<SamplingData>>>
     TriangulationUtil::DescartesCoordinatesTriangulation(const std::vector<std::vector<SamplingData>> &image,
-                                                         int fittingType, float permitError) {
+                                                         int fittingType, float permitError,
+                                                         std::vector<FittingInfo> &fittingInfoList) {
         // 将数据转换为面积坐标形式
         auto DescartesCoordinateData = ConvertImageToDescartesCoordinate(image);
         // 初始三角网格划分
@@ -51,7 +53,7 @@ namespace TriangleDomain {
             //  对每个初始划分好的三角形进行拟合
             auto samplingData = DescartesCoordinateSelectPoint(initialTriangle, DescartesCoordinateData, flag,
                                                                fittingType,
-                                                               permitError);
+                                                               permitError, fittingInfoList);
             flag++;
 
             //  将计算得到的数据添加到结果集合
@@ -131,14 +133,24 @@ namespace TriangleDomain {
                                                                                            std::vector<AreaCoordinateSamplingData *> &AreaCoordinateData,
                                                                                            int triangleNumber,
                                                                                            int fittingType,
-                                                                                           float permitError) {
+                                                                                           float permitError,
+                                                                                           std::vector<FittingInfo> &fittingInfoList) {
         std::vector<AreaCoordinateSamplingData *> selectedPoint;
+
+        std::vector<int> location;
+        location.push_back(0);
+        bool isSetLocation = false;
 
         // 先判断是否在三角形中
         for (auto point:AreaCoordinateData) {
             int flag = triangle.isPointInTriangle(point->getPoint());
             if (flag >= 0) {
                 point->setSingleDataToLocation(triangleNumber);
+                if(!isSetLocation)
+                {
+                    location = point->getLocation();
+                    isSetLocation = true;
+                }
                 if (flag == 0 || isNearEdge(triangle, point->getPoint()))
                     point->setLocation(std::vector<int>{0});
                 point->setTriangle(const_cast<Triangle *>(&triangle));
@@ -149,15 +161,17 @@ namespace TriangleDomain {
         std::vector<float> fittingParameter;
         // 做最小二乘拟合
         float error = FittingUtil::AreaCoordinateFitting(selectedPoint, fittingType, fittingParameter);
-
+        FittingInfo fittingInfo(selectedPoint, triangle, fittingParameter, location, error);
+        fittingInfoList.push_back(fittingInfo);
+//        std::cout << error << std::endl;
         //当误差大于阈值时，继续剖分
         if (error > permitError && selectedPoint.size() > 10) {
             auto subTriangleList = triangle.triangleSection();
 
-            AreaCoordinateSelectPoint(subTriangleList[0], selectedPoint, 1, fittingType, permitError);
-            AreaCoordinateSelectPoint(subTriangleList[1], selectedPoint, 2, fittingType, permitError);
-            AreaCoordinateSelectPoint(subTriangleList[2], selectedPoint, 3, fittingType, permitError);
-            AreaCoordinateSelectPoint(subTriangleList[3], selectedPoint, 4, fittingType, permitError);
+            AreaCoordinateSelectPoint(subTriangleList[0], selectedPoint, 1, fittingType, permitError, fittingInfoList);
+            AreaCoordinateSelectPoint(subTriangleList[1], selectedPoint, 2, fittingType, permitError, fittingInfoList);
+            AreaCoordinateSelectPoint(subTriangleList[2], selectedPoint, 3, fittingType, permitError, fittingInfoList);
+            AreaCoordinateSelectPoint(subTriangleList[3], selectedPoint, 4, fittingType, permitError, fittingInfoList);
         }
         //  如果已经满足要求，则将拟合系数写入
         if (error <= permitError || selectedPoint.size() <= 10) {
@@ -173,14 +187,24 @@ namespace TriangleDomain {
     std::vector<DescartesCoordinateSamplingData *>
     TriangulationUtil::DescartesCoordinateSelectPoint(const Triangle triangle,
                                                       std::vector<DescartesCoordinateSamplingData *> &DescartesCoordinateData,
-                                                      int triangleNumber, int fittingType, float permitError) {
+                                                      int triangleNumber, int fittingType, float permitError,
+                                                      std::vector<FittingInfo> &fittingInfoList) {
         std::vector<DescartesCoordinateSamplingData *> selectedPoint;
+
+        std::vector<int> location;
+        location.push_back(0);
+        bool isSetLocation = false;
 
         // 先判断是否在三角形中
         for (auto point:DescartesCoordinateData) {
             int flag = triangle.isPointInTriangle(point->getPoint());
             if (flag >= 0) {
                 point->setSingleDataToLocation(triangleNumber);
+                if(!isSetLocation)
+                {
+                    location = point->getLocation();
+                    isSetLocation = true;
+                }
                 if (flag == 0 || isNearEdge(triangle, point->getPoint()))
                     point->setLocation(std::vector<int>{0});
                 point->setTriangle(const_cast<Triangle *>(&triangle));
@@ -190,15 +214,21 @@ namespace TriangleDomain {
         std::vector<float> fittingParameter;
         // 做最小二乘拟合
         float error = FittingUtil::DescartesCoordinateFitting(selectedPoint, fittingType, fittingParameter);
-
+//        std::cout << error << std::endl;
+        FittingInfo fittingInfo(selectedPoint, triangle, fittingParameter, selectedPoint[0]->getLocation(), error);
+        fittingInfoList.push_back(fittingInfo);
         //当误差大于阈值时，继续剖分
         if (error > permitError && selectedPoint.size() > 10) {
             auto subTriangleList = triangle.triangleSection();
 
-            DescartesCoordinateSelectPoint(subTriangleList[0], selectedPoint, 1, fittingType, permitError);
-            DescartesCoordinateSelectPoint(subTriangleList[1], selectedPoint, 2, fittingType, permitError);
-            DescartesCoordinateSelectPoint(subTriangleList[2], selectedPoint, 3, fittingType, permitError);
-            DescartesCoordinateSelectPoint(subTriangleList[3], selectedPoint, 4, fittingType, permitError);
+            DescartesCoordinateSelectPoint(subTriangleList[0], selectedPoint, 1, fittingType, permitError,
+                                           fittingInfoList);
+            DescartesCoordinateSelectPoint(subTriangleList[1], selectedPoint, 2, fittingType, permitError,
+                                           fittingInfoList);
+            DescartesCoordinateSelectPoint(subTriangleList[2], selectedPoint, 3, fittingType, permitError,
+                                           fittingInfoList);
+            DescartesCoordinateSelectPoint(subTriangleList[3], selectedPoint, 4, fittingType, permitError,
+                                           fittingInfoList);
         }
         //  如果已经满足要求，则将拟合系数写入
         if (error <= permitError || selectedPoint.size() <= 10) {
