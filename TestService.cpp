@@ -16,8 +16,8 @@
 namespace TriangleV {
     std::vector<ImageQuadTree *> TestService::ImageQuadTreeFittingTest(std::string imagePath) {
         //  显示图像
-        cv::Mat img = cv::imread("D:\\Project\\QtProject\\triangleDomain\\Images\\Lena16.png", 0);
-        cv::imshow("origin", img);
+//        cv::Mat img = cv::imread("D:\\Project\\QtProject\\triangleDomain\\Images\\Lena16.png", 0);
+//        cv::imshow("origin", img);
 
         std::vector<ImageQuadTree *> tree = TriangleV::ImageTriangleVUtil::TriangleV(
                 imagePath);

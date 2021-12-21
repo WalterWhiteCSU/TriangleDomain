@@ -63,7 +63,7 @@ namespace TriangleV {
             std::vector<CalculateData *> includingData = GetIncludingDataBySubTriangle(node->dataList,
                                                                                        subTriangleList[i]);
 
-            if (includingData.size() <= /*36*/ 262144) {
+            if (includingData.size() <= 36 /*262144*/) {
                 return layer;
             }
             //  生成新的节点

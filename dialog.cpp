@@ -33,7 +33,7 @@ void Dialog::on_vSystemBtn_clicked() {
     //  图像三角域V系统拟合测试
     auto tree = TriangleV::TestService::ImageQuadTreeFittingTest(imagePath);
     //  重建图像
-    TriangleV::TestService::ShowRecontructedImage(imagePath, tree);
+//    TriangleV::TestService::ShowRecontructedImage(imagePath, tree);
     std::cout << "test" << std::endl;
 }
 

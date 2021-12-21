@@ -40,3 +40,51 @@ TriangleDomain::FittingInfo::FittingInfo(std::vector<DescartesCoordinateSampling
         pointList.push_back(pointModel);
     }
 }
+
+const std::vector<TriangleDomain::Point> &TriangleDomain::FittingInfo::getPointList() const {
+    return pointList;
+}
+
+void TriangleDomain::FittingInfo::setPointList(const std::vector<Point> &pointList) {
+    FittingInfo::pointList = pointList;
+}
+
+const std::vector<TriangleDomain::AreaPoint> &TriangleDomain::FittingInfo::getAreaPointList() const {
+    return areaPointList;
+}
+
+void TriangleDomain::FittingInfo::setAreaPointList(const std::vector<AreaPoint> &areaPointList) {
+    FittingInfo::areaPointList = areaPointList;
+}
+
+const TriangleDomain::Triangle &TriangleDomain::FittingInfo::getTriangle() const {
+    return triangle;
+}
+
+void TriangleDomain::FittingInfo::setTriangle(const TriangleDomain::Triangle &triangle) {
+    FittingInfo::triangle = triangle;
+}
+
+const std::vector<float> &TriangleDomain::FittingInfo::getFittingParam() const {
+    return fittingParam;
+}
+
+void TriangleDomain::FittingInfo::setFittingParam(const std::vector<float> &fittingParam) {
+    FittingInfo::fittingParam = fittingParam;
+}
+
+const std::vector<int> &TriangleDomain::FittingInfo::getTriangleLocation() const {
+    return triangleLocation;
+}
+
+void TriangleDomain::FittingInfo::setTriangleLocation(const std::vector<int> &triangleLocation) {
+    FittingInfo::triangleLocation = triangleLocation;
+}
+
+float TriangleDomain::FittingInfo::getError() const {
+    return error;
+}
+
+void TriangleDomain::FittingInfo::setError(float error) {
+    FittingInfo::error = error;
+}

@@ -70,7 +70,18 @@ namespace TriangleDomain {
          *
          *
          * */
-        static void SaveFittingInfo(std::vector<FittingInfo> data,std::string filePath);
+        static void SaveFittingInfo(std::vector<FittingInfo> data,std::string path);
+
+        /*
+         * 记录拟合过程中的图像信息
+         *
+         *      @Param:
+         *          dimageListata:       图像信息
+         *          filePath:            文件路径
+         *
+         *
+         * */
+        static void SaveImage(std::vector<std::vector<std::vector<SamplingData>>> imageList,std::string path);
     };
 }
 

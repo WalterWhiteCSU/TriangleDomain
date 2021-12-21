@@ -77,6 +77,10 @@ namespace TriangleDomain {
                     infobox->insertPlainText("\n\n\n");
                     break;
             }
+
+            //  存储信息
+            FileUtil::SaveFittingInfo(fittingInfoList, "D:\\Experiment\\TriangleImageSectionData");
+            FileUtil::SaveImage(sectionData,"D:\\Experiment\\TriangleImageSectionData");
             return sectionData;
 
         }

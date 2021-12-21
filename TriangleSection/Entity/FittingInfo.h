@@ -36,6 +36,31 @@ namespace TriangleDomain {
 
         FittingInfo(std::vector<DescartesCoordinateSamplingData *> m_pointList, Triangle m_Triangle,
                     std::vector<float> m_FittingParam, std::vector<int> m_triangleLocation,float m_error);
+
+        const std::vector<Point> &getPointList() const;
+
+        void setPointList(const std::vector<Point> &pointList);
+
+        const std::vector<AreaPoint> &getAreaPointList() const;
+
+        void setAreaPointList(const std::vector<AreaPoint> &areaPointList);
+
+        const Triangle &getTriangle() const;
+
+        void setTriangle(const Triangle &triangle);
+
+        const std::vector<float> &getFittingParam() const;
+
+        void setFittingParam(const std::vector<float> &fittingParam);
+
+        const std::vector<int> &getTriangleLocation() const;
+
+        void setTriangleLocation(const std::vector<int> &triangleLocation);
+
+        float getError() const;
+
+        void setError(float error);
+
     };
 }
 

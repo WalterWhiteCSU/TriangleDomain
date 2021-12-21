@@ -32,6 +32,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "triangleDomain_autogen/include"
   "../include/eigen-3.3.9"
+  "../include"
   "D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include"
   "D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv"
   "C:/Qt/6.1.1/mingw81_64/include/QtCore"

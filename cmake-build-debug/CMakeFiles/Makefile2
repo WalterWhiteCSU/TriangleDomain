@@ -170,10 +170,10 @@ TriangleVSystem/clean: TriangleVSystem/CMakeFiles/TriangleV.dir/clean
 # Target rules for target CMakeFiles/triangleDomain.dir
 
 # All Build rule for target.
-CMakeFiles/triangleDomain.dir/all: TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/all
-CMakeFiles/triangleDomain.dir/all: CMakeFiles/triangleDomain_autogen.dir/all
 CMakeFiles/triangleDomain.dir/all: TriangleSection/Util/CMakeFiles/TriangleDomainUtil.dir/all
 CMakeFiles/triangleDomain.dir/all: TriangleVSystem/CMakeFiles/TriangleV.dir/all
+CMakeFiles/triangleDomain.dir/all: TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/all
+CMakeFiles/triangleDomain.dir/all: CMakeFiles/triangleDomain_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\triangleDomain.dir\build.make CMakeFiles/triangleDomain.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\triangleDomain.dir\build.make CMakeFiles/triangleDomain.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Project\QtProject\triangleDomain\cmake-build-debug\CMakeFiles --progress-num=24,25,26,27,28,29,30 "Built target triangleDomain"
@@ -200,9 +200,9 @@ CMakeFiles/triangleDomain.dir/clean:
 # Target rules for target CMakeFiles/triangleDomain_autogen.dir
 
 # All Build rule for target.
-CMakeFiles/triangleDomain_autogen.dir/all: TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/all
 CMakeFiles/triangleDomain_autogen.dir/all: TriangleSection/Util/CMakeFiles/TriangleDomainUtil.dir/all
 CMakeFiles/triangleDomain_autogen.dir/all: TriangleVSystem/CMakeFiles/TriangleV.dir/all
+CMakeFiles/triangleDomain_autogen.dir/all: TriangleSection/Entity/CMakeFiles/TriangleDomainEntity.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\triangleDomain_autogen.dir\build.make CMakeFiles/triangleDomain_autogen.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\triangleDomain_autogen.dir\build.make CMakeFiles/triangleDomain_autogen.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Project\QtProject\triangleDomain\cmake-build-debug\CMakeFiles --progress-num=31 "Built target triangleDomain_autogen"

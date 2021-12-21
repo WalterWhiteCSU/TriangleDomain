@@ -246,6 +246,7 @@
 	"MOC_INCLUDES" : 
 	[
 		"D:/Project/QtProject/triangleDomain/include/eigen-3.3.9",
+		"D:/Project/QtProject/triangleDomain/include",
 		"D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include",
 		"D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv",
 		"C:/Qt/6.1.1/mingw81_64/include/QtCore",

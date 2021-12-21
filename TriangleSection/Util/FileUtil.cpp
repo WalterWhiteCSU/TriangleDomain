@@ -4,6 +4,18 @@
 
 #include "FileUtil.h"
 
+#include <iostream>
+#include <string>
+#include <sstream>
+#include <fstream>
+//  rapidjson
+#include <rapidjson/document.h>
+#include <rapidjson/writer.h>
+#include <rapidjson/stringbuffer.h>
+#include <rapidjson/filewritestream.h>
+#include <rapidjson/prettywriter.h>
+#include <rapidjson/filereadstream.h>
+
 
 namespace TriangleDomain {
     std::vector<std::vector<SamplingData>> FileUtil::ReadImage(std::string fileName) {
@@ -59,8 +71,96 @@ namespace TriangleDomain {
         cv::imwrite(path, image);
     }
 
-    void FileUtil::SaveFittingInfo(std::vector<FittingInfo> data, std::string) {
+    void FileUtil::SaveFittingInfo(std::vector<FittingInfo> data, std::string path) {
+        std::string filePath = path + "\\data.json";
+        std::cerr << "Write" << std::endl;
 
+
+        rapidjson::Document doc;
+        doc.SetObject();
+        rapidjson::Document::AllocatorType &allocator = doc.GetAllocator();
+
+        int i = 1;
+        //  对每一条数据进行读取
+        for (const auto model: data) {
+            rapidjson::Value jModel(rapidjson::kArrayType);
+            jModel.SetObject();
+
+            //  写入点集
+            rapidjson::Value pointList(rapidjson::kArrayType);
+            for (const auto point:model.getPointList()) {
+                pointList.PushBack(point.getX(), allocator);
+                pointList.PushBack(point.getY(), allocator);
+            }
+            jModel.AddMember("PointList", pointList, allocator);
+
+            //  写入面积坐标
+            rapidjson::Value areaList(rapidjson::kArrayType);
+            for (const auto area:model.getAreaPointList()) {
+                areaList.PushBack(area.getU(), allocator);
+                areaList.PushBack(area.getV(), allocator);
+                areaList.PushBack(area.getW(), allocator);
+            }
+            jModel.AddMember("AreaList", areaList, allocator);
+
+            //  写入三角形
+            rapidjson::Value triangle(rapidjson::kArrayType);
+            triangle.PushBack(model.getTriangle().getVertexA()->getX(),allocator);
+            triangle.PushBack(model.getTriangle().getVertexA()->getY(),allocator);
+            triangle.PushBack(model.getTriangle().getVertexB()->getX(),allocator);
+            triangle.PushBack(model.getTriangle().getVertexB()->getY(),allocator);
+            triangle.PushBack(model.getTriangle().getVertexC()->getX(),allocator);
+            triangle.PushBack(model.getTriangle().getVertexC()->getY(),allocator);
+            jModel.AddMember("Triangle",triangle, allocator);
+
+            //  写入拟合参数
+            rapidjson::Value fittingList(rapidjson::kArrayType);
+            for (const auto fitting:model.getFittingParam()) {
+                fittingList.PushBack(fitting,allocator);
+            }
+            jModel.AddMember("Fitting", fittingList, allocator);
+
+            //  写入定位
+            rapidjson::Value location(rapidjson::kArrayType);
+            for (const auto loc:model.getTriangleLocation()) {
+                location.PushBack(loc, allocator);
+            }
+            jModel.AddMember("Location", location, allocator);
+
+            //  写入误差
+            rapidjson::Value error(rapidjson::kArrayType);
+            error.PushBack(model.getError(), allocator);
+            jModel.AddMember("Error", error,allocator);
+
+            doc.AddMember("ele",jModel,allocator);
+        }
+
+        // 写文件
+        FILE* fp = fopen(filePath.c_str(), "w");
+        char writeBuffer[65535];
+        rapidjson::FileWriteStream os(fp, writeBuffer, sizeof(writeBuffer));
+        rapidjson::PrettyWriter<rapidjson::FileWriteStream> writer(os);
+        doc.Accept(writer);
+        fclose(fp);
+    }
+
+    void FileUtil::SaveImage(std::vector<std::vector<std::vector<SamplingData>>> imageList, std::string path) {
+        int i = 1;
+        for(const auto image:imageList)
+        {
+            cv::Mat imageMat(image.size(),image[0].size(),CV_8UC1);
+
+            for(size_t row = 0; row < image.size();row++)
+            {
+                for(size_t col = 0; col < image[row].size();col++)
+                {
+                    imageMat.at<uchar>(image[row][col].getPoint()->getX(),image[row][col].getPoint()->getY()) = image[row][col].getValue();
+                }
+            }
+            std::string filePath =path + "\\" + std::to_string(i) + ".jpg";
+            cv::imwrite(filePath, imageMat);
+            i++;
+        }
     }
 
 }

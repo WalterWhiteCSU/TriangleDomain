@@ -18,6 +18,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include"
   "D:/CPPRepo/opencv3.1/opencv/Qt-build/install/include/opencv"
   "../include/eigen-3.3.9"
+  "../include"
   )
 
 # Targets to which this target links.
