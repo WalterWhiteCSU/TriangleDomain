@@ -39,6 +39,7 @@ namespace TriangleDomain {
             std::vector<SamplingData> model;
             for (int j = 0; j < col; ++j) {
                 model.push_back(SamplingData(new Point(i + 0.5f, j + 0.5f), image.at<uchar>(i, j)));
+//                model.push_back(SamplingData(new Point(i + 0.5f, j + 0.5f), 0.f));
             }
             result.push_back(model);
         }
@@ -105,18 +106,18 @@ namespace TriangleDomain {
 
             //  写入三角形
             rapidjson::Value triangle(rapidjson::kArrayType);
-            triangle.PushBack(model.getTriangle().getVertexA()->getX(),allocator);
-            triangle.PushBack(model.getTriangle().getVertexA()->getY(),allocator);
-            triangle.PushBack(model.getTriangle().getVertexB()->getX(),allocator);
-            triangle.PushBack(model.getTriangle().getVertexB()->getY(),allocator);
-            triangle.PushBack(model.getTriangle().getVertexC()->getX(),allocator);
-            triangle.PushBack(model.getTriangle().getVertexC()->getY(),allocator);
-            jModel.AddMember("Triangle",triangle, allocator);
+            triangle.PushBack(model.getTriangle().getVertexA()->getX(), allocator);
+            triangle.PushBack(model.getTriangle().getVertexA()->getY(), allocator);
+            triangle.PushBack(model.getTriangle().getVertexB()->getX(), allocator);
+            triangle.PushBack(model.getTriangle().getVertexB()->getY(), allocator);
+            triangle.PushBack(model.getTriangle().getVertexC()->getX(), allocator);
+            triangle.PushBack(model.getTriangle().getVertexC()->getY(), allocator);
+            jModel.AddMember("Triangle", triangle, allocator);
 
             //  写入拟合参数
             rapidjson::Value fittingList(rapidjson::kArrayType);
             for (const auto fitting:model.getFittingParam()) {
-                fittingList.PushBack(fitting,allocator);
+                fittingList.PushBack(fitting, allocator);
             }
             jModel.AddMember("Fitting", fittingList, allocator);
 
@@ -130,13 +131,13 @@ namespace TriangleDomain {
             //  写入误差
             rapidjson::Value error(rapidjson::kArrayType);
             error.PushBack(model.getError(), allocator);
-            jModel.AddMember("Error", error,allocator);
+            jModel.AddMember("Error", error, allocator);
 
-            doc.AddMember("ele",jModel,allocator);
+            doc.AddMember("ele", jModel, allocator);
         }
 
         // 写文件
-        FILE* fp = fopen(filePath.c_str(), "w");
+        FILE *fp = fopen(filePath.c_str(), "w");
         char writeBuffer[65535];
         rapidjson::FileWriteStream os(fp, writeBuffer, sizeof(writeBuffer));
         rapidjson::PrettyWriter<rapidjson::FileWriteStream> writer(os);
@@ -146,21 +147,33 @@ namespace TriangleDomain {
 
     void FileUtil::SaveImage(std::vector<std::vector<std::vector<SamplingData>>> imageList, std::string path) {
         int i = 1;
-        for(const auto image:imageList)
-        {
-            cv::Mat imageMat(image.size(),image[0].size(),CV_8UC1);
+        for (const auto image:imageList) {
+            cv::Mat imageMat(image.size(), image[0].size(), CV_8UC1);
 
-            for(size_t row = 0; row < image.size();row++)
-            {
-                for(size_t col = 0; col < image[row].size();col++)
-                {
-                    imageMat.at<uchar>(image[row][col].getPoint()->getX(),image[row][col].getPoint()->getY()) = image[row][col].getValue();
+            for (size_t row = 0; row < image.size(); row++) {
+                for (size_t col = 0; col < image[row].size(); col++) {
+                    imageMat.at<uchar>(image[row][col].getPoint()->getX(),
+                                       image[row][col].getPoint()->getY()) = image[row][col].getValue();
                 }
             }
-            std::string filePath =path + "\\" + std::to_string(i) + ".jpg";
+            std::string filePath = path + "\\" + std::to_string(i) + ".jpg";
             cv::imwrite(filePath, imageMat);
             i++;
         }
+    }
+
+    void FileUtil::WriteTiCSV(std::vector<std::vector<std::string>> src, std::string filePath) {
+        std::ofstream outFile;
+        outFile.open(filePath, std::ios::out);
+
+        for (const auto dataRow:src) {
+            for (size_t i = 0; i < dataRow.size() - 1; i++) {
+                outFile << dataRow[i] << ",";
+            }
+            outFile << dataRow[dataRow.size() - 1] << std::endl;
+        }
+
+        outFile.close();
     }
 
 }

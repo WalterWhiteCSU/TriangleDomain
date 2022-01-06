@@ -16,7 +16,6 @@ namespace TriangleV {
     ImageQuadTree *TriangleVUtil::TriangleVFitting(ImageQuadTree *imageQuadTree) {
         //  得到总共的数据点
         std::vector<CalculateData *> totalData = imageQuadTree->tree->dataList;
-        int totalDataCount = totalData.size();
         //  层次遍历，得到每个节点中的数据
         std::vector<ImageQuadTreeNode *> nodeList = imageQuadTree->levelOrder();
 
@@ -107,11 +106,16 @@ namespace TriangleV {
         for (int i = 0; i < data.size(); ++i) {
             float u = data[i]->areaPoint->getU();
             float v = data[i]->areaPoint->getV();
+            float w = data[i]->areaPoint->getW();
 
             std::vector<float> model;
-            model.push_back(sqrt(2.0f));
-            model.push_back(6.0f * u - 2.0f);
-            model.push_back(2.0f * sqrt(3.0f) * (u + 2 * v - 1));
+//            model.push_back(sqrt(2.0f));
+//            model.push_back(1.f);
+            model.push_back(w);
+//            model.push_back(6.0f * u - 2.0f);
+            model.push_back(u);
+//            model.push_back(2.0f * sqrt(3.0f) * (u + 2 * v - 1));
+            model.push_back(v);
 
             res.push_back(model);
         }
@@ -151,62 +155,98 @@ namespace TriangleV {
 
         //  如果点在第一个三角形中
         if (u > 0.5f) {
-            model.push_back(scale * sqrt(2.0f) * (-6.0f * u + 5.0f));
-            model.push_back(scale * sqrt(2.0f) * (-6.0f * v + 5.0f));
-            model.push_back(scale * sqrt(2.0f) * (-6.0f * w + 5.0f));
+//            model.push_back(scale * sqrt(2.0f) * (-6.0f * u + 5.0f));
+//            model.push_back(scale * sqrt(2.0f) * (-6.0f * v + 5.0f));
+//            model.push_back(scale * sqrt(2.0f) * (-6.0f * w + 5.0f));
+            model.push_back(u - 0.5f);
+            model.push_back(0.f);
+            model.push_back(0.f);
 
-            model.push_back(scale * 2.0f / sqrt(3.0f) * (18.0f * u - 12.0f));
-            model.push_back(0.0f);
-            model.push_back(0.0f);
+//            model.push_back(scale * (2.0f / sqrt(3.0f)) * (18.0f * u - 12.0f));
+//            model.push_back(0.0f);
+//            model.push_back(0.0f);
+            model.push_back(u);
+            model.push_back(0.f);
+            model.push_back(0.f);
 
-            model.push_back(scale * (-12.0f * w + 12.0f * v));
-            model.push_back(0.0f);
-            model.push_back(0.0f);
+//            model.push_back(scale * (-12.0f * w + 12.0f * v));
+//            model.push_back(0.0f);
+//            model.push_back(0.0f);
+            model.push_back(v);
+            model.push_back(0.f);
+            model.push_back(0.f);
         }
 
         //  如果在第二个三角形中
         if (v > 0.5f) {
-            model.push_back(scale * sqrt(2.0f) * (-6.0f * u + 1.0f));
-            model.push_back(scale * sqrt(2.0f) * (-6.0f * v + 1.0f));
-            model.push_back(scale * sqrt(2.0f) * (-6.0f * w + 1.0f));
+//            model.push_back(scale * sqrt(2.0f) * (-6.0f * u + 1.0f));
+//            model.push_back(scale * sqrt(2.0f) * (-6.0f * v + 1.0f));
+//            model.push_back(scale * sqrt(2.0f) * (-6.0f * w + 1.0f));
+            model.push_back(0.f);
+            model.push_back(v - 0.5f);
+            model.push_back(0.f);
 
-            model.push_back(scale * 2.0f / sqrt(3.0f) * (-6.0f * u + 1.0f));
-            model.push_back(scale * 2.0f * sqrt(6.0f) / 3.0f * (-12.0 * u - 2.0f));
-            model.push_back(0.0f);
+//            model.push_back(scale * (2.0f / sqrt(3.0f)) * (-6.0f * u + 1.0f));
+//            model.push_back(scale * ((2.0f * sqrt(6.0f)) / 3.0f) * (-12.0 * u - 2.0f));
+//            model.push_back(0.0f);
+            model.push_back(0.f);
+            model.push_back(u);
+            model.push_back(0.f);
 
-            model.push_back(scale * (4.0f * w - 4.0f * v + 2.0f));
-            model.push_back(scale * -sqrt(8.0f) * (-4.0f * u - 8.0f * v + 6.0f));
-            model.push_back(0.0f);
+//            model.push_back(scale * (4.0f * w - 4.0f * v + 2.0f));
+//            model.push_back(scale * (-sqrt(8.0f)) * (-4.0f * u - 8.0f * v + 6.0f));
+//            model.push_back(0.0f);
+            model.push_back(0.f);
+            model.push_back(v);
+            model.push_back(0.f);
         }
 
         //  如果在第四个三角形中
         if (w > 0.5f) {
-            model.push_back(scale * sqrt(2.0f) * (-6.0f * u + 1.0f));
-            model.push_back(scale * sqrt(2.0f) * (-6.0f * v + 1.0f));
-            model.push_back(scale * sqrt(2.0f) * (-6.0f * w + 1.0f));
+//            model.push_back(scale * sqrt(2.0f) * (-6.0f * u + 1.0f));
+//            model.push_back(scale * sqrt(2.0f) * (-6.0f * v + 1.0f));
+//            model.push_back(scale * sqrt(2.0f) * (-6.0f * w + 1.0f));
+            model.push_back(0.f);
+            model.push_back(0.f);
+            model.push_back(w - 0.5f);
 
-            model.push_back(scale * 2.0f / sqrt(3.0f) * (-6.0f * u + 1.0f));
-            model.push_back(scale * 2.0f * sqrt(6.0f) / 3.0f * (-6.0 * u + 1.0f));
-            model.push_back(scale * sqrt(8.0f) * (6.0f * u - 1.0f));
+//            model.push_back(scale * 2.0f / sqrt(3.0f) * (-6.0f * u + 1.0f));
+//            model.push_back(scale * 2.0f * sqrt(6.0f) / 3.0f * (-6.0 * u + 1.0f));
+//            model.push_back(scale * sqrt(8.0f) * (6.0f * u - 1.0f));
+            model.push_back(0.f);
+            model.push_back(0.f);
+            model.push_back(u);
 
-            model.push_back(scale * (4.0f * w - 4.0f * v - 2.0f));
-            model.push_back(scale * -sqrt(8.0f) * (2.0f * u + 4.0f * v - 1.0f));
-            model.push_back(scale * -sqrt(24.0f) * (-2.0f * u - 4.0f * v + 1.0f));
+//            model.push_back(scale * (4.0f * w - 4.0f * v - 2.0f));
+//            model.push_back(scale * -sqrt(8.0f) * (2.0f * u + 4.0f * v - 1.0f));
+//            model.push_back(scale * -sqrt(24.0f) * (-2.0f * u - 4.0f * v + 1.0f));
+            model.push_back(0.f);
+            model.push_back(0.f);
+            model.push_back(v);
         }
 
         //  如果在第三个三角形中
         if (u < 0.5f && v < 0.5f && w < 0.5f) {
-            model.push_back(scale * sqrt(2.0f) * (-6.0f * u + 1.0f));
-            model.push_back(scale * sqrt(2.0f) * (-6.0f * v + 1.0f));
-            model.push_back(scale * sqrt(2.0f) * (-6.0f * w + 1.0f));
+//            model.push_back(scale * sqrt(2.0f) * (-6.0f * u + 1.0f));
+//            model.push_back(scale * sqrt(2.0f) * (-6.0f * v + 1.0f));
+//            model.push_back(scale * sqrt(2.0f) * (-6.0f * w + 1.0f));
+            model.push_back(0.f);
+            model.push_back(0.f);
+            model.push_back(0.f);
 
-            model.push_back(scale * 2.0f / sqrt(3.0f) * (-6.0f * u + 2.0f));
-            model.push_back(scale * 2.0f * sqrt(6.0f) / 3.0f * (-6.0 * u + 2.0f));
-            model.push_back(scale * sqrt(8.0f) * (-6.0f * u + 2.0f));
+//            model.push_back(scale * 2.0f / sqrt(3.0f) * (-6.0f * u + 2.0f));
+//            model.push_back(scale * 2.0f * sqrt(6.0f) / 3.0f * (-6.0 * u + 2.0f));
+//            model.push_back(scale * sqrt(8.0f) * (-6.0f * u + 2.0f));
+            model.push_back(0.f);
+            model.push_back(0.f);
+            model.push_back(0.f);
 
-            model.push_back(scale * (4.0f * w - 4.0f * v));
-            model.push_back(scale * -sqrt(8.0f) * (2.0f * u + 4.0f * v - 2.0f));
-            model.push_back(scale * -sqrt(24.0f) * (2.0f * u + 4.0f * v - 2.0f));
+//            model.push_back(scale * (4.0f * w - 4.0f * v));
+//            model.push_back(scale * -sqrt(8.0f) * (2.0f * u + 4.0f * v - 2.0f));
+//            model.push_back(scale * -sqrt(24.0f) * (2.0f * u + 4.0f * v - 2.0f));
+            model.push_back(0.f);
+            model.push_back(0.f);
+            model.push_back(0.f);
         }
 
         //  在第一和第三个三角形的交界处

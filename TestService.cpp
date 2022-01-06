@@ -29,17 +29,14 @@ namespace TriangleV {
 
     std::vector<std::vector<TriangleDomain::SamplingData>> TestService::FirstGroupOfTriangleVTest() {
         //  设置图像
-        std::vector<std::vector<CalculateData *>> image;
+        std::vector<std::vector<TriangleDomain::SamplingData>> image;
         for (int i = 0; i < 512; ++i) {
-            std::vector<CalculateData *> temp;
+            std::vector<TriangleDomain::SamplingData> temp;
             for (int j = 0; j < 512; ++j) {
-                CalculateData *model = new CalculateData();
-                TriangleDomain::SamplingData *samplingData = new TriangleDomain::SamplingData();
-                TriangleDomain::Point *point = new TriangleDomain::Point(i + 1, j + 1);
-                samplingData->setPoint(point);
-                samplingData->setValue(0.0f);
+                TriangleDomain::SamplingData model;
+                model.setPoint(new TriangleDomain::Point(i + 1, j + 1));
+                model.setValue(0.f);
 
-                model->data = samplingData;
                 temp.push_back(model);
             }
             image.push_back(temp);
@@ -47,45 +44,52 @@ namespace TriangleV {
 
         //  设定三角形
         TriangleDomain::Triangle triangle;
-        triangle.setVertexA(image[0][511]->data->getPoint());
-        triangle.setVertexB(image[511][0]->data->getPoint());
-        triangle.setVertexC(image[511][511]->data->getPoint());
+        triangle.setVertexA(image[511][0].getPoint());
+        triangle.setVertexB(image[0][511].getPoint());
+        triangle.setVertexC(image[0][0].getPoint());
+        std::vector<TriangleDomain::Triangle> triList;
+        triList.push_back(triangle);
 
-        //  选出在三角形中的点
-        std::vector<CalculateData *> selectedPoint;
-        for (auto temp:image) {
-            for (auto model:temp) {
-                if (triangle.isPointInTriangle(model->data->getPoint()) >= 0) {
-                    model->SetAreaPoint(triangle);
-                    selectedPoint.push_back(model);
-                }
-            }
-        }
+        //  得到生成的树
+        auto triangleDataList = TriangleV::ImageTriangleVUtil::InitialTriangleSection(image, triList);
+        TriangleV::ImageQuadTree *model = TriangleV::ImageTriangleVUtil::ImageQuadTreeGenerator(triangleDataList[0],
+                                                                                                triangle);
+        std::cout << "tree generate success!" << std::endl;
+        //  得到总共的数据点
+        std::vector<CalculateData *> totalData = model->tree->dataList;
+        //  层次遍历，得到每个节点中的数据
+        std::vector<ImageQuadTreeNode *> nodeList = model->levelOrder();
 
-        //  得到第一组基函数的值(9组)
-        std::vector<std::vector<float>> firstGroupV = TriangleVUtil::FirstV(selectedPoint);
-        std::vector<std::vector<float>> secondGroupV = TriangleVUtil::GenerateV(selectedPoint, 1);
+        //  得到三角域V系统矩阵
+        Eigen::MatrixXf vMatrix = TriangleVUtil::GetVMatrix(totalData, nodeList, model->layer);
 
-        /// TODO
         //  为输出的每个像素点赋值（每个点的值 9个）
         std::vector<std::vector<TriangleDomain::SamplingData>> res;
-        for (size_t i = 0; i < selectedPoint.size(); i++) {
-            std::vector<TriangleDomain::SamplingData> pointList;
+        for (size_t i = 0; i < vMatrix.cols(); i++) {
+            std::vector<std::vector<std::string>> fileList;
 
-            for (auto value: firstGroupV[i]) {
-                TriangleDomain::SamplingData model;
-                model.setPoint(selectedPoint[i]->data->getPoint());
-                model.setValue(value);
-                pointList.push_back(model);
+            for (size_t j = 0; j < vMatrix.rows(); j++) {
+                std::vector<std::string> model;
+                model.push_back(std::to_string(totalData[j]->data->getPoint()->getX()));
+                model.push_back(std::to_string(totalData[j]->data->getPoint()->getY()));
+                model.push_back(std::to_string(vMatrix(j, i)));
+                fileList.push_back(model);
             }
 
-            for (auto value: secondGroupV[i]) {
-                TriangleDomain::SamplingData model;
-                model.setPoint(selectedPoint[i]->data->getPoint());
-                model.setValue(value);
-                pointList.push_back(model);
+            std::string fileName;
+            if (i / 10 <= 0) {
+                fileName = "0000" + std::to_string(i) + ".csv";
+            } else if (i / 100 <= 0) {
+                fileName = "000" + std::to_string(i) + ".csv";
+            } else if (i / 1000 <= 0) {
+                fileName = "00" + std::to_string(i) + ".csv";
+            } else if (i / 10000 <= 0) {
+                fileName = "0" + std::to_string(i) + ".csv";
+            } else {
+                fileName = std::to_string(i) + ".csv";
             }
-            res.push_back(pointList);
+
+            TriangleDomain::FileUtil::WriteTiCSV(fileList, "D:\\Experiment\\TriangleImageSectionData\\" + fileName);
         }
         return res;
     }

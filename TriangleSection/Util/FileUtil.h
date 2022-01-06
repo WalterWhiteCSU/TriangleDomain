@@ -82,6 +82,17 @@ namespace TriangleDomain {
          *
          * */
         static void SaveImage(std::vector<std::vector<std::vector<SamplingData>>> imageList,std::string path);
+
+        /*
+         * 写CSV
+         *
+         *      @Param:
+         *          src:                 资源
+         *          filePath:            文件路径
+         *
+         *
+         * */
+        static void WriteTiCSV(std::vector<std::vector<std::string>> src,std::string filePath);
     };
 }
 
